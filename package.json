@@ -6,9 +6,7 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "test": "node_modules/.bin/jest",
-    "prettier:check": "prettier --check '**/*.{ts,tsx}'",
-    "prettier:write": "prettier --write '**/*.{ts,tsx}'",
-    "pre-commit": "yarn prettier:write"
+    "eslint": "node_modules/.bin/eslint \"**/*.{ts,tsx}\""
   },
   "dependencies": {
     "expo": "^32.0.0",
@@ -22,6 +20,7 @@
     "@types/react": "^16.8.1",
     "@typescript-eslint/eslint-plugin": "^1.2.0",
     "@typescript-eslint/parser": "^1.2.0",
+    "babel-preset-expo": "^5.0.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.8.0",
     "enzyme-to-json": "^3.3.5",
@@ -43,7 +42,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn pretty-quick --staged"
+      "pre-commit": "yarn pretty-quick --staged && yarn eslint"
     }
   },
   "private": true
