@@ -6,6 +6,6 @@ import { shallow } from 'enzyme'
 describe('<App />', () => {
   it('renders correctly', () => {
     const wrapper = shallow(<App />)
-    expect(wrapper).toMatchSnapshot();
+    expect(wrapper).toMatchSnapshot()
   })
 })
