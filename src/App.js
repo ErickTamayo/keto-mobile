@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -10,9 +9,11 @@ const styles = StyleSheet.create({
   },
 })
 export default class App extends React.Component {
-  private renderWorld = (): string => 'World'
-
-  public render(): JSX.Element {
+  constructor() {
+    super(...arguments)
+    this.renderWorld = () => 'World'
+  }
+  render() {
     return (
       <View style={styles.container}>
         <Text>Hello {this.renderWorld()}</Text>
