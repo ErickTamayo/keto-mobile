@@ -51,8 +51,7 @@
       "git add"
     ],
     "*.js,ts,tsx": [
-      "yarn eslint",
-      "git add"
+      "yarn eslint"
     ]
   },
   "private": true
