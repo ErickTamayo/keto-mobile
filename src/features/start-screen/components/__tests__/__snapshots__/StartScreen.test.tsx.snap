@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartScreen /> renders correctly 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Component>
+    Hello 
+    World
+    !
+  </Component>
+  <Component>
+    Counter: 
+    0
+  </Component>
+  <Button
+    color="#841584"
+    onPress={[Function]}
+    title="Add to Counter"
+  />
+</Component>
+`;
