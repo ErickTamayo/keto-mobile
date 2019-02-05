@@ -1,16 +1,5 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default class App extends React.Component {
-
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Hello World!</Text>
-      </View>
-    );
-  }
-}
+import * as React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 
 const styles = StyleSheet.create({
   container: {
@@ -19,4 +8,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
+export default class App extends React.Component {
+  private renderWorld = (): string => 'World'
+
+  public render(): JSX.Element {
+    return (
+      <View style={styles.container}>
+        <Text>Hello {this.renderWorld()}!</Text>
+      </View>
+    )
+  }
+}

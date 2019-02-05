@@ -12,7 +12,9 @@ exports[`<App /> renders correctly 1`] = `
   }
 >
   <Component>
-    Hello World!
+    Hello 
+    World
+    !
   </Component>
 </Component>
 `;
