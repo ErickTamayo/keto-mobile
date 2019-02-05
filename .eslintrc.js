@@ -1,9 +1,10 @@
 module.exports = {
-  extends: ['universe/native', 'plugin:@typescript-eslint/recommended'],
+  extends: ['airbnb', 'universe/native', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   rules: {
     indent: 'off',
     '@typescript-eslint/indent': ['error', 2],
+    'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
   },
   parserOptions: {
     ecmaFeatures: {
@@ -11,11 +12,5 @@ module.exports = {
     },
     useJSXTextNode: true,
     project: './tsconfig.json',
-  },
-  settings: {
-    react: {
-      pragma: 'React', // Pragma to use, default to "React"
-      version: 'detect', // React version. "detect" automatically picks the version you have installed.
-    },
   },
 }

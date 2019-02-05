@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   },
 })
 export default class App extends React.Component {
-  renderWorld = (): string => 'World'
+  private renderWorld = (): string => 'World'
 
   public render(): JSX.Element {
     return (
