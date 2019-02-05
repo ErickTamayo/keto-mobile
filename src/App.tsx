@@ -15,7 +15,7 @@ export default class App extends React.Component {
   public render(): JSX.Element {
     return (
       <View style={styles.container}>
-        <Text>Hello {this.renderWorld()}</Text>
+        <Text>Hello {this.renderWorld()}!</Text>
       </View>
     )
   }

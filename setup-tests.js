@@ -37,7 +37,7 @@ Enzyme.configure({ adapter: new Adapter() })
  * see https://github.com/Root-App/react-native-mock-render/issues/6
  */
 const originalConsoleError = console.error
-console.error = (message) => {
+console.error = message => {
   if (message.startsWith('Warning:')) {
     return
   }
