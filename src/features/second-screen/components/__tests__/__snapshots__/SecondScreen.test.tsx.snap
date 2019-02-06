@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<StartScreen /> renders correctly 1`] = `
+exports[`<SecondScreen /> renders correctly 1`] = `
 <Component
   style={
     Object {
@@ -12,22 +12,12 @@ exports[`<StartScreen /> renders correctly 1`] = `
   }
 >
   <Component>
-    Hello 
-    World
-    !
-  </Component>
-  <Component>
-    Clicks: 
-    0
+    Second Screen
   </Component>
   <Button
     color="#841584"
     onPress={[Function]}
-    title="Click me"
-  />
-  <Button
-    onPress={[Function]}
-    title="Go to Second Screen"
+    title="Go Back"
   />
 </Component>
 `;
