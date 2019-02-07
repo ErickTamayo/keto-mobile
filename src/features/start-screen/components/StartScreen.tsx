@@ -1,7 +1,8 @@
 import * as React from 'react'
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { StyleSheet, Text, View, Button as RNButton } from 'react-native'
 import { StateProps, DispatchProps } from '../containers/StartScreen'
 import { NavigationInjectedProps } from 'react-navigation'
+import Button from '../../../components/button/Button'
 
 const styles = StyleSheet.create({
   container: {
@@ -24,8 +25,12 @@ export default class StartScreen extends React.Component<Props, object> {
       <View style={styles.container}>
         <Text>Hello {this.renderWorld()}!</Text>
         <Text>Clicks: {counter}</Text>
-        <Button onPress={addCounter} title="Click me" color="#841584" />
-        <Button title="Go to Second Screen" onPress={() => navigation.navigate('SecondScreen')} />
+        <RNButton onPress={addCounter} title="Click me" color="#841584" />
+        <RNButton title="Go to Second Screen" onPress={() => navigation.navigate('SecondScreen')} />
+        <Button title="Create Account" variant={'primary'} />
+        <Button title="Login" variant={'secondary'} />
+        <Button title="Create Account" variant={'primary-lg'} />
+        <Button title="Login" variant={'secondary-lg'} />
       </View>
     )
   }
