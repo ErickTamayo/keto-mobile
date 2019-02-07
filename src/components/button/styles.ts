@@ -34,4 +34,4 @@ export const buttonStyles: ButtonStyles = {
   },
 }
 
-export const buttonContainerStyle = [st.content.flex.flex, st.content.justify.center, st.content.align.center]
+export const buttonContainerStyle = [st.flex.f1, st.content.justify.center, st.content.align.center]
