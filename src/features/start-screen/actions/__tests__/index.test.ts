@@ -1,7 +1,7 @@
 import thunk from 'redux-thunk'
 import configureMockStore, { MockStoreEnhanced } from 'redux-mock-store'
 import { ADD_COUNTER } from '../../constants'
-import { addCounter } from '../../actions'
+import { addCounter } from '..'
 
 describe('start-screen action creator', () => {
   const mockStore = configureMockStore([thunk])

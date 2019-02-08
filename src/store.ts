@@ -9,4 +9,4 @@ const rootReducer = combineReducers({
   startScreen,
 })
 
-export const configureStore = (): Store => createStore(rootReducer, applyMiddleware(thunk))
+export default (): Store => createStore(rootReducer, applyMiddleware(thunk))

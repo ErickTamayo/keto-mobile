@@ -7,6 +7,7 @@ module.exports = {
     '@typescript-eslint/member-delimiter-style': [false],
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     'import/export': [false],
+    '@typescript-eslint/no-object-literal-type-assertion': [false],
   },
   parserOptions: {
     ecmaFeatures: {
