@@ -1,4 +1,4 @@
-import reducer from '../../reducer'
+import reducer from '..'
 import StartScreenState from '../../records/StartScreenState'
 import { ADD_COUNTER } from '../../constants'
 

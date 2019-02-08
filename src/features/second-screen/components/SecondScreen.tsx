@@ -1,26 +1,21 @@
 import * as React from 'react'
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { Text, View, Button } from 'react-native'
 import { NavigationInjectedProps } from 'react-navigation'
+import st from '../../../styles'
+import NavigationOptions from '../../../constants/NavigationOptions'
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-})
+export default class SecondScreen extends React.Component<NavigationInjectedProps, object> {
+  public static navigationOptions = NavigationOptions
 
-export interface Props extends NavigationInjectedProps {}
+  private title = (): string => 'Go Back'
 
-export default class SecondScreen extends React.Component<Props, object> {
   public render(): JSX.Element {
     const { navigation } = this.props
 
     return (
-      <View style={styles.container}>
+      <View style={[st.flex.f1, st.items.center, st.justify.center, st.bg.greyLightest]}>
         <Text>Second Screen</Text>
-        <Button onPress={() => navigation.navigate('Start')} title="Go Back" color="#841584" />
+        <Button onPress={() => navigation.navigate('Start')} title={this.title()} color="#841584" />
       </View>
     )
   }

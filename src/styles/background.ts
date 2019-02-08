@@ -11,4 +11,7 @@ export default StyleSheet.create({
   green: {
     backgroundColor: Colors.green,
   },
+  greyLightest: {
+    backgroundColor: Colors.greyLightest,
+  },
 })

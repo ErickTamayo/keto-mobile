@@ -1,22 +1,18 @@
 import { StyleSheet } from 'react-native'
 import Colors from './colors'
 
-const color = StyleSheet.create({
+const color = {
   white: {
     color: Colors.white,
   },
   green: {
     color: Colors.green,
   },
-})
+}
 
-const align = StyleSheet.create({
+export default StyleSheet.create({
+  ...color,
   center: {
     textAlign: 'center',
   },
 })
-
-export default {
-  color,
-  align,
-}

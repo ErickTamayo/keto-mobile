@@ -7,12 +7,13 @@ const AppNavigator: NavigationContainer = createStackNavigator(
     Start: {
       screen: StartScreen,
     },
-    SecondScreen: {
+    SignUp: {
       screen: SecondScreen,
     },
   },
   {
     initialRouteName: 'Start',
+    cardShadowEnabled: false,
   }
 )
 

@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native'
 import Colors from './colors'
 
-const color = StyleSheet.create({
+const color = {
   transparent: {
     borderColor: Colors.transparent,
   },
@@ -11,37 +11,40 @@ const color = StyleSheet.create({
   green: {
     borderColor: Colors.green,
   },
-})
+}
 
-const radius = StyleSheet.create({
+const radius = {
   rounded: {
     borderRadius: 10,
   },
   roundedFull: {
     borderRadius: 100,
   },
-})
+}
 
-const width = StyleSheet.create({
-  w1: {
+const width = {
+  hairline: {
+    borderWidth: StyleSheet.hairlineWidth,
+  },
+  a1: {
     borderWidth: 1,
   },
-  w2: {
+  a2: {
     borderWidth: 2,
   },
-  w3: {
+  a3: {
     borderWidth: 3,
   },
-  w4: {
+  a4: {
     borderWidth: 4,
   },
-  w5: {
+  a5: {
     borderWidth: 5,
   },
-})
-
-export default {
-  color,
-  radius,
-  width,
 }
+
+export default StyleSheet.create({
+  ...color,
+  ...radius,
+  ...width,
+})
