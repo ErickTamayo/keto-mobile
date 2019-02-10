@@ -1,15 +1,15 @@
 import { createStackNavigator, createAppContainer, NavigationContainer } from 'react-navigation'
 import StartScreen from '../features/start-screen/containers/StartScreen'
-import SecondScreen from '../features/second-screen/components/SecondScreen'
+import SignUpRoutes from './SignUpRoutes'
+import NavigationOptions from '../constants/NavigationOptions'
 
 const AppNavigator: NavigationContainer = createStackNavigator(
   {
     Start: {
       screen: StartScreen,
+      navigationOptions: () => NavigationOptions,
     },
-    SignUp: {
-      screen: SecondScreen,
-    },
+    ...SignUpRoutes,
   },
   {
     initialRouteName: 'Start',

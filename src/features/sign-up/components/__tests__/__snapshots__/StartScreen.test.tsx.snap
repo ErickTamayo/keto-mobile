@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StartScreen /> renders correctly 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      Object {
+        "flexDirection": "row",
+      },
+      Object {
+        "alignItems": "flex-end",
+      },
+      Object {
+        "backgroundColor": "#f7f7f7",
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "marginBottom": 65,
+        },
+      ]
+    }
+  >
+    <Component>
+      Hello 
+      World
+      !
+    </Component>
+    <Component>
+      Clicks: 
+      0
+    </Component>
+    <_default
+      onPress={[Function]}
+      title="Create Account"
+      variant="primary-lg"
+    />
+    <_default
+      onPress={[Function]}
+      title="Log In"
+      variant="secondary-lg"
+    />
+  </Component>
+</Component>
+`;

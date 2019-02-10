@@ -15,7 +15,7 @@ export default class StartScreen extends React.Component<Props, object> {
 
   private navigateToSignUp = () => {
     const { navigation } = this.props
-    navigation.navigate('SignUp')
+    navigation.navigate('GenderSelection')
   }
 
   // private navigateToLogIn = () => this.props.navigation.navigate('Login')
@@ -24,7 +24,7 @@ export default class StartScreen extends React.Component<Props, object> {
     const { counter, addCounter } = this.props
 
     return (
-      <View style={[st.flex.f1, st.flex.row, st.items.end, st.bg.greyLightest]}>
+      <View style={[st.flex.f1, st.flex.row, st.items.end, st.justify.center, st.bg.greyLightest]}>
         <View style={[st.flex.f1, st.items.center, st.justify.center, st.m.b10]}>
           <Text>Hello {this.renderWorld()}!</Text>
           <Text>Clicks: {counter}</Text>

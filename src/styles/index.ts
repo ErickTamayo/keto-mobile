@@ -1,13 +1,13 @@
 import { width, maxWidth, height } from './sizing'
 import { flex, justify, items } from './flex'
 import border from './border'
-import align from './align'
 import text from './text'
 import bg from './background'
 import p from './padding'
 import m from './margin'
 import colors from './colors'
 import font from './font'
+import shadow from './shadow'
 
 export default {
   flex,
@@ -19,8 +19,8 @@ export default {
   border,
   width,
   height,
-  align,
   text,
+  shadow,
   bg, // Background
   p, // Padding
   m, // Margin
