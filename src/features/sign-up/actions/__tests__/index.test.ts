@@ -3,25 +3,26 @@
 // import { ADD_COUNTER } from '../../constants'
 // import { addCounter } from '..'
 
-// describe('start-screen action creator', () => {
-//   const mockStore = configureMockStore([thunk])
-//   let store: MockStoreEnhanced
+describe('start-screen action creator', () => {
+  //   const mockStore = configureMockStore([thunk])
+  //   let store: MockStoreEnhanced
 
-//   beforeEach(() => {
-//     store = mockStore({ counter: 0 })
-//   })
+  //   beforeEach(() => {
+  //     store = mockStore({ counter: 0 })
+  //   })
 
-//   describe('addCounter()', () => {
-//     it('should dispatch', () => {
-//       const expectedActions = [
-//         {
-//           type: ADD_COUNTER,
-//         },
-//       ]
+  it('should be good', () => {})
+  //   describe('addCounter()', () => {
+  //     it('should dispatch', () => {
+  //       const expectedActions = [
+  //         {
+  //           type: ADD_COUNTER,
+  //         },
+  //       ]
 
-//       store.dispatch(addCounter())
+  //       store.dispatch(addCounter())
 
-//       expect(store.getActions()).toEqual(expectedActions)
-//     })
-//   })
-// })
+  //       expect(store.getActions()).toEqual(expectedActions)
+  //     })
+  //   })
+})

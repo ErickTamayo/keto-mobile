@@ -8,10 +8,10 @@ exports[`<StartScreen /> renders correctly 1`] = `
         "flex": 1,
       },
       Object {
-        "flexDirection": "row",
+        "alignItems": "center",
       },
       Object {
-        "alignItems": "flex-end",
+        "justifyContent": "center",
       },
       Object {
         "backgroundColor": "#f7f7f7",
@@ -19,43 +19,31 @@ exports[`<StartScreen /> renders correctly 1`] = `
     ]
   }
 >
-  <Component
-    style={
-      Array [
-        Object {
-          "flex": 1,
-        },
-        Object {
-          "alignItems": "center",
-        },
-        Object {
-          "justifyContent": "center",
-        },
-        Object {
-          "marginBottom": 65,
-        },
-      ]
-    }
+  <CardWithHeaderAndButton
+    buttonText="Continue"
+    description="We will make sure you get better and personalized results"
+    disabled={false}
+    onButtonPress={[Function]}
+    title="What's your gender?"
   >
     <Component>
-      Hello 
-      World
-      !
+      Radio Buttons here
     </Component>
     <Component>
-      Clicks: 
-      0
+      Radio Buttons here
     </Component>
-    <_default
-      onPress={[Function]}
-      title="Create Account"
-      variant="primary-lg"
-    />
-    <_default
-      onPress={[Function]}
-      title="Log In"
-      variant="secondary-lg"
-    />
-  </Component>
+    <Component>
+      Radio Buttons here
+    </Component>
+    <Component>
+      Radio Buttons here
+    </Component>
+    <Component>
+      Radio Buttons here
+    </Component>
+    <Component>
+      Radio Buttons here
+    </Component>
+  </CardWithHeaderAndButton>
 </Component>
 `;

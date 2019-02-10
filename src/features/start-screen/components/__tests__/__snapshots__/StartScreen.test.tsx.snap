@@ -14,6 +14,9 @@ exports[`<StartScreen /> renders correctly 1`] = `
         "alignItems": "flex-end",
       },
       Object {
+        "justifyContent": "center",
+      },
+      Object {
         "backgroundColor": "#f7f7f7",
       },
     ]
@@ -46,12 +49,12 @@ exports[`<StartScreen /> renders correctly 1`] = `
       Clicks: 
       0
     </Component>
-    <_default
+    <Button
       onPress={[Function]}
       title="Create Account"
       variant="primary-lg"
     />
-    <_default
+    <Button
       onPress={[Function]}
       title="Log In"
       variant="secondary-lg"
