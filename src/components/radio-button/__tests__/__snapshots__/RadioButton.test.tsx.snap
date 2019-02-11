@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioButton /> renders correctly 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "height": 60,
+      },
+      Object {
+        "alignItems": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "flexDirection": "column",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "height": 36,
+          },
+          Object {
+            "width": 36,
+          },
+        ]
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "borderRadius": 100,
+            },
+            Object {
+              "borderWidth": 1,
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "borderColor": "#57ae5b",
+            },
+          ]
+        }
+      >
+        <Component
+          style={
+            Array [
+              Object {
+                "borderRadius": 100,
+              },
+              Object {
+                "height": 29.5,
+                "width": 29.5,
+              },
+              Object {
+                "backgroundColor": "#57ae5b",
+              },
+            ]
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+    <Component
+      style={
+        Array [
+          Object {
+            "fontFamily": "avenir-next-medium",
+          },
+          Object {
+            "fontSize": 12,
+          },
+          Object {
+            "marginTop": 13,
+          },
+          Object {
+            "color": "#57ae5b",
+          },
+        ]
+      }
+    >
+      radio-button-title
+    </Component>
+  </Component>
+</Component>
+`;
+
+exports[`<RadioButton /> renders disabled 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "height": 60,
+      },
+      Object {
+        "alignItems": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "flexDirection": "column",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "height": 36,
+          },
+          Object {
+            "width": 36,
+          },
+        ]
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        disabled={true}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "borderRadius": 100,
+            },
+            Object {
+              "borderWidth": 1,
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "borderColor": "#cfcfcf",
+            },
+          ]
+        }
+      >
+        <Component
+          style={
+            Array [
+              Object {
+                "borderRadius": 100,
+              },
+              Object {
+                "height": 29.5,
+                "width": 29.5,
+              },
+            ]
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+    <Component
+      style={
+        Array [
+          Object {
+            "fontFamily": "avenir-next-medium",
+          },
+          Object {
+            "fontSize": 12,
+          },
+          Object {
+            "marginTop": 13,
+          },
+          Object {
+            "color": "#cfcfcf",
+          },
+        ]
+      }
+    >
+      radio-button-title
+    </Component>
+  </Component>
+</Component>
+`;
+
+exports[`<RadioButton /> renders unchecked 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "height": 60,
+      },
+      Object {
+        "alignItems": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "flexDirection": "column",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "height": 36,
+          },
+          Object {
+            "width": 36,
+          },
+        ]
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "flex": 1,
+            },
+            Object {
+              "borderRadius": 100,
+            },
+            Object {
+              "borderWidth": 1,
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "borderColor": "#cfcfcf",
+            },
+          ]
+        }
+      >
+        <Component
+          style={
+            Array [
+              Object {
+                "borderRadius": 100,
+              },
+              Object {
+                "height": 29.5,
+                "width": 29.5,
+              },
+            ]
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+    <Component
+      style={
+        Array [
+          Object {
+            "fontFamily": "avenir-next-medium",
+          },
+          Object {
+            "fontSize": 12,
+          },
+          Object {
+            "marginTop": 13,
+          },
+          Object {
+            "color": "#cfcfcf",
+          },
+        ]
+      }
+    >
+      radio-button-title
+    </Component>
+  </Component>
+</Component>
+`;

@@ -2,7 +2,7 @@ import reducer from '..'
 import SignUpState from '../../records/SignUpState'
 import { SELECT_GENDER } from '../../constants'
 
-describe('start-screen reducer', () => {
+describe('sign-up reducer', () => {
   let initialState: SignUpState
 
   beforeEach(() => {

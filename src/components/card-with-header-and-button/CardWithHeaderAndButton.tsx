@@ -10,9 +10,9 @@ import {
   textContainerStyle,
 } from './styles'
 
-interface Props {
+export interface Props {
   title: string
-  description: string
+  description?: string
   buttonText: string
   onButtonPress?: (event: GestureResponderEvent) => void
   disabled?: boolean

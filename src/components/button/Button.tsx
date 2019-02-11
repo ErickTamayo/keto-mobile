@@ -2,7 +2,7 @@ import * as React from 'react'
 import { TouchableOpacity, Text, View, GestureResponderEvent } from 'react-native'
 import { buttonStyles, buttonContainerStyle, disabledStyle } from './styles'
 
-interface Props {
+export interface Props {
   title: string
   variant: 'primary' | 'primary-md' | 'primary-lg' | 'secondary' | 'secondary-lg'
   onPress?: (event: GestureResponderEvent) => void

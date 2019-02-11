@@ -12,7 +12,7 @@ import {
   wrapperStyle,
 } from './styles'
 
-interface Props {
+export interface Props {
   title: string
   variant: 'lg'
   onPress?: (value: string) => void
