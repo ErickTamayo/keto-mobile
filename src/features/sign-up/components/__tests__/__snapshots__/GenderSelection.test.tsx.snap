@@ -22,7 +22,7 @@ exports[`<GenderSelection /> renders correctly 1`] = `
   <CardWithHeaderAndButton
     buttonText="Continue"
     description="We will make sure you get better and personalized results"
-    disabled={false}
+    disabled={true}
     onButtonPress={[Function]}
     title="What's your gender?"
   >
@@ -36,7 +36,7 @@ exports[`<GenderSelection /> renders correctly 1`] = `
       }
     >
       <RadioButton
-        checked={true}
+        checked={false}
         onPress={[Function]}
         style={
           Array [

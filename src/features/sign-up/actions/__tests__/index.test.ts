@@ -1,28 +1,23 @@
-// import thunk from 'redux-thunk'
-// import configureMockStore, { MockStoreEnhanced } from 'redux-mock-store'
-// import { ADD_COUNTER } from '../../constants'
-// import { addCounter } from '..'
+import thunk from 'redux-thunk'
+import configureMockStore, { MockStoreEnhanced } from 'redux-mock-store'
+import { SELECT_GENDER } from '../../constants'
+import { selectGender } from '..'
 
-describe('start-screen action creator', () => {
-  //   const mockStore = configureMockStore([thunk])
-  //   let store: MockStoreEnhanced
+describe('feature/start-screen action creators', () => {
+  const mockStore = configureMockStore([thunk])
+  let store: MockStoreEnhanced
 
-  //   beforeEach(() => {
-  //     store = mockStore({ counter: 0 })
-  //   })
+  beforeEach(() => {
+    store = mockStore({ gender: null })
+  })
 
-  it('should be good', () => {})
-  //   describe('addCounter()', () => {
-  //     it('should dispatch', () => {
-  //       const expectedActions = [
-  //         {
-  //           type: ADD_COUNTER,
-  //         },
-  //       ]
+  describe('selectGender()', () => {
+    it('should dispatch expected actions', () => {
+      const expectedActions = [{ type: SELECT_GENDER, gender: 'male' }]
 
-  //       store.dispatch(addCounter())
+      store.dispatch(selectGender('male'))
 
-  //       expect(store.getActions()).toEqual(expectedActions)
-  //     })
-  //   })
+      expect(store.getActions()).toEqual(expectedActions)
+    })
+  })
 })
