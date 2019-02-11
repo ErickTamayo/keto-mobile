@@ -2,17 +2,17 @@ import 'react-native'
 import * as React from 'react'
 import { shallow } from 'enzyme'
 import { NavigationScreenProp, NavigationRoute, NavigationParams } from 'react-navigation'
-import StartScreen, { Props } from '../GenderSelection'
-import { AddCounter } from '../../actions'
+import GenderSelection, { Props } from '../GenderSelection'
+import { SelectGender } from '../../actions'
 
-describe('<StartScreen />', () => {
+describe('<GenderSelection />', () => {
   it('renders correctly', () => {
     const props: Props = {
-      counter: 0,
-      addCounter: () => ({} as AddCounter),
+      gender: 'female',
+      selectGender: () => ({} as SelectGender),
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
     }
-    const wrapper = shallow(<StartScreen {...props} />)
+    const wrapper = shallow(<GenderSelection {...props} />)
     expect(wrapper).toMatchSnapshot()
   })
 })

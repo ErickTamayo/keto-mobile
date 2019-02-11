@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<StartScreen /> renders correctly 1`] = `
+exports[`<GenderSelection /> renders correctly 1`] = `
 <Component
   style={
     Array [
@@ -26,23 +26,43 @@ exports[`<StartScreen /> renders correctly 1`] = `
     onButtonPress={[Function]}
     title="What's your gender?"
   >
-    <Component>
-      Radio Buttons here
-    </Component>
-    <Component>
-      Radio Buttons here
-    </Component>
-    <Component>
-      Radio Buttons here
-    </Component>
-    <Component>
-      Radio Buttons here
-    </Component>
-    <Component>
-      Radio Buttons here
-    </Component>
-    <Component>
-      Radio Buttons here
+    <Component
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+        ]
+      }
+    >
+      <RadioButton
+        checked={true}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "margin": 26,
+            },
+          ]
+        }
+        title="FEMALE"
+        value="female"
+        variant="lg"
+      />
+      <RadioButton
+        checked={false}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "margin": 26,
+            },
+          ]
+        }
+        title="MALE"
+        value="male"
+        variant="lg"
+      />
     </Component>
   </CardWithHeaderAndButton>
 </Component>

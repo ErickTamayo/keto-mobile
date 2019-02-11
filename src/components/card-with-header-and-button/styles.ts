@@ -21,4 +21,4 @@ export const titleStyle = [st.font.medium, st.text.greyDark, st.text.center, st.
 
 export const descriptionStyle = [st.font.regular, st.text.grey1, st.text.base, st.text.center]
 
-export const childrenContainerStyle = [st.m.b2]
+export const childrenContainerStyle = []

@@ -1,6 +1,6 @@
-import { ADD_COUNTER } from '../constants'
-import { AddCounter } from '../actions'
 import StartScreenState from '../records/StartScreenState'
+import { AddCounter } from '../actions'
+import { ADD_COUNTER } from '../constants'
 
 export type ScreenStateAction = AddCounter
 

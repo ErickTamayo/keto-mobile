@@ -1,11 +1,10 @@
-// import { StyleProp, ViewStyle } from 'react-native'
 import st from '../../styles'
 
 const commonButton = [
   st.m.a1,
   st.p.l3,
   st.p.r3,
-  st.height.h2,
+  st.height.h4,
   st.border.a1,
   st.border.green,
   st.border.roundedFull,
@@ -20,19 +19,19 @@ export const buttonStyles = {
   },
   'primary-md': {
     text: [...commonText, st.text.white],
-    button: [...commonButton, st.bg.green, st.width.w7],
+    button: [...commonButton, st.bg.green, st.width.w14],
   },
   'primary-lg': {
     text: [...commonText, st.text.white],
-    button: [...commonButton, st.bg.green, st.width.w12],
+    button: [...commonButton, st.bg.green, st.width.w24],
   },
   secondary: {
-    text: [...commonText, st.text.green],
+    text: [...commonText, st.text.green, st.width.w14],
     button: [...commonButton, st.bg.transparent],
   },
   'secondary-lg': {
     text: [...commonText, st.text.green],
-    button: [...commonButton, st.bg.transparent, st.width.w12],
+    button: [...commonButton, st.bg.transparent, st.width.w24],
   },
 }
 

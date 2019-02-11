@@ -1,2 +1,2 @@
-// export const ADD_COUNTER = 'ADD_COUNTER'
-// export type ADD_COUNTER = typeof ADD_COUNTER
+export const SELECT_GENDER = 'SELECT_GENDER'
+export type SELECT_GENDER = typeof SELECT_GENDER

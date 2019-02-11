@@ -11,6 +11,36 @@ const color = {
   green: {
     borderColor: Colors.green,
   },
+
+  greyDarkest: {
+    borderColor: Colors.greyDarkest,
+  },
+  greyDarker: {
+    borderColor: Colors.greyDarker,
+  },
+  greyDark: {
+    borderColor: Colors.greyDark,
+  },
+
+  grey: {
+    borderColor: Colors.grey,
+  },
+  grey1: {
+    borderColor: Colors.grey1,
+  },
+  grey2: {
+    borderColor: Colors.grey2,
+  },
+
+  greyLight: {
+    borderColor: Colors.greyLight,
+  },
+  greyLighter: {
+    borderColor: Colors.greyLighter,
+  },
+  greyLightest: {
+    borderColor: Colors.greyLightest,
+  },
 }
 
 const radius = {

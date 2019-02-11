@@ -1,9 +1,11 @@
-// import { ADD_COUNTER } from '../constants'
+import { SELECT_GENDER } from '../constants'
 
-// export interface AddCounter {
-//   type: ADD_COUNTER
-// }
+export interface SelectGender {
+  type: SELECT_GENDER
+  gender: 'male' | 'female' | null
+}
 
-// export const addCounter = (): AddCounter => ({
-//   type: ADD_COUNTER,
-// })
+export const selectGender = (gender: SelectGender['gender']): SelectGender => ({
+  type: SELECT_GENDER,
+  gender,
+})

@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import { Dispatch } from 'redux'
 import { State } from '../records/StartScreenState'
 import StartScreen from '../components/StartScreen'
-import { addCounter, AddCounter } from '../actions'
+import { addCounter, AddCounter, userLogout, UserLogout } from '../actions'
 
 export interface StateProps {
   counter: number
@@ -10,6 +10,7 @@ export interface StateProps {
 
 export interface DispatchProps {
   addCounter: () => AddCounter
+  userLogout: () => UserLogout
 }
 
 export const mapStateToProps = ({ startScreen }: { startScreen: State }): StateProps => ({
@@ -17,7 +18,8 @@ export const mapStateToProps = ({ startScreen }: { startScreen: State }): StateP
 })
 
 export const mapDispatchToProps = (dispatch: Dispatch): DispatchProps => ({
-  addCounter: () => dispatch(addCounter()),
+  addCounter: (): AddCounter => dispatch(addCounter()),
+  userLogout: (): UserLogout => dispatch(userLogout()),
 })
 
 export default connect(

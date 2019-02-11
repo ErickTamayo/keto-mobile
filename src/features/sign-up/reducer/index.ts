@@ -1,16 +1,16 @@
-import { ADD_COUNTER } from '../constants'
-import { AddCounter } from '../actions'
-import StartScreenState from '../records/StartScreenState'
+import { SELECT_GENDER } from '../constants'
+import { SelectGender } from '../actions'
+import SignUpState from '../records/SignUpState'
 
-export type ScreenStateAction = AddCounter
+export type SignUpAction = SelectGender
 
-export default function startScreenReducer(
-  state: StartScreenState = new StartScreenState({ counter: 13 }),
-  action: ScreenStateAction
-): StartScreenState {
+export default function signUpReducer(
+  state: SignUpState = new SignUpState(),
+  action: SignUpAction
+): SignUpState {
   switch (action.type) {
-    case ADD_COUNTER:
-      return state.update('counter', counter => counter + 1)
+    case SELECT_GENDER:
+      return state.set('gender', action.gender)
     default:
       return state
   }

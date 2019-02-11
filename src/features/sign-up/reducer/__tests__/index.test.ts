@@ -1,20 +1,21 @@
 import reducer from '..'
-import StartScreenState from '../../records/StartScreenState'
-import { ADD_COUNTER } from '../../constants'
+import SignUpState from '../../records/SignUpState'
+import { SELECT_GENDER } from '../../constants'
 
 describe('start-screen reducer', () => {
-  let initialState: StartScreenState
+  let initialState: SignUpState
 
   beforeEach(() => {
-    initialState = new StartScreenState({ counter: 0 })
+    initialState = new SignUpState({ gender: 'male' })
   })
 
   it('should increment counter', () => {
     const updatedState = reducer(initialState, {
-      type: ADD_COUNTER,
+      type: SELECT_GENDER,
+      gender: 'female',
     })
 
-    const expectedState = initialState.set('counter', 1)
+    const expectedState = initialState.set('gender', 'female')
 
     expect(updatedState).toEqual(expectedState)
   })

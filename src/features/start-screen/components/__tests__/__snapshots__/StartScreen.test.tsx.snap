@@ -22,6 +22,9 @@ exports[`<StartScreen /> renders correctly 1`] = `
     ]
   }
 >
+  <withNavigation(NavigationEvents)
+    onDidFocus={[Function]}
+  />
   <Component
     style={
       Array [
@@ -40,15 +43,6 @@ exports[`<StartScreen /> renders correctly 1`] = `
       ]
     }
   >
-    <Component>
-      Hello 
-      World
-      !
-    </Component>
-    <Component>
-      Clicks: 
-      0
-    </Component>
     <Button
       onPress={[Function]}
       title="Create Account"
