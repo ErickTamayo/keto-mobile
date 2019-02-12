@@ -1,9 +1,10 @@
 import * as React from 'react'
-import { Text, View, PickerIOS } from 'react-native'
+import { View, PickerIOS } from 'react-native'
 import { NavigationInjectedProps } from 'react-navigation'
 import { StateProps, DispatchProps } from '../containers/GenderSelection'
 import st from '../../../styles'
 import CardWithHeaderAndButton from '../../../components/card-with-header-and-button/CardWithHeaderAndButton'
+import PressableInput from '../../../components/pressable-input/PressableInput'
 
 export interface Props extends StateProps, DispatchProps, NavigationInjectedProps {}
 
@@ -35,7 +36,36 @@ export default class OtherParameters extends React.Component<Props, object> {
           onButtonPress={this.navigateToCreateAccount}
           disabled={false}
         >
-          {picker}
+          <View style={[st.m.b1]}>
+            <PressableInput
+              icon="calendar"
+              placeholder="AGE"
+              value="31 years"
+              onPress={() => console.log('age')}
+              onClear={() => console.log('clear')}
+            />
+            <PressableInput
+              icon="height"
+              placeholder="HEIGHT"
+              value="5' 11'"
+              onPress={() => console.log('height')}
+              onClear={() => console.log('clear')}
+            />
+            <PressableInput
+              icon="scale"
+              placeholder="WEIGHT"
+              value=""
+              onPress={() => console.log('weight')}
+              onClear={() => console.log('clear')}
+            />
+            <PressableInput
+              icon="goal-scale"
+              placeholder="GOAL WEIGHT"
+              value=""
+              onPress={() => console.log('goal weight')}
+              onClear={() => console.log('clear')}
+            />
+          </View>
         </CardWithHeaderAndButton>
       </View>
     )

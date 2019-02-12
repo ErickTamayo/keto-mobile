@@ -15,9 +15,6 @@ exports[`<Button /> renders correctly 1`] = `
         "paddingRight": 19.5,
       },
       Object {
-        "height": 48,
-      },
-      Object {
         "borderWidth": 1,
       },
       Object {
@@ -28,6 +25,9 @@ exports[`<Button /> renders correctly 1`] = `
       },
       Object {
         "backgroundColor": "#57ae5b",
+      },
+      Object {
+        "height": 40,
       },
       null,
     ]
@@ -88,9 +88,6 @@ exports[`<Button /> renders disabled 1`] = `
         "paddingRight": 19.5,
       },
       Object {
-        "height": 48,
-      },
-      Object {
         "borderWidth": 1,
       },
       Object {
@@ -101,6 +98,9 @@ exports[`<Button /> renders disabled 1`] = `
       },
       Object {
         "backgroundColor": "#57ae5b",
+      },
+      Object {
+        "height": 40,
       },
       Array [
         Object {

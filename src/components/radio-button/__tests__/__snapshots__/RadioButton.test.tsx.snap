@@ -5,7 +5,7 @@ exports[`<RadioButton /> renders correctly 1`] = `
   style={
     Array [
       Object {
-        "height": 60,
+        "height": 64,
       },
       Object {
         "alignItems": "center",
@@ -36,10 +36,10 @@ exports[`<RadioButton /> renders correctly 1`] = `
       style={
         Array [
           Object {
-            "height": 36,
+            "height": 40,
           },
           Object {
-            "width": 36,
+            "width": 40,
           },
         ]
       }
@@ -77,8 +77,8 @@ exports[`<RadioButton /> renders correctly 1`] = `
                 "borderRadius": 100,
               },
               Object {
-                "height": 29.5,
-                "width": 29.5,
+                "height": 32.5,
+                "width": 32.5,
               },
               Object {
                 "backgroundColor": "#57ae5b",
@@ -117,7 +117,7 @@ exports[`<RadioButton /> renders disabled 1`] = `
   style={
     Array [
       Object {
-        "height": 60,
+        "height": 64,
       },
       Object {
         "alignItems": "center",
@@ -148,10 +148,10 @@ exports[`<RadioButton /> renders disabled 1`] = `
       style={
         Array [
           Object {
-            "height": 36,
+            "height": 40,
           },
           Object {
-            "width": 36,
+            "width": 40,
           },
         ]
       }
@@ -190,8 +190,8 @@ exports[`<RadioButton /> renders disabled 1`] = `
                 "borderRadius": 100,
               },
               Object {
-                "height": 29.5,
-                "width": 29.5,
+                "height": 32.5,
+                "width": 32.5,
               },
             ]
           }
@@ -227,7 +227,7 @@ exports[`<RadioButton /> renders unchecked 1`] = `
   style={
     Array [
       Object {
-        "height": 60,
+        "height": 64,
       },
       Object {
         "alignItems": "center",
@@ -258,10 +258,10 @@ exports[`<RadioButton /> renders unchecked 1`] = `
       style={
         Array [
           Object {
-            "height": 36,
+            "height": 40,
           },
           Object {
-            "width": 36,
+            "width": 40,
           },
         ]
       }
@@ -299,8 +299,8 @@ exports[`<RadioButton /> renders unchecked 1`] = `
                 "borderRadius": 100,
               },
               Object {
-                "height": 29.5,
-                "width": 29.5,
+                "height": 32.5,
+                "width": 32.5,
               },
             ]
           }

@@ -45,6 +45,9 @@ const color = {
 
 const radius = {
   rounded: {
+    borderRadius: 5,
+  },
+  roundedLg: {
     borderRadius: 10,
   },
   roundedFull: {

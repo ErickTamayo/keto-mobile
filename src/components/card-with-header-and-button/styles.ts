@@ -11,7 +11,7 @@ export const cardStyle = [
   st.p.t4,
   st.bg.white,
   st.items.center,
-  st.border.rounded,
+  st.border.roundedLg,
   st.shadow.shadow,
 ]
 

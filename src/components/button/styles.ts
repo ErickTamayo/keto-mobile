@@ -4,7 +4,6 @@ const commonButton = [
   st.m.a1,
   st.p.l3,
   st.p.r3,
-  st.height.h4,
   st.border.a1,
   st.border.green,
   st.border.roundedFull,
@@ -15,23 +14,23 @@ const commonText = [st.font.medium, st.text.center, st.text.base]
 export const buttonStyles = {
   primary: {
     text: [...commonText, st.text.white],
-    button: [...commonButton, st.bg.green],
+    button: [...commonButton, st.bg.green, st.height.h5],
   },
   'primary-md': {
     text: [...commonText, st.text.white],
-    button: [...commonButton, st.bg.green, st.width.w14],
+    button: [...commonButton, st.bg.green, st.width.w20, st.height.h5],
   },
   'primary-lg': {
     text: [...commonText, st.text.white],
-    button: [...commonButton, st.bg.green, st.width.w24],
+    button: [...commonButton, st.bg.green, st.height.h6, st.width.w36],
   },
   secondary: {
-    text: [...commonText, st.text.green, st.width.w14],
+    text: [...commonText, st.text.green, st.height.h5],
     button: [...commonButton, st.bg.transparent],
   },
   'secondary-lg': {
     text: [...commonText, st.text.green],
-    button: [...commonButton, st.bg.transparent, st.width.w24],
+    button: [...commonButton, st.bg.transparent, st.height.h6, st.width.w36],
   },
 }
 
