@@ -24,7 +24,7 @@ describe('<Button />', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('should trigger onPress once pressed', () => {
+  it('trigger onPress once pressed', () => {
     const props: Props = {
       variant: 'primary',
       title: 'button-title',

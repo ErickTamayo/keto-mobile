@@ -2,14 +2,14 @@ import reducer from '..'
 import SignUpState from '../../records/SignUpState'
 import { SELECT_GENDER } from '../../constants'
 
-describe('sign-up reducer', () => {
+describe('feature/sign-up reducer', () => {
   let initialState: SignUpState
 
   beforeEach(() => {
     initialState = new SignUpState({ gender: 'male' })
   })
 
-  it('should increment counter', () => {
+  it('increments counter', () => {
     const updatedState = reducer(initialState, {
       type: SELECT_GENDER,
       gender: 'female',

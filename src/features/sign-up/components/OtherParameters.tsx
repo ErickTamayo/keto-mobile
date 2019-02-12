@@ -40,6 +40,7 @@ export default class OtherParameters extends React.Component<Props, object> {
             <PressableInput
               icon="calendar"
               placeholder="AGE"
+              name="age"
               value="31 years"
               onPress={() => console.log('age')}
               onClear={() => console.log('clear')}
@@ -47,6 +48,7 @@ export default class OtherParameters extends React.Component<Props, object> {
             <PressableInput
               icon="height"
               placeholder="HEIGHT"
+              name="height"
               value="5' 11'"
               onPress={() => console.log('height')}
               onClear={() => console.log('clear')}
@@ -54,6 +56,7 @@ export default class OtherParameters extends React.Component<Props, object> {
             <PressableInput
               icon="scale"
               placeholder="WEIGHT"
+              name="starting-weight"
               value=""
               onPress={() => console.log('weight')}
               onClear={() => console.log('clear')}
@@ -61,6 +64,7 @@ export default class OtherParameters extends React.Component<Props, object> {
             <PressableInput
               icon="goal-scale"
               placeholder="GOAL WEIGHT"
+              name="goal-weight"
               value=""
               onPress={() => console.log('goal weight')}
               onClear={() => console.log('clear')}

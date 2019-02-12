@@ -3,7 +3,7 @@ import configureMockStore, { MockStoreEnhanced } from 'redux-mock-store'
 import { ADD_COUNTER } from '../../constants'
 import { addCounter } from '..'
 
-describe('start-screen action creator', () => {
+describe('feature/start-screen action creator', () => {
   const mockStore = configureMockStore([thunk])
   let store: MockStoreEnhanced
 
@@ -12,7 +12,7 @@ describe('start-screen action creator', () => {
   })
 
   describe('addCounter()', () => {
-    it('should dispatch', () => {
+    it('dispatches', () => {
       const expectedActions = [
         {
           type: ADD_COUNTER,

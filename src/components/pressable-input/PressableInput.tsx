@@ -16,6 +16,7 @@ export interface Props {
   icon: 'calendar' | 'height' | 'scale' | 'goal-scale'
   placeholder?: string
   value: string
+  name: string
   onPress?: (event: GestureResponderEvent) => void
   onClear?: (event: GestureResponderEvent) => void
 }

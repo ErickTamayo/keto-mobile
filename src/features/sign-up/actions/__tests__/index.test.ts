@@ -12,7 +12,7 @@ describe('feature/start-screen action creators', () => {
   })
 
   describe('selectGender()', () => {
-    it('should dispatch expected actions', () => {
+    it('dispatches expected actions', () => {
       const expectedActions = [{ type: SELECT_GENDER, gender: 'male' }]
 
       store.dispatch(selectGender('male'))

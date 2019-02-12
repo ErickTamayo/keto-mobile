@@ -12,21 +12,15 @@ export const containerStyle = [
 
 export const subContainerStyle = [st.flex.f1, st.flex.row, st.items.center, st.justify.center]
 
-export const iconStyle = [st.height.h4, st.width.w4, st.m.l2, st.items.center, st.justify.center]
+export const iconStyle = [st.height.h4, st.width.w4, st.items.center, st.justify.center]
 
 export const textStyle = [st.font.medium, st.text.base, st.text.grey, st.text.center]
 
 export const placeholderStyle = [st.font.medium, st.text.greyLighter, st.text.center, st.text.xs]
 
-export const inputStyle = [st.width.w20, st.height.h5, st.justify.center]
+export const inputStyle = [st.width.w21, st.height.h5, st.justify.center]
 
-export const closeButtonStyle = [
-  st.height.h4,
-  st.width.w4,
-  st.m.r2,
-  st.justify.center,
-  st.items.center,
-]
+export const closeButtonStyle = [st.height.h4, st.width.w4, st.justify.center, st.items.center]
 
 export const closeImageStyle = [st.m.l2, st.m.r2]
 

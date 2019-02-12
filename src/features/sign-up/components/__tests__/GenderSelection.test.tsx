@@ -17,7 +17,7 @@ describe('<GenderSelection />', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('should select female on press the first radio button', () => {
+  it('selects female on press the first radio button', () => {
     const props: Props = {
       gender: null,
       selectGender: jest.fn(),
@@ -35,7 +35,7 @@ describe('<GenderSelection />', () => {
     expect((props.selectGender as jest.Mock<{}>).mock.calls[0][0]).toBe('female')
   })
 
-  it('should select male on press the first radio button', () => {
+  it('selects male on press the first radio button', () => {
     const props: Props = {
       gender: null,
       selectGender: jest.fn(),

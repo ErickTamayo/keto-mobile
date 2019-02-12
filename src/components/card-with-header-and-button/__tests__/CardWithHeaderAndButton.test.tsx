@@ -32,7 +32,7 @@ describe('<CardWithHeaderAndButton />', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('should trigger onPress once pressed', () => {
+  it('triggers onPress once pressed', () => {
     const props: Props = {
       title: 'card-title',
       buttonText: 'button-text',
