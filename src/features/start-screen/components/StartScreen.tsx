@@ -1,13 +1,13 @@
 import * as React from 'react'
-import { Text, View } from 'react-native'
+import { View, Text } from 'react-native'
 import { NavigationEvents, NavigationInjectedProps } from 'react-navigation'
+
 import { StateProps, DispatchProps } from '../containers/StartScreen'
 import Button from '../../../components/button/Button'
 import st from '../../../styles'
 import NavigationOptions from '../../../constants/NavigationOptions'
 
 export interface Props extends StateProps, DispatchProps, NavigationInjectedProps {}
-
 export default class StartScreen extends React.Component<Props, object> {
   public static navigationOptions = NavigationOptions
 

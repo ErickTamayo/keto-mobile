@@ -1,2 +1,1 @@
-export const SELECT_GENDER = 'SELECT_GENDER'
-export type SELECT_GENDER = typeof SELECT_GENDER
+export const SIGN_UP_USER_TYPENAME = 'SignUpUser'

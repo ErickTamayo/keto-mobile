@@ -36,7 +36,7 @@ export default class OtherParameters extends React.Component<Props, object> {
           onButtonPress={this.navigateToCreateAccount}
           disabled={false}
         >
-          <View style={[st.m.b1]}>
+          <View style={[st.m.b1, st.m.t2]}>
             <PressableInput
               icon="calendar"
               placeholder="AGE"

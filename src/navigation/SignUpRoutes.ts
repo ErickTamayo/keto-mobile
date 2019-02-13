@@ -1,4 +1,4 @@
-import GenderSelection from '../features/sign-up/containers/GenderSelection'
+import GenderSelection from '../features/sign-up/components/GenderSelection'
 import OtherParameters from '../features/sign-up/components/OtherParameters'
 import NavigationOptions from '../constants/NavigationOptions'
 
