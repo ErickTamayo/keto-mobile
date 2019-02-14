@@ -10,11 +10,14 @@ import { GET_SIGN_UP_USER_GENDER } from '../../queries'
 import { SET_SIGN_UP_USER_GENDER } from '../../mutations'
 
 import GenderSelection, { Props } from '../GenderSelection'
+import setGender from '../../resolvers/setGender'
 
 describe('<GenderSelection />', () => {
   it('renders correctly', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
+      gender: null,
+      setGender: jest.fn(),
     }
 
     const mocks = [
@@ -46,6 +49,8 @@ describe('<GenderSelection />', () => {
   it('selects female on press the first radio button', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
+      gender: null,
+      setGender: jest.fn(),
     }
 
     const mocks = [
@@ -82,13 +87,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    const mutation = wrapper.find(Mutation).at(0)
-
-    const mutationInsance = mutation.instance() as Mutation
-
-    const spy = jest.spyOn(mutationInsance.context.client, 'mutate')
-
-    expect(mutation.state('called')).toBeFalsy()
+    expect(props.setGender).not.toBeCalled()
 
     wrapper
       .find(TouchableOpacity)
@@ -98,15 +97,15 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(spy).toBeCalled()
-    expect(spy.mock.calls[0][0].variables).toEqual({ gender: 'female' })
-
-    expect(mutation.state('called')).toBeTruthy()
+    expect(props.setGender).toBeCalledWith({ variables: { gender: 'female' } })
+    expect(props.setGender).toBeCalled()
   })
 
   it('selects male on press the second radio button', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
+      gender: null,
+      setGender: jest.fn(),
     }
 
     const mocks = [
@@ -143,13 +142,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    const mutation = wrapper.find(Mutation).at(0)
-
-    const mutationInsance = mutation.instance() as Mutation
-
-    const spy = jest.spyOn(mutationInsance.context.client, 'mutate')
-
-    expect(mutation.state('called')).toBeFalsy()
+    expect(props.setGender).not.toBeCalled()
 
     wrapper
       .find(TouchableOpacity)
@@ -159,9 +152,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(spy).toBeCalled()
-    expect(spy.mock.calls[0][0].variables).toEqual({ gender: 'male' })
-
-    expect(mutation.state('called')).toBeTruthy()
+    expect(props.setGender).toBeCalledWith({ variables: { gender: 'male' } })
+    expect(props.setGender).toBeCalled()
   })
 })
