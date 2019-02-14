@@ -3,7 +3,7 @@ import { Query } from 'react-apollo'
 import { GET_SIGN_UP_USER_OTHER_PARAMETERS } from '../queries'
 
 export interface WithOtherParametersQueryProps {
-  age: number
+  age: number | null
   height: Height
   weight: Weight
   weightGoal: Weight

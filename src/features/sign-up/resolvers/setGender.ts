@@ -1,7 +1,12 @@
 import gql from 'graphql-tag'
+import { InMemoryCache } from 'apollo-cache-inmemory'
 import { SIGN_UP_USER_TYPENAME } from '../constants'
 
-const setGender = (_, { gender }, { cache, getCacheKey }) => {
+const setGender = (
+  _: any,
+  { gender }: { gender: string },
+  { cache, getCacheKey }: { cache: InMemoryCache; getCacheKey: (...args: any[]) => string }
+) => {
   const id = getCacheKey({ __typename: SIGN_UP_USER_TYPENAME, id: '0' })
 
   const fragment = gql`

@@ -4,13 +4,11 @@ import { mount } from 'enzyme'
 import { NavigationScreenProp, NavigationRoute, NavigationParams } from 'react-navigation'
 import { MockedProvider } from 'react-apollo/test-utils'
 import wait from 'waait'
-import { Mutation } from 'react-apollo'
 
 import { GET_SIGN_UP_USER_GENDER } from '../../queries'
 import { SET_SIGN_UP_USER_GENDER } from '../../mutations'
 
 import GenderSelection, { Props } from '../GenderSelection'
-import setGender from '../../resolvers/setGender'
 
 describe('<GenderSelection />', () => {
   it('renders correctly', async () => {

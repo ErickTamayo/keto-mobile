@@ -1,10 +1,10 @@
 import setGender from './setGender'
-import clearFromSignUpUser from './clearFromSignUpUser'
+import setOtherParametersToSignUpUser from './setOtherParametersToSignUpUser'
 
 const resolvers = {
   Mutation: {
     setGender,
-    clearFromSignUpUser,
+    setOtherParametersToSignUpUser,
   },
 }
 
