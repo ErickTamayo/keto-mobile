@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { TouchableOpacity, GestureResponderEvent } from 'react-native'
 import { mount } from 'enzyme'
 import { NavigationScreenProp, NavigationRoute, NavigationParams } from 'react-navigation'
@@ -14,6 +14,11 @@ describe('<OtherParameters />', () => {
   it('renders correctly', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
+      age: null,
+      height: { unit: 'imperial', cm: null, ft: null, in: null },
+      weight: { unit: 'imperial', lbs: null, kg: null },
+      weightGoal: { unit: 'imperial', lbs: null, kg: null },
+      setSignUpUserOtherParameters: jest.fn(),
     }
 
     const mocks = [
@@ -47,113 +52,5 @@ describe('<OtherParameters />', () => {
     expect(wrapper.find(OtherParameters)).toMatchSnapshot()
   })
 
-  // it('selects female on press the first radio button', async () => {
-  //   const props: Props = {
-  //     navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-  //     gender: null,
-  //     setGender: jest.fn(),
-  //   }
-
-  //   const mocks = [
-  //     {
-  //       request: {
-  //         query: SET_SIGN_UP_USER_GENDER,
-  //         variables: { gender: 'female' },
-  //       },
-  //       result: {
-  //         data: {
-  //           setGender: { id: '0', gender: 'female' },
-  //         },
-  //       },
-  //     },
-  //     {
-  //       request: {
-  //         query: GET_SIGN_UP_USER_GENDER,
-  //         variables: {},
-  //       },
-  //       result: {
-  //         data: {
-  //           signUpUser: { gender: null },
-  //         },
-  //       },
-  //     },
-  //   ]
-
-  //   const wrapper = mount(
-  //     <MockedProvider mocks={mocks} addTypename={false}>
-  //       <GenderSelection {...props} />
-  //     </MockedProvider>
-  //   )
-
-  //   await wait(0)
-  //   wrapper.update()
-
-  //   expect(props.setGender).not.toBeCalled()
-
-  //   wrapper
-  //     .find(TouchableOpacity)
-  //     .at(0)
-  //     .prop('onPress')!({} as GestureResponderEvent)
-
-  //   await wait(0)
-  //   wrapper.update()
-
-  //   expect(props.setGender).toBeCalledWith({ variables: { gender: 'female' } })
-  //   expect(props.setGender).toBeCalled()
-  // })
-
-  // it('selects male on press the second radio button', async () => {
-  //   const props: Props = {
-  //     navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-  //     gender: null,
-  //     setGender: jest.fn(),
-  //   }
-
-  //   const mocks = [
-  //     {
-  //       request: {
-  //         query: SET_SIGN_UP_USER_GENDER,
-  //         variables: { gender: 'female' },
-  //       },
-  //       result: {
-  //         data: {
-  //           setGender: { id: '0', gender: 'female' },
-  //         },
-  //       },
-  //     },
-  //     {
-  //       request: {
-  //         query: GET_SIGN_UP_USER_GENDER,
-  //         variables: {},
-  //       },
-  //       result: {
-  //         data: {
-  //           signUpUser: { gender: null },
-  //         },
-  //       },
-  //     },
-  //   ]
-
-  //   const wrapper = mount(
-  //     <MockedProvider mocks={mocks} addTypename={false}>
-  //       <GenderSelection {...props} />
-  //     </MockedProvider>
-  //   )
-
-  //   await wait(0)
-  //   wrapper.update()
-
-  //   expect(props.setGender).not.toBeCalled()
-
-  //   wrapper
-  //     .find(TouchableOpacity)
-  //     .at(1)
-  //     .prop('onPress')!({} as GestureResponderEvent)
-
-  //   await wait(0)
-  //   wrapper.update()
-
-  //   expect(props.setGender).toBeCalledWith({ variables: { gender: 'male' } })
-  //   expect(props.setGender).toBeCalled()
-  // })
+  it.skip('executes setSignUpUserOtherParameters once clear button in the input is pressed', () => {})
 })

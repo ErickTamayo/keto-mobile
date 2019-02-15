@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { TouchableOpacity, Text, View, GestureResponderEvent } from 'react-native'
 import { buttonStyles, buttonContainerStyle, disabledStyle } from './styles'
 

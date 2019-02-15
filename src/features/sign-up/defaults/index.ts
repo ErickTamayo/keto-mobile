@@ -3,7 +3,7 @@ import { SIGN_UP_USER_TYPENAME, HEIGHT_TYPENAME, WEIGHT_TYPENAME } from '../cons
 const signUpUser = {
   id: '0',
   gender: null,
-  age: 30,
+  age: null,
   height: {
     unit: 'imperial',
     ft: 5,

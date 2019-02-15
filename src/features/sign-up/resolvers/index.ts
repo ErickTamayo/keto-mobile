@@ -1,10 +1,10 @@
-import setGender from './setGender'
-import setOtherParametersToSignUpUser from './setOtherParametersToSignUpUser'
+import setSignUpUserGender from './setSignUpGender'
+import setSignUpUserOtherParameters from './setSignUpUserOtherParameters'
 
 const resolvers = {
   Mutation: {
-    setGender,
-    setOtherParametersToSignUpUser,
+    setSignUpUserGender,
+    setSignUpUserOtherParameters,
   },
 }
 

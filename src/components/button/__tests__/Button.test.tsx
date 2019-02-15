@@ -1,5 +1,5 @@
 import 'react-native'
-import * as React from 'react'
+import React from 'react'
 import { TouchableOpacity, GestureResponderEvent } from 'react-native'
 import { shallow } from 'enzyme'
 import Button, { Props } from '../Button'

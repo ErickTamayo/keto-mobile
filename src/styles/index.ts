@@ -1,4 +1,4 @@
-import { width, maxWidth, height } from './sizing'
+import { width, maxWidth, height, minWidth } from './sizing'
 import { flex, justify, items } from './flex'
 import border from './border'
 import text from './text'
@@ -15,6 +15,7 @@ export default {
   items,
   font,
   maxWidth,
+  minWidth,
   colors,
   border,
   width,

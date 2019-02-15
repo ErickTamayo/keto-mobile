@@ -3,7 +3,7 @@ import { SIGN_UP_USER_TYPENAME } from '../constants'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { removedUndefinedProps } from '../../../helpers'
 
-const setOtherParametersToSignUpUser = (
+const setSignUpUserOtherParameters = (
   _: any,
   args: any,
   { cache, getCacheKey }: { cache: InMemoryCache; getCacheKey: (...args: any[]) => string }
@@ -43,4 +43,4 @@ const setOtherParametersToSignUpUser = (
   return null
 }
 
-export default setOtherParametersToSignUpUser
+export default setSignUpUserOtherParameters

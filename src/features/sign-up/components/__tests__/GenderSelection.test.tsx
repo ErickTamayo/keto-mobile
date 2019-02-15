@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { TouchableOpacity, GestureResponderEvent } from 'react-native'
 import { mount } from 'enzyme'
 import { NavigationScreenProp, NavigationRoute, NavigationParams } from 'react-navigation'
@@ -15,7 +15,7 @@ describe('<GenderSelection />', () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
       gender: null,
-      setGender: jest.fn(),
+      setSignUpUserGender: jest.fn(),
     }
 
     const mocks = [
@@ -48,7 +48,7 @@ describe('<GenderSelection />', () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
       gender: null,
-      setGender: jest.fn(),
+      setSignUpUserGender: jest.fn(),
     }
 
     const mocks = [
@@ -59,7 +59,7 @@ describe('<GenderSelection />', () => {
         },
         result: {
           data: {
-            setGender: { id: '0', gender: 'female' },
+            setSignUpUserGender: { id: '0', gender: 'female' },
           },
         },
       },
@@ -85,7 +85,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(props.setGender).not.toBeCalled()
+    expect(props.setSignUpUserGender).not.toBeCalled()
 
     wrapper
       .find(TouchableOpacity)
@@ -95,15 +95,15 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(props.setGender).toBeCalledWith({ variables: { gender: 'female' } })
-    expect(props.setGender).toBeCalled()
+    expect(props.setSignUpUserGender).toBeCalledWith({ variables: { gender: 'female' } })
+    expect(props.setSignUpUserGender).toBeCalled()
   })
 
   it('selects male on press the second radio button', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
       gender: null,
-      setGender: jest.fn(),
+      setSignUpUserGender: jest.fn(),
     }
 
     const mocks = [
@@ -114,7 +114,7 @@ describe('<GenderSelection />', () => {
         },
         result: {
           data: {
-            setGender: { id: '0', gender: 'female' },
+            setSignUpUserGender: { id: '0', gender: 'female' },
           },
         },
       },
@@ -140,7 +140,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(props.setGender).not.toBeCalled()
+    expect(props.setSignUpUserGender).not.toBeCalled()
 
     wrapper
       .find(TouchableOpacity)
@@ -150,7 +150,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(props.setGender).toBeCalledWith({ variables: { gender: 'male' } })
-    expect(props.setGender).toBeCalled()
+    expect(props.setSignUpUserGender).toBeCalledWith({ variables: { gender: 'male' } })
+    expect(props.setSignUpUserGender).toBeCalled()
   })
 })

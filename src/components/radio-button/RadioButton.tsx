@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { TouchableOpacity, Text, View, StyleProp, ViewStyle } from 'react-native'
 import {
   checkedOutlineStyle,

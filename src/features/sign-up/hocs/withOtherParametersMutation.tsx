@@ -3,7 +3,7 @@ import { Mutation } from 'react-apollo'
 import { SET_SIGN_UP_USER_OTHER_PARAMETERS } from '../mutations'
 
 export interface WithOtherParametersMutationProps {
-  setOtherParametersToSignUpUser: (...args: any[]) => any
+  setSignUpUserOtherParameters: (...args: any[]) => any
 }
 
 const withOtherParametersMutation = <T, WithOtherParametersMutationProps extends keyof T>(
@@ -13,9 +13,9 @@ const withOtherParametersMutation = <T, WithOtherParametersMutationProps extends
     render() {
       return (
         <Mutation mutation={SET_SIGN_UP_USER_OTHER_PARAMETERS}>
-          {setOtherParametersToSignUpUser => (
+          {setSignUpUserOtherParameters => (
             <WrappedComponent
-              setOtherParametersToSignUpUser={setOtherParametersToSignUpUser}
+              setSignUpUserOtherParameters={setSignUpUserOtherParameters}
               {...this.props as T}
             />
           )}

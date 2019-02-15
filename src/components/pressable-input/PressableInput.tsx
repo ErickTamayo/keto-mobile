@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { Text, View, GestureResponderEvent, TouchableOpacity, Image } from 'react-native'
 import {
   containerStyle,

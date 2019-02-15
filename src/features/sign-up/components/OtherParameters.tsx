@@ -1,14 +1,15 @@
-import * as React from 'react'
+import React, { Component } from 'react'
 import { View } from 'react-native'
 import { NavigationInjectedProps } from 'react-navigation'
 import st from '../../../styles'
 import CardWithHeaderAndButton from '../../../components/card-with-header-and-button/CardWithHeaderAndButton'
 import PressableInput from '../../../components/pressable-input/PressableInput'
-import { weightToString, heightToString } from '../../../helpers'
+import AgeSelectionModal from '../modals/AgeSelectionModal'
+import HeightSelectionModal from '../modals/HeightSelectionModal'
+import { ageToString, weightToString, heightToString } from '../../../helpers'
 import withOtherParametersQuery, {
   WithOtherParametersQueryProps,
 } from '../hocs/withOtherParametersQuery'
-
 import withOtherParametersMutation, {
   WithOtherParametersMutationProps,
 } from '../hocs/withOtherParametersMutation'
@@ -17,11 +18,22 @@ export interface Props
   extends NavigationInjectedProps,
     WithOtherParametersQueryProps,
     WithOtherParametersMutationProps {}
-class OtherParameters extends React.Component<Props, object> {
+
+class OtherParameters extends Component<Props, State> {
   private navigateToCreateAccount = () => {}
 
+  private openModal = (component: any, props: object) => {
+    const { navigation } = this.props
+    navigation.navigate('Modal', { component, props })
+  }
+
+  private setAge = (age: number | null) => {
+    const { setSignUpUserOtherParameters } = this.props
+    setSignUpUserOtherParameters({ variables: { age } })
+  }
+
   public render(): JSX.Element {
-    const { age, height, weight, weightGoal, setOtherParametersToSignUpUser } = this.props
+    const { age, height, weight, weightGoal, setSignUpUserOtherParameters } = this.props
 
     return (
       <View style={[st.flex.f1, st.items.center, st.justify.center, st.bg.greyLightest]}>
@@ -37,21 +49,32 @@ class OtherParameters extends React.Component<Props, object> {
               icon="calendar"
               placeholder="AGE"
               name="age"
-              value={age ? `${age} years` : ''}
-              onPress={() => console.log('age')}
-              onClear={() => setOtherParametersToSignUpUser({ variables: { age: null } })}
+              value={ageToString(age)}
+              onPress={() =>
+                this.openModal(AgeSelectionModal, {
+                  onSelect: (age: number) => this.setAge(age),
+                  age,
+                })
+              }
+              onClear={() => this.setAge(null)}
             />
             <PressableInput
               icon="height"
               placeholder="HEIGHT"
               name="height"
               value={heightToString(height)}
-              onPress={() => console.log('height')}
+              onPress={() =>
+                this.openModal(HeightSelectionModal, {
+                  onSelect: (height: Height) => console.log(height),
+                  height,
+                })
+              }
               onClear={() =>
-                setOtherParametersToSignUpUser({
+                setSignUpUserOtherParameters({
                   variables: {
                     height: {
                       ...height,
+                      unit: 'imperial',
                       ft: null,
                       in: null,
                       cm: null,
@@ -67,7 +90,7 @@ class OtherParameters extends React.Component<Props, object> {
               value={weightToString(weight)}
               onPress={() => console.log('weight')}
               onClear={() =>
-                setOtherParametersToSignUpUser({
+                setSignUpUserOtherParameters({
                   variables: {
                     weight: {
                       ...weight,
@@ -85,7 +108,7 @@ class OtherParameters extends React.Component<Props, object> {
               value={weightToString(weightGoal)}
               onPress={() => console.log('goal weight')}
               onClear={() =>
-                setOtherParametersToSignUpUser({
+                setSignUpUserOtherParameters({
                   variables: {
                     weightGoal: {
                       ...weightGoal,

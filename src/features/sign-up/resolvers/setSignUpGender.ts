@@ -2,7 +2,7 @@ import gql from 'graphql-tag'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { SIGN_UP_USER_TYPENAME } from '../constants'
 
-const setGender = (
+const setSignUpUserGender = (
   _: any,
   { gender }: { gender: string },
   { cache, getCacheKey }: { cache: InMemoryCache; getCacheKey: (...args: any[]) => string }
@@ -19,4 +19,4 @@ const setGender = (
   return null
 }
 
-export default setGender
+export default setSignUpUserGender

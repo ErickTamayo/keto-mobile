@@ -2,7 +2,31 @@
 
 exports[`<OtherParameters /> renders correctly 1`] = `
 <_class
+  age={null}
+  height={
+    Object {
+      "cm": null,
+      "ft": null,
+      "in": null,
+      "unit": "imperial",
+    }
+  }
   navigation={Object {}}
+  setSignUpUserOtherParameters={[MockFunction]}
+  weight={
+    Object {
+      "kg": null,
+      "lbs": null,
+      "unit": "imperial",
+    }
+  }
+  weightGoal={
+    Object {
+      "kg": null,
+      "lbs": null,
+      "unit": "imperial",
+    }
+  }
 >
   <Query
     query={
@@ -223,24 +247,25 @@ exports[`<OtherParameters /> renders correctly 1`] = `
       age={null}
       height={
         Object {
-          "cm": 1,
-          "ft": 1,
-          "in": 1,
+          "cm": null,
+          "ft": null,
+          "in": null,
           "unit": "imperial",
         }
       }
       navigation={Object {}}
+      setSignUpUserOtherParameters={[MockFunction]}
       weight={
         Object {
-          "kg": 1,
-          "lbs": 1,
+          "kg": null,
+          "lbs": null,
           "unit": "imperial",
         }
       }
       weightGoal={
         Object {
-          "kg": 1,
-          "lbs": 1,
+          "kg": null,
+          "lbs": null,
           "unit": "imperial",
         }
       }
@@ -254,7 +279,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                 "kind": "OperationDefinition",
                 "name": Object {
                   "kind": "Name",
-                  "value": "setOtherParametersToSignUpUser",
+                  "value": "setSignUpUserOtherParameters",
                 },
                 "operation": "mutation",
                 "selectionSet": Object {
@@ -333,7 +358,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                       "kind": "Field",
                       "name": Object {
                         "kind": "Name",
-                        "value": "setOtherParametersToSignUpUser",
+                        "value": "setSignUpUserOtherParameters",
                       },
                       "selectionSet": undefined,
                     },
@@ -433,7 +458,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
             ],
             "kind": "Document",
             "loc": Object {
-              "end": 279,
+              "end": 275,
               "start": 0,
             },
           }
@@ -443,25 +468,25 @@ exports[`<OtherParameters /> renders correctly 1`] = `
           age={null}
           height={
             Object {
-              "cm": 1,
-              "ft": 1,
-              "in": 1,
+              "cm": null,
+              "ft": null,
+              "in": null,
               "unit": "imperial",
             }
           }
           navigation={Object {}}
-          setOtherParametersToSignUpUser={[Function]}
+          setSignUpUserOtherParameters={[MockFunction]}
           weight={
             Object {
-              "kg": 1,
-              "lbs": 1,
+              "kg": null,
+              "lbs": null,
               "unit": "imperial",
             }
           }
           weightGoal={
             Object {
-              "kg": 1,
-              "lbs": 1,
+              "kg": null,
+              "lbs": null,
               "unit": "imperial",
             }
           }
@@ -1168,7 +1193,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                   onClear={[Function]}
                                   onPress={[Function]}
                                   placeholder="HEIGHT"
-                                  value="1 ' 1\\""
+                                  value=""
                                 >
                                   <Component
                                     style={
@@ -1395,13 +1420,13 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                               "fontFamily": "avenir-next-medium",
                                                             },
                                                             Object {
-                                                              "fontSize": 16,
-                                                            },
-                                                            Object {
-                                                              "color": "#7e7e7e",
+                                                              "color": "#e1e1e1",
                                                             },
                                                             Object {
                                                               "textAlign": "center",
+                                                            },
+                                                            Object {
+                                                              "fontSize": 12,
                                                             },
                                                           ]
                                                         }
@@ -1413,18 +1438,18 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                                 "fontFamily": "avenir-next-medium",
                                                               },
                                                               Object {
-                                                                "fontSize": 16,
-                                                              },
-                                                              Object {
-                                                                "color": "#7e7e7e",
+                                                                "color": "#e1e1e1",
                                                               },
                                                               Object {
                                                                 "textAlign": "center",
                                                               },
+                                                              Object {
+                                                                "fontSize": 12,
+                                                              },
                                                             ]
                                                           }
                                                         >
-                                                          1 ' 1"
+                                                          HEIGHT
                                                         </Text>
                                                       </Component>
                                                     </View>
@@ -1437,7 +1462,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                             <View>
                                               <TouchableOpacity
                                                 activeOpacity={0.2}
-                                                disabled={false}
+                                                disabled={true}
                                                 onPress={[Function]}
                                                 style={
                                                   Array [
@@ -1526,7 +1551,6 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                       }
                                                     >
                                                       <Component
-                                                        source={1}
                                                         style={
                                                           Array [
                                                             Object {
@@ -1538,8 +1562,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                           ]
                                                         }
                                                       >
-                                                        <Image
-                                                          source={1}
+                                                        <View
                                                           style={
                                                             Array [
                                                               Object {
@@ -1569,7 +1592,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                   onClear={[Function]}
                                   onPress={[Function]}
                                   placeholder="WEIGHT"
-                                  value="1 lbs"
+                                  value=""
                                 >
                                   <Component
                                     style={
@@ -1796,13 +1819,13 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                               "fontFamily": "avenir-next-medium",
                                                             },
                                                             Object {
-                                                              "fontSize": 16,
-                                                            },
-                                                            Object {
-                                                              "color": "#7e7e7e",
+                                                              "color": "#e1e1e1",
                                                             },
                                                             Object {
                                                               "textAlign": "center",
+                                                            },
+                                                            Object {
+                                                              "fontSize": 12,
                                                             },
                                                           ]
                                                         }
@@ -1814,18 +1837,18 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                                 "fontFamily": "avenir-next-medium",
                                                               },
                                                               Object {
-                                                                "fontSize": 16,
-                                                              },
-                                                              Object {
-                                                                "color": "#7e7e7e",
+                                                                "color": "#e1e1e1",
                                                               },
                                                               Object {
                                                                 "textAlign": "center",
                                                               },
+                                                              Object {
+                                                                "fontSize": 12,
+                                                              },
                                                             ]
                                                           }
                                                         >
-                                                          1 lbs
+                                                          WEIGHT
                                                         </Text>
                                                       </Component>
                                                     </View>
@@ -1838,7 +1861,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                             <View>
                                               <TouchableOpacity
                                                 activeOpacity={0.2}
-                                                disabled={false}
+                                                disabled={true}
                                                 onPress={[Function]}
                                                 style={
                                                   Array [
@@ -1927,7 +1950,6 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                       }
                                                     >
                                                       <Component
-                                                        source={1}
                                                         style={
                                                           Array [
                                                             Object {
@@ -1939,8 +1961,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                           ]
                                                         }
                                                       >
-                                                        <Image
-                                                          source={1}
+                                                        <View
                                                           style={
                                                             Array [
                                                               Object {
@@ -1970,7 +1991,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                   onClear={[Function]}
                                   onPress={[Function]}
                                   placeholder="GOAL WEIGHT"
-                                  value="1 lbs"
+                                  value=""
                                 >
                                   <Component
                                     style={
@@ -2197,13 +2218,13 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                               "fontFamily": "avenir-next-medium",
                                                             },
                                                             Object {
-                                                              "fontSize": 16,
-                                                            },
-                                                            Object {
-                                                              "color": "#7e7e7e",
+                                                              "color": "#e1e1e1",
                                                             },
                                                             Object {
                                                               "textAlign": "center",
+                                                            },
+                                                            Object {
+                                                              "fontSize": 12,
                                                             },
                                                           ]
                                                         }
@@ -2215,18 +2236,18 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                                 "fontFamily": "avenir-next-medium",
                                                               },
                                                               Object {
-                                                                "fontSize": 16,
-                                                              },
-                                                              Object {
-                                                                "color": "#7e7e7e",
+                                                                "color": "#e1e1e1",
                                                               },
                                                               Object {
                                                                 "textAlign": "center",
                                                               },
+                                                              Object {
+                                                                "fontSize": 12,
+                                                              },
                                                             ]
                                                           }
                                                         >
-                                                          1 lbs
+                                                          GOAL WEIGHT
                                                         </Text>
                                                       </Component>
                                                     </View>
@@ -2239,7 +2260,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                             <View>
                                               <TouchableOpacity
                                                 activeOpacity={0.2}
-                                                disabled={false}
+                                                disabled={true}
                                                 onPress={[Function]}
                                                 style={
                                                   Array [
@@ -2328,7 +2349,6 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                       }
                                                     >
                                                       <Component
-                                                        source={1}
                                                         style={
                                                           Array [
                                                             Object {
@@ -2340,8 +2360,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                                           ]
                                                         }
                                                       >
-                                                        <Image
-                                                          source={1}
+                                                        <View
                                                           style={
                                                             Array [
                                                               Object {

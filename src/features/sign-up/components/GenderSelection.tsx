@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { View } from 'react-native'
 import { NavigationInjectedProps } from 'react-navigation'
 import st from '../../../styles'
@@ -23,7 +23,7 @@ class GenderSelection extends React.Component<Props, object> {
   }
 
   public render(): JSX.Element {
-    const { gender, setGender } = this.props
+    const { gender, setSignUpUserGender } = this.props
 
     return (
       <View style={[st.flex.f1, st.items.center, st.justify.center, st.bg.greyLightest]}>
@@ -40,7 +40,7 @@ class GenderSelection extends React.Component<Props, object> {
               variant="lg"
               checked={gender === 'female'}
               onPress={gender => {
-                setGender({ variables: { gender } })
+                setSignUpUserGender({ variables: { gender } })
               }}
               title="FEMALE"
               value="female"
@@ -50,7 +50,7 @@ class GenderSelection extends React.Component<Props, object> {
               variant="lg"
               checked={gender === 'male'}
               onPress={gender => {
-                setGender({ variables: { gender } })
+                setSignUpUserGender({ variables: { gender } })
               }}
               title="MALE"
               value="male"

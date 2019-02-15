@@ -1,7 +1,8 @@
-import * as React from 'react'
+import React from 'react'
 import { Image } from 'react-native'
 import st from '../../styles'
 
 const iconLeftArrow = require('../../assets/images/icon-left-arrow.png')
 
-export default () => <Image style={[st.m.l2]} source={iconLeftArrow} />
+const BackButton = () => <Image style={[st.m.l2]} source={iconLeftArrow} />
+export default BackButton
