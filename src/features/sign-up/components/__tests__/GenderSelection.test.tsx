@@ -6,7 +6,6 @@ import { MockedProvider } from 'react-apollo/test-utils'
 import wait from 'waait'
 
 import { GET_SIGN_UP_USER_GENDER } from '../../queries'
-import { SET_SIGN_UP_USER_GENDER } from '../../mutations'
 
 import GenderSelection, { Props } from '../GenderSelection'
 
@@ -54,17 +53,6 @@ describe('<GenderSelection />', () => {
     const mocks = [
       {
         request: {
-          query: SET_SIGN_UP_USER_GENDER,
-          variables: { gender: 'female' },
-        },
-        result: {
-          data: {
-            setSignUpUserGender: { id: '0', gender: 'female' },
-          },
-        },
-      },
-      {
-        request: {
           query: GET_SIGN_UP_USER_GENDER,
           variables: {},
         },
@@ -107,17 +95,6 @@ describe('<GenderSelection />', () => {
     }
 
     const mocks = [
-      {
-        request: {
-          query: SET_SIGN_UP_USER_GENDER,
-          variables: { gender: 'female' },
-        },
-        result: {
-          data: {
-            setSignUpUserGender: { id: '0', gender: 'female' },
-          },
-        },
-      },
       {
         request: {
           query: GET_SIGN_UP_USER_GENDER,

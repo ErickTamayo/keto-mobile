@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AgeSelectionModal /> renders correctly 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "textAlign": "center",
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "fontFamily": "avenir-next-medium",
+        },
+        Object {
+          "fontSize": 18,
+        },
+        Object {
+          "color": "#626262",
+        },
+      ]
+    }
+  >
+    Age
+  </Component>
+  <Component>
+    <PickerIOS
+      itemStyle={
+        Array [
+          Object {
+            "fontFamily": "avenir-next-medium",
+          },
+          Object {
+            "fontSize": 18,
+          },
+          Object {
+            "color": "#626262",
+          },
+        ]
+      }
+      onValueChange={[Function]}
+      selectedValue={25}
+      style={
+        Array [
+          Object {
+            "width": 224,
+          },
+        ]
+      }
+    >
+      <PickerIOSItem
+        key="13"
+        label="13 years"
+        value={13}
+      />
+      <PickerIOSItem
+        key="14"
+        label="14 years"
+        value={14}
+      />
+      <PickerIOSItem
+        key="15"
+        label="15 years"
+        value={15}
+      />
+      <PickerIOSItem
+        key="16"
+        label="16 years"
+        value={16}
+      />
+      <PickerIOSItem
+        key="17"
+        label="17 years"
+        value={17}
+      />
+      <PickerIOSItem
+        key="18"
+        label="18 years"
+        value={18}
+      />
+      <PickerIOSItem
+        key="19"
+        label="19 years"
+        value={19}
+      />
+      <PickerIOSItem
+        key="20"
+        label="20 years"
+        value={20}
+      />
+      <PickerIOSItem
+        key="21"
+        label="21 years"
+        value={21}
+      />
+      <PickerIOSItem
+        key="22"
+        label="22 years"
+        value={22}
+      />
+      <PickerIOSItem
+        key="23"
+        label="23 years"
+        value={23}
+      />
+      <PickerIOSItem
+        key="24"
+        label="24 years"
+        value={24}
+      />
+      <PickerIOSItem
+        key="25"
+        label="25 years"
+        value={25}
+      />
+      <PickerIOSItem
+        key="26"
+        label="26 years"
+        value={26}
+      />
+      <PickerIOSItem
+        key="27"
+        label="27 years"
+        value={27}
+      />
+      <PickerIOSItem
+        key="28"
+        label="28 years"
+        value={28}
+      />
+      <PickerIOSItem
+        key="29"
+        label="29 years"
+        value={29}
+      />
+      <PickerIOSItem
+        key="30"
+        label="30 years"
+        value={30}
+      />
+      <PickerIOSItem
+        key="31"
+        label="31 years"
+        value={31}
+      />
+      <PickerIOSItem
+        key="32"
+        label="32 years"
+        value={32}
+      />
+      <PickerIOSItem
+        key="33"
+        label="33 years"
+        value={33}
+      />
+      <PickerIOSItem
+        key="34"
+        label="34 years"
+        value={34}
+      />
+      <PickerIOSItem
+        key="35"
+        label="35 years"
+        value={35}
+      />
+      <PickerIOSItem
+        key="36"
+        label="36 years"
+        value={36}
+      />
+      <PickerIOSItem
+        key="37"
+        label="37 years"
+        value={37}
+      />
+      <PickerIOSItem
+        key="38"
+        label="38 years"
+        value={38}
+      />
+      <PickerIOSItem
+        key="39"
+        label="39 years"
+        value={39}
+      />
+      <PickerIOSItem
+        key="40"
+        label="40 years"
+        value={40}
+      />
+      <PickerIOSItem
+        key="41"
+        label="41 years"
+        value={41}
+      />
+      <PickerIOSItem
+        key="42"
+        label="42 years"
+        value={42}
+      />
+      <PickerIOSItem
+        key="43"
+        label="43 years"
+        value={43}
+      />
+      <PickerIOSItem
+        key="44"
+        label="44 years"
+        value={44}
+      />
+      <PickerIOSItem
+        key="45"
+        label="45 years"
+        value={45}
+      />
+      <PickerIOSItem
+        key="46"
+        label="46 years"
+        value={46}
+      />
+      <PickerIOSItem
+        key="47"
+        label="47 years"
+        value={47}
+      />
+      <PickerIOSItem
+        key="48"
+        label="48 years"
+        value={48}
+      />
+      <PickerIOSItem
+        key="49"
+        label="49 years"
+        value={49}
+      />
+      <PickerIOSItem
+        key="50"
+        label="50 years"
+        value={50}
+      />
+      <PickerIOSItem
+        key="51"
+        label="51 years"
+        value={51}
+      />
+      <PickerIOSItem
+        key="52"
+        label="52 years"
+        value={52}
+      />
+      <PickerIOSItem
+        key="53"
+        label="53 years"
+        value={53}
+      />
+      <PickerIOSItem
+        key="54"
+        label="54 years"
+        value={54}
+      />
+      <PickerIOSItem
+        key="55"
+        label="55 years"
+        value={55}
+      />
+      <PickerIOSItem
+        key="56"
+        label="56 years"
+        value={56}
+      />
+      <PickerIOSItem
+        key="57"
+        label="57 years"
+        value={57}
+      />
+      <PickerIOSItem
+        key="58"
+        label="58 years"
+        value={58}
+      />
+      <PickerIOSItem
+        key="59"
+        label="59 years"
+        value={59}
+      />
+      <PickerIOSItem
+        key="60"
+        label="60 years"
+        value={60}
+      />
+      <PickerIOSItem
+        key="61"
+        label="61 years"
+        value={61}
+      />
+      <PickerIOSItem
+        key="62"
+        label="62 years"
+        value={62}
+      />
+      <PickerIOSItem
+        key="63"
+        label="63 years"
+        value={63}
+      />
+      <PickerIOSItem
+        key="64"
+        label="64 years"
+        value={64}
+      />
+      <PickerIOSItem
+        key="65"
+        label="65 years"
+        value={65}
+      />
+      <PickerIOSItem
+        key="66"
+        label="66 years"
+        value={66}
+      />
+      <PickerIOSItem
+        key="67"
+        label="67 years"
+        value={67}
+      />
+      <PickerIOSItem
+        key="68"
+        label="68 years"
+        value={68}
+      />
+      <PickerIOSItem
+        key="69"
+        label="69 years"
+        value={69}
+      />
+      <PickerIOSItem
+        key="70"
+        label="70 years"
+        value={70}
+      />
+      <PickerIOSItem
+        key="71"
+        label="71 years"
+        value={71}
+      />
+      <PickerIOSItem
+        key="72"
+        label="72 years"
+        value={72}
+      />
+      <PickerIOSItem
+        key="73"
+        label="73 years"
+        value={73}
+      />
+      <PickerIOSItem
+        key="74"
+        label="74 years"
+        value={74}
+      />
+      <PickerIOSItem
+        key="75"
+        label="75 years"
+        value={75}
+      />
+      <PickerIOSItem
+        key="76"
+        label="76 years"
+        value={76}
+      />
+      <PickerIOSItem
+        key="77"
+        label="77 years"
+        value={77}
+      />
+      <PickerIOSItem
+        key="78"
+        label="78 years"
+        value={78}
+      />
+      <PickerIOSItem
+        key="79"
+        label="79 years"
+        value={79}
+      />
+      <PickerIOSItem
+        key="80"
+        label="80 years"
+        value={80}
+      />
+      <PickerIOSItem
+        key="81"
+        label="81 years"
+        value={81}
+      />
+      <PickerIOSItem
+        key="82"
+        label="82 years"
+        value={82}
+      />
+      <PickerIOSItem
+        key="83"
+        label="83 years"
+        value={83}
+      />
+      <PickerIOSItem
+        key="84"
+        label="84 years"
+        value={84}
+      />
+      <PickerIOSItem
+        key="85"
+        label="85 years"
+        value={85}
+      />
+      <PickerIOSItem
+        key="86"
+        label="86 years"
+        value={86}
+      />
+      <PickerIOSItem
+        key="87"
+        label="87 years"
+        value={87}
+      />
+      <PickerIOSItem
+        key="88"
+        label="88 years"
+        value={88}
+      />
+      <PickerIOSItem
+        key="89"
+        label="89 years"
+        value={89}
+      />
+      <PickerIOSItem
+        key="90"
+        label="90 years"
+        value={90}
+      />
+      <PickerIOSItem
+        key="91"
+        label="91 years"
+        value={91}
+      />
+      <PickerIOSItem
+        key="92"
+        label="92 years"
+        value={92}
+      />
+      <PickerIOSItem
+        key="93"
+        label="93 years"
+        value={93}
+      />
+      <PickerIOSItem
+        key="94"
+        label="94 years"
+        value={94}
+      />
+      <PickerIOSItem
+        key="95"
+        label="95 years"
+        value={95}
+      />
+      <PickerIOSItem
+        key="96"
+        label="96 years"
+        value={96}
+      />
+      <PickerIOSItem
+        key="97"
+        label="97 years"
+        value={97}
+      />
+      <PickerIOSItem
+        key="98"
+        label="98 years"
+        value={98}
+      />
+      <PickerIOSItem
+        key="99"
+        label="99 years"
+        value={99}
+      />
+    </PickerIOS>
+  </Component>
+  <Button
+    onPress={[Function]}
+    title="Select"
+    variant="primary-md"
+  />
+</Component>
+`;

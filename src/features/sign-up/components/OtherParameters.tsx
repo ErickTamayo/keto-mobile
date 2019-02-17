@@ -20,22 +20,15 @@ export interface Props
     WithOtherParametersQueryProps,
     WithOtherParametersMutationProps {}
 
-class OtherParameters extends Component<Props, State> {
-  private navigateToCreateAccount = () => {}
+class OtherParameters extends Component<Props, {}> {
+  private navigateToCreateAccount = () => {
+    const { navigation } = this.props
+    navigation.navigate('AccountCreation')
+  }
 
   private openModal = (component: any, props: object) => {
     const { navigation } = this.props
     navigation.navigate('Modal', { component, props })
-  }
-
-  private setAge = (age: number | null) => {
-    const { setSignUpUserOtherParameters } = this.props
-    setSignUpUserOtherParameters({ variables: { age } })
-  }
-
-  private setHeight = (height: Height | null) => {
-    const { setSignUpUserOtherParameters } = this.props
-    setSignUpUserOtherParameters({ variables: { height } })
   }
 
   public render(): JSX.Element {
@@ -62,7 +55,7 @@ class OtherParameters extends Component<Props, State> {
                   age,
                 })
               }
-              onClear={() => this.setAge(null)}
+              onClear={() => setSignUpUserOtherParameters({ variables: { age: null } })}
             />
             <PressableInput
               icon="height"

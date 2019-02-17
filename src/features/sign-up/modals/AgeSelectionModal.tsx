@@ -6,6 +6,8 @@ import { sequence } from '../../../helpers'
 
 export interface Props {
   onSelect: (value?: any) => void
+  dismiss: () => void
+  age: number
 }
 
 export interface State {
