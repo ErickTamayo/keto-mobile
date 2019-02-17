@@ -2,12 +2,14 @@ import React, { ReactNode } from 'react'
 import { Text, View, GestureResponderEvent } from 'react-native'
 import Button from '../button/Button'
 import {
+  containerStyle,
   cardContainerStyle,
   cardStyle,
   titleStyle,
   descriptionStyle,
   childrenContainerStyle,
   textContainerStyle,
+  footerStyle,
 } from './styles'
 
 export interface Props {
@@ -18,6 +20,7 @@ export interface Props {
   disabled?: boolean
   loading?: boolean
   children?: ReactNode
+  footer?: ReactNode
 }
 
 const CardWithHeaderAndButton = ({
@@ -27,15 +30,24 @@ const CardWithHeaderAndButton = ({
   onButtonPress,
   disabled,
   children,
+  footer,
 }: Props) => (
-  <View style={cardContainerStyle}>
+  <View style={containerStyle}>
     <View style={textContainerStyle}>
       <Text style={titleStyle}>{title}</Text>
       <Text style={descriptionStyle}>{description}</Text>
     </View>
-    <View style={cardStyle}>
-      <View style={childrenContainerStyle}>{children}</View>
-      <Button title={buttonText} variant="primary-md" onPress={onButtonPress} disabled={disabled} />
+    <View style={cardContainerStyle}>
+      <View style={cardStyle}>
+        <View style={childrenContainerStyle}>{children}</View>
+        <Button
+          title={buttonText}
+          variant="primary-md"
+          onPress={onButtonPress}
+          disabled={disabled}
+        />
+      </View>
+      {footer && <View style={footerStyle}>{footer}</View>}
     </View>
   </View>
 )

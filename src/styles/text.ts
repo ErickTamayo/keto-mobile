@@ -1,4 +1,4 @@
-import { StyleSheet, StyleProp, TextStyle } from 'react-native'
+import { StyleSheet, TextStyle } from 'react-native'
 import Colors from './colors'
 
 const color = {
@@ -78,4 +78,7 @@ export default StyleSheet.create({
   center: {
     textAlign: 'center',
   } as TextStyle, // For some reason this wasnt working or being casted as expected
+  left: {
+    textAlign: 'left',
+  },
 })

@@ -1,6 +1,7 @@
 import { createStackNavigator, createAppContainer, NavigationContainer } from 'react-navigation'
-import StartScreen from '../features/start-screen/containers/StartScreen'
+import StartScreen from '../features/start-screen/components/StartScreen'
 import SignUpRoutes from './SignUpRoutes'
+import LoginRoutes from './LoginRoutes'
 import NavigationOptions from '../constants/NavigationOptions'
 import Modal from '../components/modal/Modal'
 
@@ -11,11 +12,14 @@ const appNavigator: NavigationContainer = createStackNavigator(
       navigationOptions: () => NavigationOptions,
     },
     ...SignUpRoutes,
+    ...LoginRoutes,
   },
   {
     initialRouteName: 'Start',
     // initialRouteName: 'OtherParameters',
     // initialRouteName: 'GenderSelection',
+    // initialRouteName: 'AccountCreation',
+    // initialRouteName: 'Login',
     cardShadowEnabled: false,
   }
 )

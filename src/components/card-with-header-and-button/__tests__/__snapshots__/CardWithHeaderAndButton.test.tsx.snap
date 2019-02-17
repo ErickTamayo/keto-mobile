@@ -8,9 +8,6 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
         "flex": 1,
       },
       Object {
-        "marginBottom": 65,
-      },
-      Object {
         "justifyContent": "space-around",
       },
     ]
@@ -20,10 +17,13 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
     style={
       Array [
         Object {
-          "padding": 26,
+          "flex": 1,
         },
         Object {
-          "marginTop": 65,
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
         },
       ]
     }
@@ -41,10 +41,13 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
             "textAlign": "center",
           },
           Object {
-            "marginBottom": 45.5,
+            "fontSize": 20,
           },
           Object {
-            "fontSize": 20,
+            "margin": 19.5,
+          },
+          Object {
+            "marginBottom": 32.5,
           },
         ]
       }
@@ -66,6 +69,12 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
           Object {
             "textAlign": "center",
           },
+          Object {
+            "marginLeft": 19.5,
+          },
+          Object {
+            "marginRight": 26,
+          },
         ]
       }
     />
@@ -74,55 +83,68 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
     style={
       Array [
         Object {
-          "margin": 13,
-        },
-        Object {
-          "marginBottom": 65,
-        },
-        Object {
-          "paddingLeft": 19.5,
-        },
-        Object {
-          "paddingRight": 19.5,
-        },
-        Object {
-          "paddingBottom": 26,
-        },
-        Object {
-          "paddingTop": 26,
-        },
-        Object {
-          "backgroundColor": "#ffffff",
+          "flex": 2,
         },
         Object {
           "alignItems": "center",
-        },
-        Object {
-          "borderRadius": 10,
-        },
-        Object {
-          "shadowColor": "#000000",
-          "shadowOffset": Object {
-            "height": 4,
-            "width": 2,
-          },
-          "shadowOpacity": 0.1,
-          "shadowRadius": 2,
         },
       ]
     }
   >
     <Component
-      style={Array []}
+      style={
+        Array [
+          Object {
+            "marginTop": 13,
+          },
+          Object {
+            "paddingLeft": 19.5,
+          },
+          Object {
+            "paddingRight": 19.5,
+          },
+          Object {
+            "paddingBottom": 26,
+          },
+          Object {
+            "paddingTop": 26,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+          Object {
+            "borderRadius": 10,
+          },
+          Object {
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 2,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 2,
+          },
+        ]
+      }
     >
-      <Component>
-        card-children
+      <Component
+        style={Array []}
+      >
+        <Component>
+          card-children
+        </Component>
       </Component>
+      <Button
+        title="button-text"
+        variant="primary-md"
+      />
     </Component>
-    <Button
-      title="button-text"
-      variant="primary-md"
-    />
   </Component>
 </Component>
 `;
@@ -135,9 +157,6 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
         "flex": 1,
       },
       Object {
-        "marginBottom": 65,
-      },
-      Object {
         "justifyContent": "space-around",
       },
     ]
@@ -147,10 +166,13 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
     style={
       Array [
         Object {
-          "padding": 26,
+          "flex": 1,
         },
         Object {
-          "marginTop": 65,
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
         },
       ]
     }
@@ -168,10 +190,13 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
             "textAlign": "center",
           },
           Object {
-            "marginBottom": 45.5,
+            "fontSize": 20,
           },
           Object {
-            "fontSize": 20,
+            "margin": 19.5,
+          },
+          Object {
+            "marginBottom": 32.5,
           },
         ]
       }
@@ -193,6 +218,12 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
           Object {
             "textAlign": "center",
           },
+          Object {
+            "marginLeft": 19.5,
+          },
+          Object {
+            "marginRight": 26,
+          },
         ]
       }
     />
@@ -201,56 +232,69 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
     style={
       Array [
         Object {
-          "margin": 13,
-        },
-        Object {
-          "marginBottom": 65,
-        },
-        Object {
-          "paddingLeft": 19.5,
-        },
-        Object {
-          "paddingRight": 19.5,
-        },
-        Object {
-          "paddingBottom": 26,
-        },
-        Object {
-          "paddingTop": 26,
-        },
-        Object {
-          "backgroundColor": "#ffffff",
+          "flex": 2,
         },
         Object {
           "alignItems": "center",
-        },
-        Object {
-          "borderRadius": 10,
-        },
-        Object {
-          "shadowColor": "#000000",
-          "shadowOffset": Object {
-            "height": 4,
-            "width": 2,
-          },
-          "shadowOpacity": 0.1,
-          "shadowRadius": 2,
         },
       ]
     }
   >
     <Component
-      style={Array []}
+      style={
+        Array [
+          Object {
+            "marginTop": 13,
+          },
+          Object {
+            "paddingLeft": 19.5,
+          },
+          Object {
+            "paddingRight": 19.5,
+          },
+          Object {
+            "paddingBottom": 26,
+          },
+          Object {
+            "paddingTop": 26,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+          Object {
+            "borderRadius": 10,
+          },
+          Object {
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 2,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 2,
+          },
+        ]
+      }
     >
-      <Component>
-        card-children
+      <Component
+        style={Array []}
+      >
+        <Component>
+          card-children
+        </Component>
       </Component>
+      <Button
+        disabled={true}
+        title="button-text"
+        variant="primary-md"
+      />
     </Component>
-    <Button
-      disabled={true}
-      title="button-text"
-      variant="primary-md"
-    />
   </Component>
 </Component>
 `;
