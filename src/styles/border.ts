@@ -11,6 +11,9 @@ const color = {
   green: {
     borderColor: Colors.green,
   },
+  purple: {
+    borderColor: Colors.purple,
+  },
 
   greyDarkest: {
     borderColor: Colors.greyDarkest,
@@ -73,6 +76,21 @@ const width = {
   },
   a5: {
     borderWidth: 5,
+  },
+  b1: {
+    borderBottomWidth: 1,
+  },
+  b2: {
+    borderBottomWidth: 2,
+  },
+  b3: {
+    borderBottomWidth: 3,
+  },
+  b4: {
+    borderBottomWidth: 4,
+  },
+  b5: {
+    borderBottomWidth: 5,
   },
 }
 

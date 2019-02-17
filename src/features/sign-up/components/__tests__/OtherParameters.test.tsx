@@ -15,9 +15,9 @@ describe('<OtherParameters />', () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
       age: null,
-      height: { unit: 'imperial', cm: null, ft: null, in: null },
-      weight: { unit: 'imperial', lbs: null, kg: null },
-      weightGoal: { unit: 'imperial', lbs: null, kg: null },
+      height: { unit: 'imperial', centimeters: null, feet: null, inches: null },
+      weight: { unit: 'imperial', pounds: null, kilograms: null },
+      weightGoal: { unit: 'imperial', pounds: null, kilograms: null },
       setSignUpUserOtherParameters: jest.fn(),
     }
 
@@ -31,9 +31,9 @@ describe('<OtherParameters />', () => {
           data: {
             signUpUser: {
               age: null,
-              height: { unit: 'imperial', cm: 1, ft: 1, in: 1 },
-              weight: { unit: 'imperial', lbs: 1, kg: 1 },
-              weightGoal: { unit: 'imperial', lbs: 1, kg: 1 },
+              height: { unit: 'imperial', centimeters: 1, feet: 1, inches: 1 },
+              weight: { unit: 'imperial', pounds: 1, kilograms: 1 },
+              weightGoal: { unit: 'imperial', pounds: 1, kilograms: 1 },
             },
           },
         },

@@ -14,19 +14,19 @@ export const GET_SIGN_UP_USER_OTHER_PARAMETERS = gql`
       age
       height {
         unit
-        ft
-        in
-        cm
+        feet
+        inches
+        centimeters
       }
       weight {
         unit
-        lbs
-        kg
+        pounds
+        kilograms
       }
       weightGoal {
         unit
-        lbs
-        kg
+        pounds
+        kilograms
       }
     }
   }

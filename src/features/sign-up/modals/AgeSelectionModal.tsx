@@ -41,7 +41,7 @@ export default class AgeSelectionModal extends Component<Props, State> {
             onValueChange={itemValue => this.setState({ age: itemValue as number })}
             itemStyle={[st.font.medium, st.text.lg, st.text.greyDark]}
           >
-            {sequence(1, 99, 13).map((value: number) => (
+            {sequence(1, 100, 13).map((value: number) => (
               <PickerIOS.Item key={value} label={`${value} years`} value={value} />
             ))}
           </PickerIOS>

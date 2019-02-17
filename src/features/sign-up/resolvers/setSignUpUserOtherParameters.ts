@@ -15,19 +15,19 @@ const setSignUpUserOtherParameters = (
       age
       height {
         unit
-        ft
-        in
-        cm
+        feet
+        inches
+        centimeters
       }
       weight {
         unit
-        lbs
-        kg
+        pounds
+        kilograms
       }
       weightGoal {
         unit
-        lbs
-        kg
+        pounds
+        kilograms
       }
     }
   `

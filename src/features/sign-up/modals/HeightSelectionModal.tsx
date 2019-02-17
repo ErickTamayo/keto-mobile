@@ -2,54 +2,123 @@ import React, { Component } from 'react'
 import { View, Text, PickerIOS } from 'react-native'
 import st from '../../../styles'
 import Button from '../../../components/button/Button'
+import Selector from '../../../components/selector/Selector'
 import { sequence } from '../../../helpers'
 
 export interface Props {
   onSelect: (value?: any) => void
-  unit: 'imperial' | 'metric'
-  feet: number | null
-  inches: number | null
-  centimeters: number | null
+  dismiss: () => void
+  height: Height
 }
 
 export interface State {
   unit: 'imperial' | 'metric'
-  // REPLACE IN as is a reserved word
-  inches: number
   feet: number
+  inches: number
   centimeters: number
 }
 
 export default class HeightSelectionModal extends Component<Props, State> {
-  constructor(props: any) {
-    super(props)
+  state = {
+    unit: this.props.height.unit ? this.props.height.unit : 'imperial',
+    feet: this.props.height.feet ? this.props.height.feet : 5,
+    inches: this.props.height.inches ? this.props.height.inches : 9,
+    centimeters: this.props.height.centimeters ? this.props.height.centimeters : 175,
   }
 
   private onSelect = () => {
     const { onSelect, dismiss } = this.props
-    // const { age } = this.state
-
-    onSelect(0)
+    const { unit, feet, inches, centimeters } = this.state
+    // TODO normalize cm and ft/in to be the same value on
+    // both units
+    onSelect({ unit, feet, inches, centimeters })
     dismiss()
   }
 
-  render() {
-    // const { age } = this.state
+  private renderUnitSelector = () => {
+    const { unit } = this.state
 
+    return (
+      <Selector
+        selectedValue={unit}
+        onSelect={unit => this.setState({ unit: unit as State['unit'] })}
+      >
+        <Selector.Item value="imperial" label="in" />
+        <Selector.Item value="metric" label="cm" />
+      </Selector>
+    )
+  }
+
+  private renderImperialPickers = () => {
+    const { unit, feet, inches } = this.state
+
+    return (
+      <View
+        style={[
+          st.flex.f1,
+          st.flex.row,
+          st.items.center,
+          unit === 'imperial' ? st.display.flex : st.display.none,
+        ]}
+      >
+        <PickerIOS
+          selectedValue={feet}
+          style={[st.width.w14]}
+          onValueChange={itemValue => this.setState({ feet: itemValue as number })}
+          itemStyle={[st.font.medium, st.text.lg, st.text.greyDark]}
+        >
+          {sequence(1, 8, 3).map((value: number) => (
+            <PickerIOS.Item key={`ft-${value}`} label={`${value} ft`} value={value} />
+          ))}
+        </PickerIOS>
+        <PickerIOS
+          selectedValue={inches}
+          style={[st.width.w14]}
+          onValueChange={itemValue => this.setState({ inches: itemValue as number })}
+          itemStyle={[st.font.medium, st.text.lg, st.text.greyDark]}
+        >
+          {sequence(1, 12).map((value: number) => (
+            <PickerIOS.Item key={value} label={`${value} in`} value={value} />
+          ))}
+        </PickerIOS>
+      </View>
+    )
+  }
+
+  private renderMetricPicker = () => {
+    const { unit, centimeters } = this.state
+
+    return (
+      <View
+        style={[
+          st.flex.f1,
+          st.flex.row,
+          st.items.center,
+          unit === 'metric' ? st.display.flex : st.display.none,
+        ]}
+      >
+        <PickerIOS
+          selectedValue={centimeters}
+          style={[st.width.w28]}
+          onValueChange={itemValue => this.setState({ centimeters: itemValue as number })}
+          itemStyle={[st.font.medium, st.text.lg, st.text.greyDark]}
+        >
+          {sequence(1, 241, 91).map((value: number) => (
+            <PickerIOS.Item key={value} label={`${value} cm`} value={value} />
+          ))}
+        </PickerIOS>
+      </View>
+    )
+  }
+
+  render() {
     return (
       <View style={[st.justify.center, st.items.center, st.text.center]}>
         <Text style={[st.font.medium, st.text.lg, st.text.greyDark]}>Height</Text>
-        <View>
-          {/* <PickerIOS
-            selectedValue={age}
-            style={[st.width.w28]}
-            onValueChange={itemValue => this.setState({ age: itemValue as number })}
-            itemStyle={[st.font.medium, st.text.lg, st.text.greyDark]}
-          >
-            {sequence(1, 99, 13).map((value: number) => (
-              <PickerIOS.Item key={value} label={`${value} years`} value={value} />
-            ))}
-          </PickerIOS> */}
+        {this.renderUnitSelector()}
+        <View style={[st.maxHeight.h27, st.items.center, st.m.t1]}>
+          {this.renderImperialPickers()}
+          {this.renderMetricPicker()}
         </View>
         <Button title="Select" variant="primary-md" onPress={this.onSelect} />
       </View>

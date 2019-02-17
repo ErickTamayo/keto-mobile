@@ -1,8 +1,13 @@
 import React from 'react'
 import { Animated, View, TouchableWithoutFeedback } from 'react-native'
 import { NavigationInjectedProps } from 'react-navigation'
-import { cardStyle } from './styles'
-import st from '../../styles'
+import {
+  cardStyle,
+  containerStyle,
+  backgroundStyle,
+  dismissContainerStyle,
+  dismissStyle,
+} from './styles'
 
 interface State {
   fadeModalValue: Animated.Value
@@ -50,47 +55,24 @@ class Modal extends React.Component<NavigationInjectedProps, State> {
     const { navigation } = this.props
     const { fadeModalValue } = this.state
     const Component = navigation.getParam('component', View)
-    const parentProps = navigation.getParam('props', {})
+    const componentProps = navigation.getParam('props', {})
 
     return (
-      <View
-        style={{
-          position: 'absolute',
-          top: 0,
-          bottom: 0,
-          left: 0,
-          right: 0,
-        }}
-      >
+      <View style={containerStyle}>
         <Animated.View
-          style={{
-            backgroundColor: 'rgba(34, 34, 34, 0.7)',
-            opacity: fadeModalValue,
-            position: 'absolute',
-            top: 0,
-            bottom: 0,
-            left: 0,
-            right: 0,
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
+          style={[
+            backgroundStyle,
+            { backgroundColor: 'rgba(34, 34, 34, 0.7)', opacity: fadeModalValue },
+          ]}
         >
-          <View
-            style={{
-              position: 'absolute',
-              top: 0,
-              bottom: 0,
-              left: 0,
-              right: 0,
-            }}
-          >
+          <View style={dismissContainerStyle}>
             <TouchableWithoutFeedback onPress={this.dismiss}>
-              <View style={{ flex: 1 }} />
+              <View style={dismissStyle} />
             </TouchableWithoutFeedback>
           </View>
 
           <View style={cardStyle}>
-            <Component dismiss={this.dismiss} {...parentProps} />
+            <Component dismiss={this.dismiss} {...componentProps} />
           </View>
         </Animated.View>
       </View>

@@ -8,6 +8,9 @@ const color = {
   green: {
     color: Colors.green,
   },
+  purple: {
+    color: Colors.purple,
+  },
   greyDarkest: {
     color: Colors.greyDarkest,
   },

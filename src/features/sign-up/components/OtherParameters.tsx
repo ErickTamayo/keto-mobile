@@ -6,6 +6,7 @@ import CardWithHeaderAndButton from '../../../components/card-with-header-and-bu
 import PressableInput from '../../../components/pressable-input/PressableInput'
 import AgeSelectionModal from '../modals/AgeSelectionModal'
 import HeightSelectionModal from '../modals/HeightSelectionModal'
+import WeightSelectionModal from '../modals/WeightSelectionModal'
 import { ageToString, weightToString, heightToString } from '../../../helpers'
 import withOtherParametersQuery, {
   WithOtherParametersQueryProps,
@@ -32,6 +33,11 @@ class OtherParameters extends Component<Props, State> {
     setSignUpUserOtherParameters({ variables: { age } })
   }
 
+  private setHeight = (height: Height | null) => {
+    const { setSignUpUserOtherParameters } = this.props
+    setSignUpUserOtherParameters({ variables: { height } })
+  }
+
   public render(): JSX.Element {
     const { age, height, weight, weightGoal, setSignUpUserOtherParameters } = this.props
 
@@ -52,7 +58,7 @@ class OtherParameters extends Component<Props, State> {
               value={ageToString(age)}
               onPress={() =>
                 this.openModal(AgeSelectionModal, {
-                  onSelect: (age: number) => this.setAge(age),
+                  onSelect: (age: number) => setSignUpUserOtherParameters({ variables: { age } }),
                   age,
                 })
               }
@@ -65,7 +71,10 @@ class OtherParameters extends Component<Props, State> {
               value={heightToString(height)}
               onPress={() =>
                 this.openModal(HeightSelectionModal, {
-                  onSelect: (height: Height) => console.log(height),
+                  onSelect: (updatedHeight: Height) =>
+                    setSignUpUserOtherParameters({
+                      variables: { height: { ...height, ...updatedHeight } },
+                    }),
                   height,
                 })
               }
@@ -75,9 +84,9 @@ class OtherParameters extends Component<Props, State> {
                     height: {
                       ...height,
                       unit: 'imperial',
-                      ft: null,
-                      in: null,
-                      cm: null,
+                      feet: null,
+                      inches: null,
+                      centimeters: null,
                     },
                   },
                 })
@@ -88,14 +97,23 @@ class OtherParameters extends Component<Props, State> {
               placeholder="WEIGHT"
               name="starting-weight"
               value={weightToString(weight)}
-              onPress={() => console.log('weight')}
+              onPress={() =>
+                this.openModal(WeightSelectionModal, {
+                  title: 'Weight',
+                  onSelect: (updatedWeight: Weight) =>
+                    setSignUpUserOtherParameters({
+                      variables: { weight: { ...weight, ...updatedWeight } },
+                    }),
+                  weight,
+                })
+              }
               onClear={() =>
                 setSignUpUserOtherParameters({
                   variables: {
                     weight: {
                       ...weight,
-                      lbs: null,
-                      kg: null,
+                      pounds: null,
+                      kilograms: null,
                     },
                   },
                 })
@@ -106,14 +124,23 @@ class OtherParameters extends Component<Props, State> {
               placeholder="GOAL WEIGHT"
               name="goal-weight"
               value={weightToString(weightGoal)}
-              onPress={() => console.log('goal weight')}
+              onPress={() =>
+                this.openModal(WeightSelectionModal, {
+                  title: 'Goal Weight',
+                  onSelect: (updatedweightGoal: Weight) =>
+                    setSignUpUserOtherParameters({
+                      variables: { weightGoal: { ...weightGoal, ...updatedweightGoal } },
+                    }),
+                  weight: weightGoal,
+                })
+              }
               onClear={() =>
                 setSignUpUserOtherParameters({
                   variables: {
                     weightGoal: {
                       ...weightGoal,
-                      lbs: null,
-                      kg: null,
+                      pounds: null,
+                      kilograms: null,
                     },
                   },
                 })

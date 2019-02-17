@@ -1,10 +1,18 @@
 export const ageToString = (age: number | null): string => (age ? `${age} years` : '')
 
 export const weightToString = (weight: Weight): string =>
-  weight.lbs ? (weight.unit === 'imperial' ? `${weight.lbs} lbs` : `${weight.kg} kg`) : ''
+  weight.pounds
+    ? weight.unit === 'imperial'
+      ? `${weight.pounds} lbs`
+      : `${weight.kilograms} kg`
+    : ''
 
 export const heightToString = (height: Height): string =>
-  height.in ? (height.unit === 'imperial' ? `${height.ft} ' ${height.in}"` : `${height.cm} cm`) : ''
+  height.inches
+    ? height.unit === 'imperial'
+      ? `${height.feet}' ${height.inches}"`
+      : `${height.centimeters} cm`
+    : ''
 
 export const removedUndefinedProps = (object: { [key: string]: any }) => {
   let copy: { [key: string]: any } = {}

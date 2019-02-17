@@ -20,13 +20,13 @@ type Optionalize<T extends K, K> = Omit<T, keyof K>
 // App Types
 type Height = {
   unit: 'imperial' | 'metric'
-  ft: number | null
-  in: number | null
-  cm: number | null
+  feet: number | null
+  inches: number | null
+  centimeters: number | null
 }
 
 type Weight = {
   unit: 'imperial' | 'metric'
-  lbs: number | null
-  kg: number | null
+  pounds: number | null
+  kilograms: number | null
 }

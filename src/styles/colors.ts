@@ -1,9 +1,11 @@
 export default {
   transparent: 'transparent',
+  black: '#222222',
+  white: '#ffffff',
 
   green: '#57ae5b',
 
-  black: '#222222',
+  purple: '#724bb7',
 
   greyDarkest: '#3b3b3b',
   greyDarker: '#515151',
@@ -16,6 +18,4 @@ export default {
   greyLight: '#cfcfcf',
   greyLighter: '#e1e1e1',
   greyLightest: '#f7f7f7',
-
-  white: '#ffffff',
 }

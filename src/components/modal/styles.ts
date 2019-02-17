@@ -11,3 +11,11 @@ export const cardStyle = [
   st.shadow.shadow,
   st.minWidth.w36,
 ]
+
+export const containerStyle = [st.pos.absolute, st.pos.pin]
+
+export const backgroundStyle = [st.pos.pin, st.pos.absolute, st.justify.center, st.items.center]
+
+export const dismissContainerStyle = containerStyle
+
+export const dismissStyle = [st.flex.f1]
