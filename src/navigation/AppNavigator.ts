@@ -13,8 +13,8 @@ const appNavigator: NavigationContainer = createStackNavigator(
     ...SignUpRoutes,
   },
   {
-    // initialRouteName: 'Start',
-    initialRouteName: 'OtherParameters',
+    initialRouteName: 'Start',
+    // initialRouteName: 'OtherParameters',
     // initialRouteName: 'GenderSelection',
     cardShadowEnabled: false,
   }

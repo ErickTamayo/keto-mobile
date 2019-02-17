@@ -334,7 +334,7 @@ describe('<OtherParameters />', () => {
     })
   })
 
-  it.only('navigates to the AccountCreation screen once Continue button is pressed', async () => {
+  it('navigates to the AccountCreation screen once Continue button is pressed', async () => {
     const navigateMock = jest.fn()
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
