@@ -18,11 +18,11 @@ export const buttonStyles = {
   },
   'primary-md': {
     text: [...commonText, st.text.white],
-    button: [...commonButton, st.bg.green, st.width.w20, st.height.h5],
+    button: [...commonButton, st.bg.green, st.minWidth.w20, st.height.h5],
   },
   'primary-lg': {
     text: [...commonText, st.text.white],
-    button: [...commonButton, st.bg.green, st.height.h6, st.width.w36],
+    button: [...commonButton, st.bg.green, st.height.h6, st.minWidth.w36],
   },
   secondary: {
     text: [...commonText, st.text.green, st.height.h5],
@@ -30,7 +30,7 @@ export const buttonStyles = {
   },
   'secondary-lg': {
     text: [...commonText, st.text.green],
-    button: [...commonButton, st.bg.transparent, st.height.h6, st.width.w36],
+    button: [...commonButton, st.bg.transparent, st.height.h6, st.minWidth.w36],
   },
 }
 

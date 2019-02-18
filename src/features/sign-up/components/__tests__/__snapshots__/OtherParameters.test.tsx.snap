@@ -541,7 +541,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                         "flex": 1,
                       },
                       Object {
-                        "justifyContent": "space-around",
+                        "justifyContent": "center",
                       },
                     ]
                   }
@@ -553,7 +553,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                           "flex": 1,
                         },
                         Object {
-                          "justifyContent": "space-around",
+                          "justifyContent": "center",
                         },
                       ]
                     }
@@ -607,7 +607,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                 "margin": 19.5,
                               },
                               Object {
-                                "marginBottom": 32.5,
+                                "marginBottom": 26,
                               },
                             ]
                           }
@@ -631,7 +631,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                   "margin": 19.5,
                                 },
                                 Object {
-                                  "marginBottom": 32.5,
+                                  "marginBottom": 26,
                                 },
                               ]
                             }
@@ -699,7 +699,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                             "flex": 2,
                           },
                           Object {
-                            "alignItems": "center",
+                            "justifyContent": "center",
                           },
                         ]
                       }
@@ -711,7 +711,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                               "flex": 2,
                             },
                             Object {
-                              "alignItems": "center",
+                              "justifyContent": "center",
                             },
                           ]
                         }
@@ -720,7 +720,10 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                           style={
                             Array [
                               Object {
-                                "marginTop": 13,
+                                "marginLeft": 13,
+                              },
+                              Object {
+                                "marginRight": 13,
                               },
                               Object {
                                 "paddingLeft": 19.5,
@@ -762,7 +765,10 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                             style={
                               Array [
                                 Object {
-                                  "marginTop": 13,
+                                  "marginLeft": 13,
+                                },
+                                Object {
+                                  "marginRight": 13,
                                 },
                                 Object {
                                   "paddingLeft": 19.5,
@@ -800,12 +806,8 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                               ]
                             }
                           >
-                            <Component
-                              style={Array []}
-                            >
-                              <View
-                                style={Array []}
-                              >
+                            <Component>
+                              <View>
                                 <Component
                                   style={
                                     Array [
@@ -2464,7 +2466,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                       "backgroundColor": "#57ae5b",
                                     },
                                     Object {
-                                      "width": 160,
+                                      "minWidth": 160,
                                     },
                                     Object {
                                       "height": 40,
@@ -2507,7 +2509,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                           "backgroundColor": "#57ae5b",
                                         },
                                         Object {
-                                          "width": 160,
+                                          "minWidth": 160,
                                         },
                                         Object {
                                           "height": 40,
@@ -2537,10 +2539,10 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                         "borderWidth": 1,
                                         "height": 40,
                                         "margin": 6.5,
+                                        "minWidth": 160,
                                         "opacity": 1,
                                         "paddingLeft": 19.5,
                                         "paddingRight": 19.5,
-                                        "width": 160,
                                       }
                                     }
                                   >
@@ -2561,10 +2563,10 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                           "borderWidth": 1,
                                           "height": 40,
                                           "margin": 6.5,
+                                          "minWidth": 160,
                                           "opacity": 1,
                                           "paddingLeft": 19.5,
                                           "paddingRight": 19.5,
-                                          "width": 160,
                                         }
                                       }
                                     >
@@ -2647,6 +2649,25 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                           </View>
                         </Component>
                       </View>
+                    </Component>
+                    <Component
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "flex": 1,
+                            },
+                          ]
+                        }
+                      />
                     </Component>
                   </View>
                 </Component>

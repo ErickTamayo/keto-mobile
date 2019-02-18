@@ -16,10 +16,13 @@ const appNavigator: NavigationContainer = createStackNavigator(
   },
   {
     initialRouteName: 'Start',
-    // initialRouteName: 'OtherParameters',
+
     // initialRouteName: 'GenderSelection',
+    // initialRouteName: 'OtherParameters',
     // initialRouteName: 'AccountCreation',
+
     // initialRouteName: 'Login',
+    // initialRouteName: 'AccountRecovery',
     cardShadowEnabled: false,
   }
 )

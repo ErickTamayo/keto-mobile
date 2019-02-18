@@ -3,13 +3,12 @@ import { Text, View, GestureResponderEvent } from 'react-native'
 import Button from '../button/Button'
 import {
   containerStyle,
-  cardContainerStyle,
   cardStyle,
   titleStyle,
   descriptionStyle,
-  childrenContainerStyle,
   textContainerStyle,
-  footerStyle,
+  cardContainerStyle,
+  endViewStyle,
 } from './styles'
 
 export interface Props {
@@ -39,7 +38,7 @@ const CardWithHeaderAndButton = ({
     </View>
     <View style={cardContainerStyle}>
       <View style={cardStyle}>
-        <View style={childrenContainerStyle}>{children}</View>
+        <View>{children}</View>
         <Button
           title={buttonText}
           variant="primary-md"
@@ -47,8 +46,9 @@ const CardWithHeaderAndButton = ({
           disabled={disabled}
         />
       </View>
-      {footer && <View style={footerStyle}>{footer}</View>}
+      {footer && <View>{footer}</View>}
     </View>
+    <View style={endViewStyle} />
   </View>
 )
 

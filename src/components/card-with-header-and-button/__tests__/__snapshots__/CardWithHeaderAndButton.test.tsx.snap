@@ -8,7 +8,7 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
         "flex": 1,
       },
       Object {
-        "justifyContent": "space-around",
+        "justifyContent": "center",
       },
     ]
   }
@@ -47,7 +47,7 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
             "margin": 19.5,
           },
           Object {
-            "marginBottom": 32.5,
+            "marginBottom": 26,
           },
         ]
       }
@@ -86,7 +86,7 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
           "flex": 2,
         },
         Object {
-          "alignItems": "center",
+          "justifyContent": "center",
         },
       ]
     }
@@ -95,7 +95,10 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
       style={
         Array [
           Object {
-            "marginTop": 13,
+            "marginLeft": 13,
+          },
+          Object {
+            "marginRight": 13,
           },
           Object {
             "paddingLeft": 19.5,
@@ -133,9 +136,7 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
         ]
       }
     >
-      <Component
-        style={Array []}
-      >
+      <Component>
         <Component>
           card-children
         </Component>
@@ -146,6 +147,15 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
       />
     </Component>
   </Component>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
+    }
+  />
 </Component>
 `;
 
@@ -157,7 +167,7 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
         "flex": 1,
       },
       Object {
-        "justifyContent": "space-around",
+        "justifyContent": "center",
       },
     ]
   }
@@ -196,7 +206,7 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
             "margin": 19.5,
           },
           Object {
-            "marginBottom": 32.5,
+            "marginBottom": 26,
           },
         ]
       }
@@ -235,7 +245,7 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
           "flex": 2,
         },
         Object {
-          "alignItems": "center",
+          "justifyContent": "center",
         },
       ]
     }
@@ -244,7 +254,10 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
       style={
         Array [
           Object {
-            "marginTop": 13,
+            "marginLeft": 13,
+          },
+          Object {
+            "marginRight": 13,
           },
           Object {
             "paddingLeft": 19.5,
@@ -282,9 +295,7 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
         ]
       }
     >
-      <Component
-        style={Array []}
-      >
+      <Component>
         <Component>
           card-children
         </Component>
@@ -296,5 +307,14 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
       />
     </Component>
   </Component>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
+    }
+  />
 </Component>
 `;

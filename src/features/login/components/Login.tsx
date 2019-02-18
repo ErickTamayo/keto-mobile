@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
 import { View, Text, KeyboardAvoidingView, Keyboard, TouchableOpacity } from 'react-native'
+import { NavigationInjectedProps } from 'react-navigation'
 import CardWithHeaderAndButton from '../../../components/card-with-header-and-button/CardWithHeaderAndButton'
 import Input from '../../../components/input/Input'
 import st from '../../../styles'
 
-export default class Login extends Component {
+export default class Login extends Component<NavigationInjectedProps, {}> {
   private createAccount = () => {
     Keyboard.dismiss()
   }
 
-  private navigateToAccountRecovery = () => {}
+  private navigateToAccountRecovery = () => {
+    const { navigation } = this.props
+    navigation.navigate('AccountRecovery')
+  }
 
   private renderFooter = () => {
     return (
@@ -28,7 +32,7 @@ export default class Login extends Component {
     return (
       <KeyboardAvoidingView
         style={[st.flex.f1, st.items.center, st.justify.center, st.bg.greyLightest]}
-        behavior="position"
+        behavior="padding"
       >
         <CardWithHeaderAndButton
           title="Login"
