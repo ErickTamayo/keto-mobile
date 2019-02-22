@@ -6,9 +6,10 @@ import ApolloClient from 'apollo-boost'
 
 import defaults from './graphql/defaults'
 import resolvers from './graphql/resolvers'
+import uri from './constants/Uri'
 
 const client = new ApolloClient({
-  uri: 'https://48p1r2roz4.sse.codesandbox.io',
+  uri,
   clientState: {
     defaults,
     resolvers,

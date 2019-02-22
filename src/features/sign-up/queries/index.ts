@@ -1,16 +1,12 @@
 import gql from 'graphql-tag'
 
-export const GET_SIGN_UP_USER_GENDER = gql`
+export const GET_NEW_USER = gql`
   {
-    signUpUser @client {
+    newUser @client {
+      displayName
+      email
+      password
       gender
-    }
-  }
-`
-
-export const GET_SIGN_UP_USER_OTHER_PARAMETERS = gql`
-  {
-    signUpUser @client {
       age
       height {
         unit

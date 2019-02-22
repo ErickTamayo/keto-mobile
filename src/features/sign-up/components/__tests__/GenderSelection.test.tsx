@@ -4,28 +4,31 @@ import { mount } from 'enzyme'
 import { NavigationScreenProp, NavigationRoute, NavigationParams } from 'react-navigation'
 import { MockedProvider } from 'react-apollo/test-utils'
 import wait from 'waait'
-
-import { GET_SIGN_UP_USER_GENDER } from '../../queries'
-
+import { GET_NEW_USER } from '../../queries'
 import GenderSelection, { Props } from '../GenderSelection'
+import defaults from '../../defaults'
+
+const newUser = defaults.newUser
 
 describe('<GenderSelection />', () => {
   it('renders correctly', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-      gender: null,
-      setSignUpUserGender: jest.fn(),
+      newUser: {
+        gender: null,
+      },
+      updateNewUser: jest.fn(),
     }
 
     const mocks = [
       {
         request: {
-          query: GET_SIGN_UP_USER_GENDER,
+          query: GET_NEW_USER,
           variables: {},
         },
         result: {
           data: {
-            signUpUser: { gender: null },
+            newUser,
           },
         },
       },
@@ -46,19 +49,21 @@ describe('<GenderSelection />', () => {
   it('selects female on press the first radio button', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-      gender: null,
-      setSignUpUserGender: jest.fn(),
+      newUser: {
+        gender: null,
+      },
+      updateNewUser: jest.fn(),
     }
 
     const mocks = [
       {
         request: {
-          query: GET_SIGN_UP_USER_GENDER,
+          query: GET_NEW_USER,
           variables: {},
         },
         result: {
           data: {
-            signUpUser: { gender: null },
+            newUser,
           },
         },
       },
@@ -73,7 +78,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(props.setSignUpUserGender).not.toBeCalled()
+    expect(props.updateNewUser).not.toBeCalled()
 
     wrapper
       .find(TouchableOpacity)
@@ -83,26 +88,28 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(props.setSignUpUserGender).toBeCalledWith({ variables: { gender: 'female' } })
-    expect(props.setSignUpUserGender).toBeCalled()
+    expect(props.updateNewUser).toBeCalledWith({ gender: 'FEMALE' })
+    expect(props.updateNewUser).toBeCalled()
   })
 
   it('selects male on press the second radio button', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-      gender: null,
-      setSignUpUserGender: jest.fn(),
+      newUser: {
+        gender: null,
+      },
+      updateNewUser: jest.fn(),
     }
 
     const mocks = [
       {
         request: {
-          query: GET_SIGN_UP_USER_GENDER,
+          query: GET_NEW_USER,
           variables: {},
         },
         result: {
           data: {
-            signUpUser: { gender: null },
+            newUser,
           },
         },
       },
@@ -117,7 +124,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(props.setSignUpUserGender).not.toBeCalled()
+    expect(props.updateNewUser).not.toBeCalled()
 
     wrapper
       .find(TouchableOpacity)
@@ -127,7 +134,7 @@ describe('<GenderSelection />', () => {
     await wait(0)
     wrapper.update()
 
-    expect(props.setSignUpUserGender).toBeCalledWith({ variables: { gender: 'male' } })
-    expect(props.setSignUpUserGender).toBeCalled()
+    expect(props.updateNewUser).toBeCalledWith({ gender: 'MALE' })
+    expect(props.updateNewUser).toBeCalled()
   })
 })

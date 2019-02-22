@@ -1,3 +1,3 @@
-export const SIGN_UP_USER_TYPENAME = 'SignUpUser'
+export const NEW_USER_TYPENAME = 'NewUser'
 export const HEIGHT_TYPENAME = 'Height'
 export const WEIGHT_TYPENAME = 'Weight'

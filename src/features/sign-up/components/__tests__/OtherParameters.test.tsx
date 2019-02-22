@@ -10,35 +10,34 @@ import HeightSelectionModal from '../../modals/HeightSelectionModal'
 import WeightSelectionModal from '../../modals/WeightSelectionModal'
 import CardWithHeaderAndButton from '../../../../components/card-with-header-and-button/CardWithHeaderAndButton'
 import Button from '../../../../components/button/Button'
-import { GET_SIGN_UP_USER_OTHER_PARAMETERS } from '../../queries'
-
+import { GET_NEW_USER } from '../../queries'
 import OtherParameters, { Props } from '../OtherParameters'
+import defaults from '../../defaults'
+
+const newUser = defaults.newUser
 
 describe('<OtherParameters />', () => {
   it('renders correctly', async () => {
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-      age: null,
-      height: { unit: 'imperial', centimeters: null, feet: null, inches: null },
-      weight: { unit: 'imperial', pounds: null, kilograms: null },
-      weightGoal: { unit: 'imperial', pounds: null, kilograms: null },
-      setSignUpUserOtherParameters: jest.fn(),
+      newUser: {
+        age: null,
+        height: { unit: 'IMPERIAL', centimeters: null, feet: null, inches: null },
+        weight: { unit: 'IMPERIAL', pounds: null, kilograms: null },
+        weightGoal: { unit: 'IMPERIAL', pounds: null, kilograms: null },
+      },
+      updateNewUser: jest.fn(),
     }
 
     const mocks = [
       {
         request: {
-          query: GET_SIGN_UP_USER_OTHER_PARAMETERS,
+          query: GET_NEW_USER,
           variables: {},
         },
         result: {
           data: {
-            signUpUser: {
-              age: null,
-              height: { unit: 'imperial', centimeters: 1, feet: 1, inches: 1 },
-              weight: { unit: 'imperial', pounds: 1, kilograms: 1 },
-              weightGoal: { unit: 'imperial', pounds: 1, kilograms: 1 },
-            },
+            newUser,
           },
         },
       },
@@ -56,31 +55,28 @@ describe('<OtherParameters />', () => {
     expect(wrapper.find(OtherParameters)).toMatchSnapshot()
   })
 
-  it('calls setSignUpUserOtherParameters with empty data on PressableInput onClear', async () => {
-    const setSignUpUserOtherParametersMock = jest.fn()
+  it('calls updateNewUser with empty data on PressableInput onClear', async () => {
+    const updateNewUser = jest.fn()
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-      age: null,
-      height: { unit: 'imperial', centimeters: null, feet: null, inches: null },
-      weight: { unit: 'imperial', pounds: null, kilograms: null },
-      weightGoal: { unit: 'imperial', pounds: null, kilograms: null },
-      setSignUpUserOtherParameters: setSignUpUserOtherParametersMock,
+      newUser: {
+        age: null,
+        height: { unit: 'IMPERIAL', centimeters: null, feet: null, inches: null },
+        weight: { unit: 'IMPERIAL', pounds: null, kilograms: null },
+        weightGoal: { unit: 'IMPERIAL', pounds: null, kilograms: null },
+      },
+      updateNewUser,
     }
 
     const mocks = [
       {
         request: {
-          query: GET_SIGN_UP_USER_OTHER_PARAMETERS,
+          query: GET_NEW_USER,
           variables: {},
         },
         result: {
           data: {
-            signUpUser: {
-              age: null,
-              height: { unit: 'imperial', centimeters: 1, feet: 1, inches: 1 },
-              weight: { unit: 'imperial', pounds: 1, kilograms: 1 },
-              weightGoal: { unit: 'imperial', pounds: 1, kilograms: 1 },
-            },
+            newUser,
           },
         },
       },
@@ -99,61 +95,55 @@ describe('<OtherParameters />', () => {
       node.prop('onClear')!({} as GestureResponderEvent)
     })
 
-    expect(setSignUpUserOtherParametersMock.mock.calls).toEqual([
+    expect(updateNewUser.mock.calls).toEqual([
       [
         {
-          variables: {
-            age: null,
+          age: null,
+        },
+      ],
+      [
+        {
+          height: {
+            unit: 'IMPERIAL',
+            centimeters: null,
+            feet: null,
+            inches: null,
           },
         },
       ],
       [
         {
-          variables: {
-            height: {
-              unit: 'imperial',
-              centimeters: null,
-              feet: null,
-              inches: null,
-            },
+          weight: {
+            unit: 'IMPERIAL',
+            pounds: null,
+            kilograms: null,
           },
         },
       ],
       [
         {
-          variables: {
-            weight: {
-              unit: 'imperial',
-              pounds: null,
-              kilograms: null,
-            },
-          },
-        },
-      ],
-      [
-        {
-          variables: {
-            weightGoal: {
-              unit: 'imperial',
-              pounds: null,
-              kilograms: null,
-            },
+          weightGoal: {
+            unit: 'IMPERIAL',
+            pounds: null,
+            kilograms: null,
           },
         },
       ],
     ])
   })
 
-  it('opens the modal with data on PressableInput onPress', async () => {
+  it('navigates to the modal with data on PressableInput onPress', async () => {
     const navigateMock = jest.fn()
 
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-      age: 1,
-      height: { unit: 'imperial', centimeters: 1, feet: 1, inches: 1 },
-      weight: { unit: 'imperial', pounds: 1, kilograms: 1 },
-      weightGoal: { unit: 'imperial', pounds: 1, kilograms: 1 },
-      setSignUpUserOtherParameters: () => {},
+      newUser: {
+        age: 1,
+        height: { unit: 'IMPERIAL', centimeters: 1, feet: 1, inches: 1 },
+        weight: { unit: 'IMPERIAL', pounds: 1, kilograms: 1 },
+        weightGoal: { unit: 'IMPERIAL', pounds: 1, kilograms: 1 },
+      },
+      updateNewUser: jest.fn(),
     }
 
     props.navigation.navigate = navigateMock
@@ -161,17 +151,12 @@ describe('<OtherParameters />', () => {
     const mocks = [
       {
         request: {
-          query: GET_SIGN_UP_USER_OTHER_PARAMETERS,
+          query: GET_NEW_USER,
           variables: {},
         },
         result: {
           data: {
-            signUpUser: {
-              age: null,
-              height: { unit: 'imperial', centimeters: 1, feet: 1, inches: 1 },
-              weight: { unit: 'imperial', pounds: 1, kilograms: 1 },
-              weightGoal: { unit: 'imperial', pounds: 1, kilograms: 1 },
-            },
+            newUser,
           },
         },
       },
@@ -195,7 +180,7 @@ describe('<OtherParameters />', () => {
 
     expect(navigateMock.mock.calls[1][1]['component']).toEqual(HeightSelectionModal)
     expect(navigateMock.mock.calls[1][1]['props']['height']).toEqual({
-      unit: 'imperial',
+      unit: 'IMPERIAL',
       centimeters: 1,
       feet: 1,
       inches: 1,
@@ -203,30 +188,32 @@ describe('<OtherParameters />', () => {
 
     expect(navigateMock.mock.calls[2][1]['component']).toEqual(WeightSelectionModal)
     expect(navigateMock.mock.calls[2][1]['props']['weight']).toEqual({
-      unit: 'imperial',
+      unit: 'IMPERIAL',
       pounds: 1,
       kilograms: 1,
     })
 
     expect(navigateMock.mock.calls[3][1]['component']).toEqual(WeightSelectionModal)
     expect(navigateMock.mock.calls[3][1]['props']['weight']).toEqual({
-      unit: 'imperial',
+      unit: 'IMPERIAL',
       pounds: 1,
       kilograms: 1,
     })
   })
 
-  it('calls setSignUpUserOtherParameters when PressableInput onSelect is called', async () => {
-    const setSignUpUserOtherParametersMock = jest.fn()
+  it('calls updateNewUser when PressableInput onSelect is called', async () => {
+    const updateNewUser = jest.fn()
     const navigateMock = jest.fn()
 
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-      age: 1,
-      height: { unit: 'imperial', centimeters: 1, feet: 1, inches: 1 },
-      weight: { unit: 'imperial', pounds: 1, kilograms: 1 },
-      weightGoal: { unit: 'imperial', pounds: 1, kilograms: 1 },
-      setSignUpUserOtherParameters: setSignUpUserOtherParametersMock,
+      newUser: {
+        age: 1,
+        height: { unit: 'IMPERIAL', centimeters: 1, feet: 1, inches: 1 },
+        weight: { unit: 'IMPERIAL', pounds: 1, kilograms: 1 },
+        weightGoal: { unit: 'IMPERIAL', pounds: 1, kilograms: 1 },
+      },
+      updateNewUser,
     }
 
     props.navigation.navigate = navigateMock
@@ -234,17 +221,12 @@ describe('<OtherParameters />', () => {
     const mocks = [
       {
         request: {
-          query: GET_SIGN_UP_USER_OTHER_PARAMETERS,
+          query: GET_NEW_USER,
           variables: {},
         },
         result: {
           data: {
-            signUpUser: {
-              age: null,
-              height: { unit: 'imperial', centimeters: 1, feet: 1, inches: 1 },
-              weight: { unit: 'imperial', pounds: 1, kilograms: 1 },
-              weightGoal: { unit: 'imperial', pounds: 1, kilograms: 1 },
-            },
+            newUser,
           },
         },
       },
@@ -272,7 +254,7 @@ describe('<OtherParameters />', () => {
       .prop('onPress')!({} as GestureResponderEvent)
 
     navigateMock.mock.calls[1][1]['props']['onSelect']({
-      unit: 'imperial',
+      unit: 'IMPERIAL',
       feet: 2,
       inches: 2,
       centimeters: 2,
@@ -284,7 +266,7 @@ describe('<OtherParameters />', () => {
       .prop('onPress')!({} as GestureResponderEvent)
 
     navigateMock.mock.calls[2][1]['props']['onSelect']({
-      unit: 'imperial',
+      unit: 'IMPERIAL',
       pounds: 3,
       kilograms: 3,
     })
@@ -295,41 +277,35 @@ describe('<OtherParameters />', () => {
       .prop('onPress')!({} as GestureResponderEvent)
 
     navigateMock.mock.calls[3][1]['props']['onSelect']({
-      unit: 'imperial',
+      unit: 'IMPERIAL',
       pounds: 4,
       kilograms: 4,
     })
 
-    expect(setSignUpUserOtherParametersMock.mock.calls[0][0]).toEqual({ variables: { age: 1 } })
+    expect(updateNewUser.mock.calls[0][0]).toEqual({ age: 1 })
 
-    expect(setSignUpUserOtherParametersMock.mock.calls[1][0]).toEqual({
-      variables: {
-        height: {
-          centimeters: 2,
-          feet: 2,
-          inches: 2,
-          unit: 'imperial',
-        },
+    expect(updateNewUser.mock.calls[1][0]).toEqual({
+      height: {
+        centimeters: 2,
+        feet: 2,
+        inches: 2,
+        unit: 'IMPERIAL',
       },
     })
 
-    expect(setSignUpUserOtherParametersMock.mock.calls[2][0]).toEqual({
-      variables: {
-        weight: {
-          pounds: 3,
-          kilograms: 3,
-          unit: 'imperial',
-        },
+    expect(updateNewUser.mock.calls[2][0]).toEqual({
+      weight: {
+        pounds: 3,
+        kilograms: 3,
+        unit: 'IMPERIAL',
       },
     })
 
-    expect(setSignUpUserOtherParametersMock.mock.calls[3][0]).toEqual({
-      variables: {
-        weightGoal: {
-          pounds: 4,
-          kilograms: 4,
-          unit: 'imperial',
-        },
+    expect(updateNewUser.mock.calls[3][0]).toEqual({
+      weightGoal: {
+        pounds: 4,
+        kilograms: 4,
+        unit: 'IMPERIAL',
       },
     })
   })
@@ -338,11 +314,13 @@ describe('<OtherParameters />', () => {
     const navigateMock = jest.fn()
     const props: Props = {
       navigation: {} as NavigationScreenProp<NavigationRoute<NavigationParams>, NavigationParams>,
-      age: null,
-      height: { unit: 'imperial', centimeters: null, feet: null, inches: null },
-      weight: { unit: 'imperial', pounds: null, kilograms: null },
-      weightGoal: { unit: 'imperial', pounds: null, kilograms: null },
-      setSignUpUserOtherParameters: jest.fn(),
+      newUser: {
+        age: null,
+        height: { unit: 'IMPERIAL', centimeters: 1, feet: 1, inches: 1 },
+        weight: { unit: 'IMPERIAL', pounds: 1, kilograms: 1 },
+        weightGoal: { unit: 'IMPERIAL', pounds: 1, kilograms: 1 },
+      },
+      updateNewUser: jest.fn(),
     }
 
     props.navigation.navigate = navigateMock
@@ -350,17 +328,12 @@ describe('<OtherParameters />', () => {
     const mocks = [
       {
         request: {
-          query: GET_SIGN_UP_USER_OTHER_PARAMETERS,
+          query: GET_NEW_USER,
           variables: {},
         },
         result: {
           data: {
-            signUpUser: {
-              age: null,
-              height: { unit: 'imperial', centimeters: 1, feet: 1, inches: 1 },
-              weight: { unit: 'imperial', pounds: 1, kilograms: 1 },
-              weightGoal: { unit: 'imperial', pounds: 1, kilograms: 1 },
-            },
+            newUser,
           },
         },
       },

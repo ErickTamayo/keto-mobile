@@ -10,19 +10,9 @@ export interface Props extends TextInputProps {
   name: string
 }
 
-export interface State {
-  text: string
-}
-
-class Input extends Component<Props, State> {
-  state = {
-    text: this.props.value,
-    shouldHavePlaceholderStyle: true,
-  }
-
+class Input extends Component<Props, {}> {
   render() {
     const { icon } = this.props
-    const { text } = this.state
     return (
       <View style={containerStyle}>
         <View style={subContainerStyle}>
@@ -33,8 +23,6 @@ class Input extends Component<Props, State> {
             <TextInput
               {...this.props}
               style={inputStyle}
-              onChangeText={text => this.setState({ text })}
-              value={text}
               placeholderTextColor={st.colors.greyLighter}
             />
           </View>

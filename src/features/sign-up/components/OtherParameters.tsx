@@ -8,17 +8,15 @@ import AgeSelectionModal from '../modals/AgeSelectionModal'
 import HeightSelectionModal from '../modals/HeightSelectionModal'
 import WeightSelectionModal from '../modals/WeightSelectionModal'
 import { ageToString, weightToString, heightToString } from '../../../helpers'
-import withOtherParametersQuery, {
-  WithOtherParametersQueryProps,
-} from '../hocs/withOtherParametersQuery'
-import withOtherParametersMutation, {
-  WithOtherParametersMutationProps,
-} from '../hocs/withOtherParametersMutation'
+import withNewUserQuery, { WithNewUserQueryProps } from '../hocs/withNewUserQuery'
+import withUpdateNewUserMutation, {
+  WithUpdateNewUserMutationProps,
+} from '../hocs/withUpdateNewUserMutation'
 
 export interface Props
   extends NavigationInjectedProps,
-    WithOtherParametersQueryProps,
-    WithOtherParametersMutationProps {}
+    WithNewUserQueryProps,
+    WithUpdateNewUserMutationProps {}
 
 class OtherParameters extends Component<Props, {}> {
   private navigateToCreateAccount = () => {
@@ -32,7 +30,10 @@ class OtherParameters extends Component<Props, {}> {
   }
 
   public render(): JSX.Element {
-    const { age, height, weight, weightGoal, setSignUpUserOtherParameters } = this.props
+    const {
+      newUser: { age, height, weight, weightGoal },
+      updateNewUser,
+    } = this.props
 
     return (
       <View style={[st.flex.f1, st.items.center, st.justify.center, st.bg.greyLightest]}>
@@ -51,11 +52,11 @@ class OtherParameters extends Component<Props, {}> {
               value={ageToString(age)}
               onPress={() =>
                 this.openModal(AgeSelectionModal, {
-                  onSelect: (age: number) => setSignUpUserOtherParameters({ variables: { age } }),
+                  onSelect: (age: number) => updateNewUser({ age } as NewUser),
                   age,
                 })
               }
-              onClear={() => setSignUpUserOtherParameters({ variables: { age: null } })}
+              onClear={() => updateNewUser({ age: null } as NewUser)}
             />
             <PressableInput
               icon="height"
@@ -65,24 +66,19 @@ class OtherParameters extends Component<Props, {}> {
               onPress={() =>
                 this.openModal(HeightSelectionModal, {
                   onSelect: (updatedHeight: Height) =>
-                    setSignUpUserOtherParameters({
-                      variables: { height: { ...height, ...updatedHeight } },
-                    }),
+                    updateNewUser({ height: { ...height, ...updatedHeight } } as NewUser),
                   height,
                 })
               }
               onClear={() =>
-                setSignUpUserOtherParameters({
-                  variables: {
-                    height: {
-                      ...height,
-                      unit: 'imperial',
-                      feet: null,
-                      inches: null,
-                      centimeters: null,
-                    },
+                updateNewUser({
+                  height: {
+                    ...height,
+                    feet: null,
+                    inches: null,
+                    centimeters: null,
                   },
-                })
+                } as NewUser)
               }
             />
             <PressableInput
@@ -94,22 +90,12 @@ class OtherParameters extends Component<Props, {}> {
                 this.openModal(WeightSelectionModal, {
                   title: 'Weight',
                   onSelect: (updatedWeight: Weight) =>
-                    setSignUpUserOtherParameters({
-                      variables: { weight: { ...weight, ...updatedWeight } },
-                    }),
+                    updateNewUser({ weight: { ...weight, ...updatedWeight } } as NewUser),
                   weight,
                 })
               }
               onClear={() =>
-                setSignUpUserOtherParameters({
-                  variables: {
-                    weight: {
-                      ...weight,
-                      pounds: null,
-                      kilograms: null,
-                    },
-                  },
-                })
+                updateNewUser({ weight: { ...weight, pounds: null, kilograms: null } } as NewUser)
               }
             />
             <PressableInput
@@ -121,22 +107,20 @@ class OtherParameters extends Component<Props, {}> {
                 this.openModal(WeightSelectionModal, {
                   title: 'Goal Weight',
                   onSelect: (updatedweightGoal: Weight) =>
-                    setSignUpUserOtherParameters({
-                      variables: { weightGoal: { ...weightGoal, ...updatedweightGoal } },
-                    }),
+                    updateNewUser({
+                      weightGoal: { ...weightGoal, ...updatedweightGoal },
+                    } as NewUser),
                   weight: weightGoal,
                 })
               }
               onClear={() =>
-                setSignUpUserOtherParameters({
-                  variables: {
-                    weightGoal: {
-                      ...weightGoal,
-                      pounds: null,
-                      kilograms: null,
-                    },
+                updateNewUser({
+                  weightGoal: {
+                    ...weightGoal,
+                    pounds: null,
+                    kilograms: null,
                   },
-                })
+                } as NewUser)
               }
             />
           </View>
@@ -146,4 +130,4 @@ class OtherParameters extends Component<Props, {}> {
   }
 }
 
-export default withOtherParametersQuery(withOtherParametersMutation(OtherParameters))
+export default withNewUserQuery(withUpdateNewUserMutation(OtherParameters))

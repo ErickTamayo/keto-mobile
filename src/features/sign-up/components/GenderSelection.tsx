@@ -4,17 +4,15 @@ import { NavigationInjectedProps } from 'react-navigation'
 import st from '../../../styles'
 import CardWithHeaderAndButton from '../../../components/card-with-header-and-button/CardWithHeaderAndButton'
 import RadioButton from '../../../components/radio-button/RadioButton'
-import withGenderSelectionQuery, {
-  WithGenderSelectionQueryProps,
-} from '../hocs/withGenderSelectionQuery'
-import withGenderSelectionMutation, {
-  WithGenderSelectionMutationProps,
-} from '../hocs/withGenderSelectionMutation'
+import withNewUserQueryQuery, { WithNewUserQueryProps } from '../hocs/withNewUserQuery'
+import withUpdateNewUserMutation, {
+  WithUpdateNewUserMutationProps,
+} from '../hocs/withUpdateNewUserMutation'
 
 export interface Props
   extends NavigationInjectedProps,
-    WithGenderSelectionQueryProps,
-    WithGenderSelectionMutationProps {}
+    WithNewUserQueryProps,
+    WithUpdateNewUserMutationProps {}
 
 class GenderSelection extends React.Component<Props, object> {
   private navigateToOtherParameters = () => {
@@ -23,7 +21,10 @@ class GenderSelection extends React.Component<Props, object> {
   }
 
   public render(): JSX.Element {
-    const { gender, setSignUpUserGender } = this.props
+    const {
+      newUser: { gender },
+      updateNewUser,
+    } = this.props
 
     return (
       <View style={[st.flex.f1, st.items.center, st.justify.center, st.bg.greyLightest]}>
@@ -38,22 +39,22 @@ class GenderSelection extends React.Component<Props, object> {
             <RadioButton
               style={[st.m.a4]}
               variant="lg"
-              checked={gender === 'female'}
+              checked={gender === 'FEMALE'}
               onPress={gender => {
-                setSignUpUserGender({ variables: { gender } })
+                updateNewUser({ gender } as NewUser)
               }}
               title="FEMALE"
-              value="female"
+              value="FEMALE"
             />
             <RadioButton
               style={[st.m.a4]}
               variant="lg"
-              checked={gender === 'male'}
+              checked={gender === 'MALE'}
               onPress={gender => {
-                setSignUpUserGender({ variables: { gender } })
+                updateNewUser({ gender } as NewUser)
               }}
               title="MALE"
-              value="male"
+              value="MALE"
             />
           </View>
         </CardWithHeaderAndButton>
@@ -62,4 +63,4 @@ class GenderSelection extends React.Component<Props, object> {
   }
 }
 
-export default withGenderSelectionQuery(withGenderSelectionMutation(GenderSelection))
+export default withNewUserQueryQuery(withUpdateNewUserMutation(GenderSelection))

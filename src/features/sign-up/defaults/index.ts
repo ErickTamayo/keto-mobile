@@ -1,7 +1,10 @@
-import { SIGN_UP_USER_TYPENAME, HEIGHT_TYPENAME, WEIGHT_TYPENAME } from '../constants'
+import { NEW_USER_TYPENAME, HEIGHT_TYPENAME, WEIGHT_TYPENAME } from '../constants'
 
-const signUpUser = {
+const newUser = {
   id: '0',
+  displayName: null,
+  email: null,
+  password: null,
   gender: null,
   age: null,
   height: {
@@ -23,11 +26,11 @@ const signUpUser = {
     kilograms: null,
     __typename: WEIGHT_TYPENAME,
   },
-  __typename: SIGN_UP_USER_TYPENAME,
+  __typename: NEW_USER_TYPENAME,
 }
 
 const defaults = {
-  signUpUser,
+  newUser,
 }
 
 export default defaults

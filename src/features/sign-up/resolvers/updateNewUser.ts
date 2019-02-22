@@ -1,17 +1,21 @@
 import gql from 'graphql-tag'
-import { SIGN_UP_USER_TYPENAME } from '../constants'
+import { NEW_USER_TYPENAME } from '../constants'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { removedUndefinedProps } from '../../../helpers'
 
-const setSignUpUserOtherParameters = (
+const updateNewUser = (
   _: any,
-  args: any,
+  newUser: NewUser,
   { cache, getCacheKey }: { cache: InMemoryCache; getCacheKey: (...args: any[]) => string }
 ) => {
-  const id = getCacheKey({ __typename: SIGN_UP_USER_TYPENAME, id: '0' })
-
+  const id = getCacheKey({ __typename: NEW_USER_TYPENAME, id: '0' })
+  // console.log({ newUser })
   const fragment = gql`
-    fragment selectOtherParameters on SignUpUser {
+    fragment newUserQuery on NewUser {
+      displayName
+      email
+      password
+      gender
       age
       height {
         unit
@@ -31,16 +35,18 @@ const setSignUpUserOtherParameters = (
       }
     }
   `
-
+  // console.log({ data })
   const data = cache.readFragment({ id, fragment })
-
+  // console.log({
+  //   newData: { ...data, ...removedUndefinedProps(newUser), __typename: NEW_USER_TYPENAME },
+  // })
   cache.writeFragment({
     id,
     fragment,
-    data: { ...data, ...removedUndefinedProps(args), __typename: SIGN_UP_USER_TYPENAME },
+    data: { ...data, ...removedUndefinedProps(newUser), __typename: NEW_USER_TYPENAME },
   })
 
   return null
 }
 
-export default setSignUpUserOtherParameters
+export default updateNewUser

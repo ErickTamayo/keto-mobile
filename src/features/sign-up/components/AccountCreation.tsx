@@ -3,13 +3,34 @@ import { View, KeyboardAvoidingView, Keyboard } from 'react-native'
 import CardWithHeaderAndButton from '../../../components/card-with-header-and-button/CardWithHeaderAndButton'
 import Input from '../../../components/input/Input'
 import st from '../../../styles'
+import withNewUserQuery, { WithNewUserQueryProps } from '../hocs/withNewUserQuery'
+import withCreateUserMutation, { WithCreateUserMutationProps } from '../hocs/withCreateUserMutation'
+import withUpdateNewUserMutation, {
+  WithUpdateNewUserMutationProps,
+} from '../hocs/withUpdateNewUserMutation'
 
-export default class AccountCreation extends Component {
-  private createAccount = () => {
+export interface Props
+  extends WithNewUserQueryProps,
+    WithCreateUserMutationProps,
+    WithUpdateNewUserMutationProps {}
+
+class AccountCreation extends Component<Props, {}> {
+  private createUser = () => {
+    const {
+      newUser: { gender, age, height, weight, weightGoal },
+      createUser,
+    } = this.props
+
+    createUser({ gender, age, height, weight, weightGoal })
     Keyboard.dismiss()
   }
 
   render() {
+    const {
+      newUser: { displayName, email, password },
+      updateNewUser,
+    } = this.props
+
     return (
       <KeyboardAvoidingView
         style={[st.flex.f1, st.items.center, st.justify.center, st.bg.greyLightest]}
@@ -19,7 +40,7 @@ export default class AccountCreation extends Component {
           title="Create your account"
           description="This way we can save your progress"
           buttonText="Create Account"
-          onButtonPress={this.createAccount}
+          onButtonPress={this.createUser}
           // disabled={allDisplays === null}
         >
           <View>
@@ -27,26 +48,26 @@ export default class AccountCreation extends Component {
               icon="tag"
               placeholder="Display Name"
               name="displayName"
-              value={''}
-              onBlur={e => console.log({ text: e.nativeEvent.text })}
+              value={displayName ? displayName : ''}
+              onChangeText={displayName => updateNewUser({ displayName } as NewUser)}
             />
             <Input
               icon="envelope"
               placeholder="Email"
               name="email"
-              value={''}
+              value={email ? email : ''}
               keyboardType="email-address"
               autoCapitalize="none"
-              onBlur={e => console.log({ text: e.nativeEvent.text })}
+              onChangeText={email => updateNewUser({ email } as NewUser)}
             />
             <Input
               icon="lock"
               placeholder="Password"
               name="password"
               secureTextEntry={true}
-              value={''}
+              value={password ? password : ''}
               autoCapitalize="none"
-              onBlur={e => console.log({ text: e.nativeEvent.text })}
+              onChangeText={password => updateNewUser({ password } as NewUser)}
             />
           </View>
         </CardWithHeaderAndButton>
@@ -54,3 +75,5 @@ export default class AccountCreation extends Component {
     )
   }
 }
+
+export default withNewUserQuery(withCreateUserMutation(withUpdateNewUserMutation(AccountCreation)))
