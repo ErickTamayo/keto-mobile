@@ -47,7 +47,7 @@ exports[`<CardWithHeaderAndButton /> renders correctly 1`] = `
             "margin": 19.5,
           },
           Object {
-            "marginBottom": 26,
+            "marginBottom": 19.5,
           },
         ]
       }
@@ -206,7 +206,7 @@ exports[`<CardWithHeaderAndButton /> renders disabled 1`] = `
             "margin": 19.5,
           },
           Object {
-            "marginBottom": 26,
+            "marginBottom": 19.5,
           },
         ]
       }

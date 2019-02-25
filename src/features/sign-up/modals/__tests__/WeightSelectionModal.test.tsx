@@ -9,7 +9,7 @@ describe('<WeightSelectionModal />', () => {
       onSelect: jest.fn(),
       dismiss: jest.fn(),
       weight: {
-        unit: 'imperial',
+        unit: 'IMPERIAL',
         pounds: null,
         kilograms: null,
       },

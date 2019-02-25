@@ -12,7 +12,7 @@ export interface Props {
 }
 
 export interface State {
-  unit: 'imperial' | 'metric'
+  unit: Unit
   feet: number
   inches: number
   centimeters: number
@@ -20,7 +20,7 @@ export interface State {
 
 export default class HeightSelectionModal extends Component<Props, State> {
   state = {
-    unit: this.props.height.unit ? this.props.height.unit : 'imperial',
+    unit: this.props.height.unit ? this.props.height.unit : 'IMPERIAL',
     feet: this.props.height.feet ? this.props.height.feet : 5,
     inches: this.props.height.inches ? this.props.height.inches : 9,
     centimeters: this.props.height.centimeters ? this.props.height.centimeters : 175,
@@ -43,8 +43,8 @@ export default class HeightSelectionModal extends Component<Props, State> {
         selectedValue={unit}
         onSelect={unit => this.setState({ unit: unit as State['unit'] })}
       >
-        <Selector.Item value="imperial" label="in" />
-        <Selector.Item value="metric" label="cm" />
+        <Selector.Item value="IMPERIAL" label="in" />
+        <Selector.Item value="METRIC" label="cm" />
       </Selector>
     )
   }
@@ -58,7 +58,7 @@ export default class HeightSelectionModal extends Component<Props, State> {
           st.flex.f1,
           st.flex.row,
           st.items.center,
-          unit === 'imperial' ? st.display.flex : st.display.none,
+          unit === 'IMPERIAL' ? st.display.flex : st.display.none,
         ]}
       >
         <PickerIOS
@@ -94,7 +94,7 @@ export default class HeightSelectionModal extends Component<Props, State> {
           st.flex.f1,
           st.flex.row,
           st.items.center,
-          unit === 'metric' ? st.display.flex : st.display.none,
+          unit === 'METRIC' ? st.display.flex : st.display.none,
         ]}
       >
         <PickerIOS

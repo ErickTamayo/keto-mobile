@@ -28,7 +28,7 @@ export const titleStyle = [
   st.text.center,
   st.text.xl,
   st.m.a3,
-  st.m.b4,
+  st.m.b3,
 ]
 
 export const descriptionStyle = [

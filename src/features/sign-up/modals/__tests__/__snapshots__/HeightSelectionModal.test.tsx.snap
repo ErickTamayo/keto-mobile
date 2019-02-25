@@ -35,15 +35,15 @@ exports[`<HeightSelectionModal /> renders correctly 1`] = `
   </Component>
   <Selector
     onSelect={[Function]}
-    selectedValue="imperial"
+    selectedValue="IMPERIAL"
   >
     <Item
       label="in"
-      value="imperial"
+      value="IMPERIAL"
     />
     <Item
       label="cm"
-      value="metric"
+      value="METRIC"
     />
   </Selector>
   <Component

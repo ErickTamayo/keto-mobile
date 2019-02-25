@@ -35,6 +35,12 @@ class OtherParameters extends Component<Props, {}> {
       updateNewUser,
     } = this.props
 
+    const buttonShouldBeDisabled =
+      age === null ||
+      (height ? !height.feet || !height.inches || !height.centimeters : true) ||
+      (weight ? !weight.pounds || !weight.kilograms : true) ||
+      (weightGoal ? !weightGoal.pounds || !weightGoal.kilograms : true)
+
     return (
       <View style={[st.flex.f1, st.items.center, st.justify.center, st.bg.greyLightest]}>
         <CardWithHeaderAndButton
@@ -42,7 +48,7 @@ class OtherParameters extends Component<Props, {}> {
           description="We will make sure you get better and personalized results"
           buttonText="Continue"
           onButtonPress={this.navigateToCreateAccount}
-          disabled={false}
+          disabled={!!buttonShouldBeDisabled}
         >
           <View style={[st.m.b1, st.m.t2]}>
             <PressableInput

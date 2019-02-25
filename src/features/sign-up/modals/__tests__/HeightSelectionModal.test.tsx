@@ -9,7 +9,7 @@ describe('<HeightSelectionModal />', () => {
       onSelect: jest.fn(),
       dismiss: jest.fn(),
       height: {
-        unit: 'imperial',
+        unit: 'IMPERIAL',
         feet: null,
         inches: null,
         centimeters: null,

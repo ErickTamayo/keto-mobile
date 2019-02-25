@@ -1,5 +1,5 @@
-import SignUpUserDefaults from '../features/sign-up/defaults'
+import NewUserDefaults from '../features/sign-up/defaults'
 
 export default {
-  ...SignUpUserDefaults,
+  ...NewUserDefaults,
 }

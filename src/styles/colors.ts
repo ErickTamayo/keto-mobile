@@ -7,6 +7,8 @@ export default {
 
   purple: '#724bb7',
 
+  red: '#d64545',
+
   greyDarkest: '#3b3b3b',
   greyDarker: '#515151',
   greyDark: '#626262',

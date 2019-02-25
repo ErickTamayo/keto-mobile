@@ -45,3 +45,8 @@ type NewUser = {
   weight?: Weight | null
   weightGoal?: Weight | null
 }
+
+type Validation = {
+  hasError: boolean
+  messages: string[]
+}

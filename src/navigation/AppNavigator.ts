@@ -2,6 +2,7 @@ import { createStackNavigator, createAppContainer, NavigationContainer } from 'r
 import StartScreen from '../features/start-screen/components/StartScreen'
 import SignUpRoutes from './SignUpRoutes'
 import LoginRoutes from './LoginRoutes'
+import MainRoutes from './MainRoutes'
 import NavigationOptions from '../constants/NavigationOptions'
 import Modal from '../components/modal/Modal'
 
@@ -13,16 +14,18 @@ const appNavigator: NavigationContainer = createStackNavigator(
     },
     ...SignUpRoutes,
     ...LoginRoutes,
+    ...MainRoutes,
   },
   {
-    initialRouteName: 'Start',
+    // initialRouteName: 'Start',
 
     // initialRouteName: 'GenderSelection',
     // initialRouteName: 'OtherParameters',
-    // initialRouteName: 'AccountCreation',
+    initialRouteName: 'AccountCreation',
 
     // initialRouteName: 'Login',
     // initialRouteName: 'AccountRecovery',
+
     cardShadowEnabled: false,
   }
 )

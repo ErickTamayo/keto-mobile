@@ -1,14 +1,14 @@
-export const ageToString = (age: number | null): string => (age ? `${age} years` : '')
+export const ageToString = (age?: number | null): string => (age ? `${age} years` : '')
 
-export const weightToString = (weight: Weight): string =>
-  weight.pounds
+export const weightToString = (weight?: Weight | null): string =>
+  weight && weight.pounds
     ? weight.unit === 'IMPERIAL'
       ? `${weight.pounds} lbs`
       : `${weight.kilograms} kg`
     : ''
 
-export const heightToString = (height: Height): string =>
-  height.inches
+export const heightToString = (height?: Height | null): string =>
+  height && height.inches
     ? height.unit === 'IMPERIAL'
       ? `${height.feet}' ${height.inches}"`
       : `${height.centimeters} cm`

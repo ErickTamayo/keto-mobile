@@ -6,8 +6,6 @@ import icons from '../../icons'
 
 export interface Props extends TextInputProps {
   icon: string
-  value: string
-  name: string
 }
 
 class Input extends Component<Props, {}> {

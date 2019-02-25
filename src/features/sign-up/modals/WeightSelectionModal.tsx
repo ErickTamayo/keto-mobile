@@ -13,14 +13,14 @@ export interface Props {
 }
 
 export interface State {
-  unit: 'imperial' | 'metric'
+  unit: Unit
   pounds: number
   kilograms: number
 }
 
 export default class WeightSelectionModal extends Component<Props, State> {
   state = {
-    unit: this.props.weight.unit ? this.props.weight.unit : 'imperial',
+    unit: this.props.weight.unit ? this.props.weight.unit : 'IMPERIAL',
     pounds: this.props.weight.pounds ? this.props.weight.pounds : 195,
     kilograms: this.props.weight.kilograms ? this.props.weight.kilograms : 88,
   }
@@ -42,8 +42,8 @@ export default class WeightSelectionModal extends Component<Props, State> {
         selectedValue={unit}
         onSelect={unit => this.setState({ unit: unit as State['unit'] })}
       >
-        <Selector.Item value="imperial" label="lbs" />
-        <Selector.Item value="metric" label="kg" />
+        <Selector.Item value="IMPERIAL" label="lbs" />
+        <Selector.Item value="METRIC" label="kg" />
       </Selector>
     )
   }
@@ -57,7 +57,7 @@ export default class WeightSelectionModal extends Component<Props, State> {
           st.flex.f1,
           st.flex.row,
           st.items.center,
-          unit === 'imperial' ? st.display.flex : st.display.none,
+          unit === 'IMPERIAL' ? st.display.flex : st.display.none,
         ]}
       >
         <PickerIOS
@@ -83,7 +83,7 @@ export default class WeightSelectionModal extends Component<Props, State> {
           st.flex.f1,
           st.flex.row,
           st.items.center,
-          unit === 'metric' ? st.display.flex : st.display.none,
+          unit === 'METRIC' ? st.display.flex : st.display.none,
         ]}
       >
         <PickerIOS

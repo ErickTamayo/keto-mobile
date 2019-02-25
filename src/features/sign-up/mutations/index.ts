@@ -24,8 +24,34 @@ export const UPDATE_NEW_USER = gql`
   }
 `
 
-export const CREATE_ACCOUNT = gql`
-  mutation createAccount($email: String!, $displayName: String!, $password: String!) {
-    createUser(email: $email)
+export const CREATE_USER = gql`
+  mutation createUser(
+    $email: String!
+    $displayName: String!
+    $password: String!
+    $gender: Gender!
+    $age: Int!
+    $height: HeightCreateInput!
+    $weight: WeightCreateInput!
+    $weightGoal: WeightCreateInput!
+  ) {
+    createUser(
+      data: {
+        email: $email
+        displayName: $displayName
+        password: $password
+        profile: {
+          create: {
+            gender: $gender
+            age: $age
+            height: { create: $height }
+            weight: { create: $weight }
+          }
+        }
+        goals: { create: { weight: { create: $weightGoal } } }
+      }
+    ) {
+      id
+    }
   }
 `

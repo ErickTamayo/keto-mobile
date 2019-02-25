@@ -712,7 +712,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
               <CardWithHeaderAndButton
                 buttonText="Continue"
                 description="We will make sure you get better and personalized results"
-                disabled={false}
+                disabled={true}
                 onButtonPress={[Function]}
                 title="Please complete the following parameters"
               >
@@ -789,7 +789,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                 "margin": 19.5,
                               },
                               Object {
-                                "marginBottom": 26,
+                                "marginBottom": 19.5,
                               },
                             ]
                           }
@@ -813,7 +813,7 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                   "margin": 19.5,
                                 },
                                 Object {
-                                  "marginBottom": 26,
+                                  "marginBottom": 19.5,
                                 },
                               ]
                             }
@@ -2615,14 +2615,14 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                               </View>
                             </Component>
                             <Button
-                              disabled={false}
+                              disabled={true}
                               onPress={[Function]}
                               title="Continue"
                               variant="primary-md"
                             >
                               <TouchableOpacity
                                 activeOpacity={0.2}
-                                disabled={false}
+                                disabled={true}
                                 onPress={[Function]}
                                 style={
                                   Array [
@@ -2653,7 +2653,14 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                     Object {
                                       "height": 40,
                                     },
-                                    null,
+                                    Array [
+                                      Object {
+                                        "backgroundColor": "#cfcfcf",
+                                      },
+                                      Object {
+                                        "borderColor": "transparent",
+                                      },
+                                    ],
                                   ]
                                 }
                               >
@@ -2696,7 +2703,14 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                         Object {
                                           "height": 40,
                                         },
-                                        null,
+                                        Array [
+                                          Object {
+                                            "backgroundColor": "#cfcfcf",
+                                          },
+                                          Object {
+                                            "borderColor": "transparent",
+                                          },
+                                        ],
                                       ],
                                       Object {
                                         "opacity": 1,
@@ -2715,8 +2729,8 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                     onStartShouldSetResponder={[Function]}
                                     style={
                                       Object {
-                                        "backgroundColor": "#57ae5b",
-                                        "borderColor": "#57ae5b",
+                                        "backgroundColor": "#cfcfcf",
+                                        "borderColor": "transparent",
                                         "borderRadius": 100,
                                         "borderWidth": 1,
                                         "height": 40,
@@ -2739,8 +2753,8 @@ exports[`<OtherParameters /> renders correctly 1`] = `
                                       onStartShouldSetResponder={[Function]}
                                       style={
                                         Object {
-                                          "backgroundColor": "#57ae5b",
-                                          "borderColor": "#57ae5b",
+                                          "backgroundColor": "#cfcfcf",
+                                          "borderColor": "transparent",
                                           "borderRadius": 100,
                                           "borderWidth": 1,
                                           "height": 40,

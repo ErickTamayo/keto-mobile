@@ -741,7 +741,7 @@ exports[`<GenderSelection /> renders correctly 1`] = `
                                 "margin": 19.5,
                               },
                               Object {
-                                "marginBottom": 26,
+                                "marginBottom": 19.5,
                               },
                             ]
                           }
@@ -765,7 +765,7 @@ exports[`<GenderSelection /> renders correctly 1`] = `
                                   "margin": 19.5,
                                 },
                                 Object {
-                                  "marginBottom": 26,
+                                  "marginBottom": 19.5,
                                 },
                               ]
                             }

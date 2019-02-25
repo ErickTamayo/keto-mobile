@@ -11,6 +11,9 @@ const color = {
   purple: {
     color: Colors.purple,
   },
+  red: {
+    color: Colors.red,
+  },
   greyDarkest: {
     color: Colors.greyDarkest,
   },
