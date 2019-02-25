@@ -9,7 +9,6 @@ const updateNewUser = (
   { cache, getCacheKey }: { cache: InMemoryCache; getCacheKey: (...args: any[]) => string }
 ) => {
   const id = getCacheKey({ __typename: NEW_USER_TYPENAME, id: '0' })
-  // console.log({ newUser })
   const fragment = gql`
     fragment newUserQuery on NewUser {
       displayName
@@ -35,11 +34,8 @@ const updateNewUser = (
       }
     }
   `
-  // console.log({ data })
   const data = cache.readFragment({ id, fragment })
-  // console.log({
-  //   newData: { ...data, ...removedUndefinedProps(newUser), __typename: NEW_USER_TYPENAME },
-  // })
+
   cache.writeFragment({
     id,
     fragment,

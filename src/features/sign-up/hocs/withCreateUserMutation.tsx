@@ -47,6 +47,9 @@ const withCreateUserMutation = <T, WithCreateUserMutationProps extends keyof T>(
           {(createUser, createUserResult: MutationResult) => (
             <WrappedComponent
               createUser={(newUser: NewUser) =>
+                // TODO: omitDeep MUTATES the object, MUST FIX THIS
+                // If the mutation fails and the user tries to go back an edit
+                // it will fail because __typename is removed
                 createUser({ variables: omitDeep(newUser, '__typename') })
               }
               createUserResult={createUserResult}

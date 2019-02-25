@@ -1,32 +1,22 @@
-import { createStackNavigator, createAppContainer, NavigationContainer } from 'react-navigation'
-import StartScreen from '../features/start-screen/components/StartScreen'
-import SignUpRoutes from './SignUpRoutes'
-import LoginRoutes from './LoginRoutes'
-import MainRoutes from './MainRoutes'
-import NavigationOptions from '../constants/NavigationOptions'
+import {
+  createStackNavigator,
+  createSwitchNavigator,
+  createAppContainer,
+  NavigationContainer,
+} from 'react-navigation'
 import Modal from '../components/modal/Modal'
+import AuthStack from './AuthStack'
+import AppStack from './AppStack'
 
-const appNavigator: NavigationContainer = createStackNavigator(
+const appNavigator = createSwitchNavigator(
   {
-    Start: {
-      screen: StartScreen,
-      navigationOptions: () => NavigationOptions,
-    },
-    ...SignUpRoutes,
-    ...LoginRoutes,
-    ...MainRoutes,
+    // TODO: Create a screen to detect if the user is logged in
+    // then redirect to Auth/App
+    Auth: AuthStack,
+    App: AppStack,
   },
   {
-    // initialRouteName: 'Start',
-
-    // initialRouteName: 'GenderSelection',
-    // initialRouteName: 'OtherParameters',
-    initialRouteName: 'AccountCreation',
-
-    // initialRouteName: 'Login',
-    // initialRouteName: 'AccountRecovery',
-
-    cardShadowEnabled: false,
+    initialRouteName: 'Auth',
   }
 )
 
