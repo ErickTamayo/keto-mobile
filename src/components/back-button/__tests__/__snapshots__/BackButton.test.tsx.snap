@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackButton /> renders correctly 1`] = `
+<Component
+  source={1}
+  style={
+    Array [
+      Object {
+        "marginLeft": 13,
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,2878 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OtherParameters /> renders correctly 1`] = `
+<_class
+  navigation={Object {}}
+  newUser={
+    Object {
+      "age": null,
+      "height": Object {
+        "centimeters": null,
+        "feet": null,
+        "inches": null,
+        "unit": "IMPERIAL",
+      },
+      "weight": Object {
+        "kilograms": null,
+        "pounds": null,
+        "unit": "IMPERIAL",
+      },
+      "weightGoal": Object {
+        "kilograms": null,
+        "pounds": null,
+        "unit": "IMPERIAL",
+      },
+    }
+  }
+  updateNewUser={[MockFunction]}
+>
+  <Query
+    query={
+      Object {
+        "definitions": Array [
+          Object {
+            "directives": Array [],
+            "kind": "OperationDefinition",
+            "name": undefined,
+            "operation": "query",
+            "selectionSet": Object {
+              "kind": "SelectionSet",
+              "selections": Array [
+                Object {
+                  "alias": undefined,
+                  "arguments": Array [],
+                  "directives": Array [
+                    Object {
+                      "arguments": Array [],
+                      "kind": "Directive",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "client",
+                      },
+                    },
+                  ],
+                  "kind": "Field",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "newUser",
+                  },
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "displayName",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "email",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "password",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "gender",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "age",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "height",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "unit",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "feet",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "inches",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "centimeters",
+                              },
+                              "selectionSet": undefined,
+                            },
+                          ],
+                        },
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "weight",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "unit",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "pounds",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "kilograms",
+                              },
+                              "selectionSet": undefined,
+                            },
+                          ],
+                        },
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "weightGoal",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "unit",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "pounds",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "kilograms",
+                              },
+                              "selectionSet": undefined,
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+              ],
+            },
+            "variableDefinitions": Array [],
+          },
+        ],
+        "kind": "Document",
+        "loc": Object {
+          "end": 331,
+          "start": 0,
+        },
+      }
+    }
+  >
+    <_class
+      navigation={Object {}}
+      newUser={
+        Object {
+          "age": null,
+          "height": Object {
+            "centimeters": null,
+            "feet": null,
+            "inches": null,
+            "unit": "IMPERIAL",
+          },
+          "weight": Object {
+            "kilograms": null,
+            "pounds": null,
+            "unit": "IMPERIAL",
+          },
+          "weightGoal": Object {
+            "kilograms": null,
+            "pounds": null,
+            "unit": "IMPERIAL",
+          },
+        }
+      }
+      updateNewUser={[MockFunction]}
+    >
+      <Mutation
+        mutation={
+          Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": Object {
+                  "kind": "Name",
+                  "value": "updateNewUser",
+                },
+                "operation": "mutation",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": undefined,
+                      "arguments": Array [
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "displayName",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "displayName",
+                            },
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "email",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "email",
+                            },
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "password",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "password",
+                            },
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "gender",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "gender",
+                            },
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "age",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "age",
+                            },
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "height",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "height",
+                            },
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "weight",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "weight",
+                            },
+                          },
+                        },
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "weightGoal",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "weightGoal",
+                            },
+                          },
+                        },
+                      ],
+                      "directives": Array [
+                        Object {
+                          "arguments": Array [],
+                          "kind": "Directive",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "client",
+                          },
+                        },
+                      ],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "updateNewUser",
+                      },
+                      "selectionSet": undefined,
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "String",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "displayName",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "String",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "email",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "String",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "password",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "Gender",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "gender",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "String",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "age",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "Height",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "height",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "Weight",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "weight",
+                      },
+                    },
+                  },
+                  Object {
+                    "defaultValue": undefined,
+                    "directives": Array [],
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "Weight",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "weightGoal",
+                      },
+                    },
+                  },
+                ],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 435,
+              "start": 0,
+            },
+          }
+        }
+      >
+        <OtherParameters
+          navigation={Object {}}
+          newUser={
+            Object {
+              "age": null,
+              "height": Object {
+                "centimeters": null,
+                "feet": null,
+                "inches": null,
+                "unit": "IMPERIAL",
+              },
+              "weight": Object {
+                "kilograms": null,
+                "pounds": null,
+                "unit": "IMPERIAL",
+              },
+              "weightGoal": Object {
+                "kilograms": null,
+                "pounds": null,
+                "unit": "IMPERIAL",
+              },
+            }
+          }
+          updateNewUser={[MockFunction]}
+        >
+          <Component
+            style={
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "alignItems": "center",
+                },
+                Object {
+                  "justifyContent": "center",
+                },
+                Object {
+                  "backgroundColor": "#f7f7f7",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                  },
+                  Object {
+                    "alignItems": "center",
+                  },
+                  Object {
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "backgroundColor": "#f7f7f7",
+                  },
+                ]
+              }
+            >
+              <CardWithHeaderAndButton
+                buttonText="Continue"
+                description="We will make sure you get better and personalized results"
+                disabled={true}
+                onButtonPress={[Function]}
+                title="Please complete the following parameters"
+              >
+                <Component
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                      },
+                      Object {
+                        "justifyContent": "center",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "flex": 1,
+                        },
+                        Object {
+                          "justifyContent": "center",
+                        },
+                      ]
+                    }
+                  >
+                    <Component
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                          },
+                          Object {
+                            "alignItems": "center",
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "flex": 1,
+                            },
+                            Object {
+                              "alignItems": "center",
+                            },
+                            Object {
+                              "justifyContent": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <Component
+                          style={
+                            Array [
+                              Object {
+                                "fontFamily": "avenir-next-medium",
+                              },
+                              Object {
+                                "color": "#626262",
+                              },
+                              Object {
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "fontSize": 20,
+                              },
+                              Object {
+                                "margin": 19.5,
+                              },
+                              Object {
+                                "marginBottom": 19.5,
+                              },
+                            ]
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "fontFamily": "avenir-next-medium",
+                                },
+                                Object {
+                                  "color": "#626262",
+                                },
+                                Object {
+                                  "textAlign": "center",
+                                },
+                                Object {
+                                  "fontSize": 20,
+                                },
+                                Object {
+                                  "margin": 19.5,
+                                },
+                                Object {
+                                  "marginBottom": 19.5,
+                                },
+                              ]
+                            }
+                          >
+                            Please complete the following parameters
+                          </Text>
+                        </Component>
+                        <Component
+                          style={
+                            Array [
+                              Object {
+                                "fontFamily": "avenir-next-regular",
+                              },
+                              Object {
+                                "color": "#9e9e9e",
+                              },
+                              Object {
+                                "fontSize": 16,
+                              },
+                              Object {
+                                "textAlign": "center",
+                              },
+                              Object {
+                                "marginLeft": 19.5,
+                              },
+                              Object {
+                                "marginRight": 26,
+                              },
+                            ]
+                          }
+                        >
+                          <Text
+                            style={
+                              Array [
+                                Object {
+                                  "fontFamily": "avenir-next-regular",
+                                },
+                                Object {
+                                  "color": "#9e9e9e",
+                                },
+                                Object {
+                                  "fontSize": 16,
+                                },
+                                Object {
+                                  "textAlign": "center",
+                                },
+                                Object {
+                                  "marginLeft": 19.5,
+                                },
+                                Object {
+                                  "marginRight": 26,
+                                },
+                              ]
+                            }
+                          >
+                            We will make sure you get better and personalized results
+                          </Text>
+                        </Component>
+                      </View>
+                    </Component>
+                    <Component
+                      style={
+                        Array [
+                          Object {
+                            "flex": 2,
+                          },
+                          Object {
+                            "justifyContent": "center",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "flex": 2,
+                            },
+                            Object {
+                              "justifyContent": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <Component
+                          style={
+                            Array [
+                              Object {
+                                "marginLeft": 13,
+                              },
+                              Object {
+                                "marginRight": 13,
+                              },
+                              Object {
+                                "paddingLeft": 19.5,
+                              },
+                              Object {
+                                "paddingRight": 19.5,
+                              },
+                              Object {
+                                "paddingBottom": 26,
+                              },
+                              Object {
+                                "paddingTop": 26,
+                              },
+                              Object {
+                                "backgroundColor": "#ffffff",
+                              },
+                              Object {
+                                "alignItems": "center",
+                              },
+                              Object {
+                                "justifyContent": "center",
+                              },
+                              Object {
+                                "borderRadius": 10,
+                              },
+                              Object {
+                                "shadowColor": "#000000",
+                                "shadowOffset": Object {
+                                  "height": 4,
+                                  "width": 2,
+                                },
+                                "shadowOpacity": 0.1,
+                                "shadowRadius": 2,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "marginLeft": 13,
+                                },
+                                Object {
+                                  "marginRight": 13,
+                                },
+                                Object {
+                                  "paddingLeft": 19.5,
+                                },
+                                Object {
+                                  "paddingRight": 19.5,
+                                },
+                                Object {
+                                  "paddingBottom": 26,
+                                },
+                                Object {
+                                  "paddingTop": 26,
+                                },
+                                Object {
+                                  "backgroundColor": "#ffffff",
+                                },
+                                Object {
+                                  "alignItems": "center",
+                                },
+                                Object {
+                                  "justifyContent": "center",
+                                },
+                                Object {
+                                  "borderRadius": 10,
+                                },
+                                Object {
+                                  "shadowColor": "#000000",
+                                  "shadowOffset": Object {
+                                    "height": 4,
+                                    "width": 2,
+                                  },
+                                  "shadowOpacity": 0.1,
+                                  "shadowRadius": 2,
+                                },
+                              ]
+                            }
+                          >
+                            <Component>
+                              <View>
+                                <Component
+                                  style={
+                                    Array [
+                                      Object {
+                                        "marginBottom": 6.5,
+                                      },
+                                      Object {
+                                        "marginTop": 13,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Array [
+                                        Object {
+                                          "marginBottom": 6.5,
+                                        },
+                                        Object {
+                                          "marginTop": 13,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <PressableInput
+                                      icon="calendar"
+                                      name="age"
+                                      onClear={[Function]}
+                                      onPress={[Function]}
+                                      placeholder="AGE"
+                                      value=""
+                                    >
+                                      <Component
+                                        style={
+                                          Array [
+                                            Object {
+                                              "borderWidth": 1,
+                                            },
+                                            Object {
+                                              "borderColor": "#57ae5b",
+                                            },
+                                            Object {
+                                              "width": 240,
+                                            },
+                                            Object {
+                                              "marginBottom": 13,
+                                            },
+                                            Object {
+                                              "borderRadius": 5,
+                                            },
+                                            Object {
+                                              "borderColor": "#e1e1e1",
+                                            },
+                                            Object {
+                                              "height": 40,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {
+                                                "borderWidth": 1,
+                                              },
+                                              Object {
+                                                "borderColor": "#57ae5b",
+                                              },
+                                              Object {
+                                                "width": 240,
+                                              },
+                                              Object {
+                                                "marginBottom": 13,
+                                              },
+                                              Object {
+                                                "borderRadius": 5,
+                                              },
+                                              Object {
+                                                "borderColor": "#e1e1e1",
+                                              },
+                                              Object {
+                                                "height": 40,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Component
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "flex": 1,
+                                                },
+                                                Object {
+                                                  "flexDirection": "row",
+                                                },
+                                                Object {
+                                                  "alignItems": "center",
+                                                },
+                                                Object {
+                                                  "justifyContent": "center",
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            <View
+                                              style={
+                                                Array [
+                                                  Object {
+                                                    "flex": 1,
+                                                  },
+                                                  Object {
+                                                    "flexDirection": "row",
+                                                  },
+                                                  Object {
+                                                    "alignItems": "center",
+                                                  },
+                                                  Object {
+                                                    "justifyContent": "center",
+                                                  },
+                                                ]
+                                              }
+                                            >
+                                              <Component
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "height": 32,
+                                                    },
+                                                    Object {
+                                                      "width": 32,
+                                                    },
+                                                    Object {
+                                                      "alignItems": "center",
+                                                    },
+                                                    Object {
+                                                      "justifyContent": "center",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Array [
+                                                      Object {
+                                                        "height": 32,
+                                                      },
+                                                      Object {
+                                                        "width": 32,
+                                                      },
+                                                      Object {
+                                                        "alignItems": "center",
+                                                      },
+                                                      Object {
+                                                        "justifyContent": "center",
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Component
+                                                    source={1}
+                                                  >
+                                                    <Image
+                                                      source={1}
+                                                    />
+                                                  </Component>
+                                                </View>
+                                              </Component>
+                                              <TouchableOpacity
+                                                activeOpacity={0.2}
+                                                onPress={[Function]}
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "width": 168,
+                                                    },
+                                                    Object {
+                                                      "height": 40,
+                                                    },
+                                                    Object {
+                                                      "justifyContent": "center",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <AnimatedComponent
+                                                  accessible={true}
+                                                  isTVSelectable={true}
+                                                  onResponderGrant={[Function]}
+                                                  onResponderMove={[Function]}
+                                                  onResponderRelease={[Function]}
+                                                  onResponderTerminate={[Function]}
+                                                  onResponderTerminationRequest={[Function]}
+                                                  onStartShouldSetResponder={[Function]}
+                                                  style={
+                                                    Array [
+                                                      Array [
+                                                        Object {
+                                                          "width": 168,
+                                                        },
+                                                        Object {
+                                                          "height": 40,
+                                                        },
+                                                        Object {
+                                                          "justifyContent": "center",
+                                                        },
+                                                      ],
+                                                      Object {
+                                                        "opacity": 1,
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Component
+                                                    accessible={true}
+                                                    isTVSelectable={true}
+                                                    onResponderGrant={[Function]}
+                                                    onResponderMove={[Function]}
+                                                    onResponderRelease={[Function]}
+                                                    onResponderTerminate={[Function]}
+                                                    onResponderTerminationRequest={[Function]}
+                                                    onStartShouldSetResponder={[Function]}
+                                                    style={
+                                                      Object {
+                                                        "height": 40,
+                                                        "justifyContent": "center",
+                                                        "opacity": 1,
+                                                        "width": 168,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View
+                                                      accessible={true}
+                                                      isTVSelectable={true}
+                                                      onResponderGrant={[Function]}
+                                                      onResponderMove={[Function]}
+                                                      onResponderRelease={[Function]}
+                                                      onResponderTerminate={[Function]}
+                                                      onResponderTerminationRequest={[Function]}
+                                                      onStartShouldSetResponder={[Function]}
+                                                      style={
+                                                        Object {
+                                                          "height": 40,
+                                                          "justifyContent": "center",
+                                                          "opacity": 1,
+                                                          "width": 168,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Component>
+                                                        <View>
+                                                          <Component
+                                                            style={
+                                                              Array [
+                                                                Object {
+                                                                  "fontFamily": "avenir-next-medium",
+                                                                },
+                                                                Object {
+                                                                  "color": "#e1e1e1",
+                                                                },
+                                                                Object {
+                                                                  "textAlign": "center",
+                                                                },
+                                                                Object {
+                                                                  "fontSize": 12,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <Text
+                                                              style={
+                                                                Array [
+                                                                  Object {
+                                                                    "fontFamily": "avenir-next-medium",
+                                                                  },
+                                                                  Object {
+                                                                    "color": "#e1e1e1",
+                                                                  },
+                                                                  Object {
+                                                                    "textAlign": "center",
+                                                                  },
+                                                                  Object {
+                                                                    "fontSize": 12,
+                                                                  },
+                                                                ]
+                                                              }
+                                                            >
+                                                              AGE
+                                                            </Text>
+                                                          </Component>
+                                                        </View>
+                                                      </Component>
+                                                    </View>
+                                                  </Component>
+                                                </AnimatedComponent>
+                                              </TouchableOpacity>
+                                              <Component>
+                                                <View>
+                                                  <TouchableOpacity
+                                                    activeOpacity={0.2}
+                                                    disabled={true}
+                                                    onPress={[Function]}
+                                                    style={
+                                                      Array [
+                                                        Object {
+                                                          "height": 32,
+                                                        },
+                                                        Object {
+                                                          "width": 32,
+                                                        },
+                                                        Object {
+                                                          "justifyContent": "center",
+                                                        },
+                                                        Object {
+                                                          "alignItems": "center",
+                                                        },
+                                                      ]
+                                                    }
+                                                  >
+                                                    <AnimatedComponent
+                                                      accessible={true}
+                                                      isTVSelectable={true}
+                                                      onResponderGrant={[Function]}
+                                                      onResponderMove={[Function]}
+                                                      onResponderRelease={[Function]}
+                                                      onResponderTerminate={[Function]}
+                                                      onResponderTerminationRequest={[Function]}
+                                                      onStartShouldSetResponder={[Function]}
+                                                      style={
+                                                        Array [
+                                                          Array [
+                                                            Object {
+                                                              "height": 32,
+                                                            },
+                                                            Object {
+                                                              "width": 32,
+                                                            },
+                                                            Object {
+                                                              "justifyContent": "center",
+                                                            },
+                                                            Object {
+                                                              "alignItems": "center",
+                                                            },
+                                                          ],
+                                                          Object {
+                                                            "opacity": 1,
+                                                          },
+                                                        ]
+                                                      }
+                                                    >
+                                                      <Component
+                                                        accessible={true}
+                                                        isTVSelectable={true}
+                                                        onResponderGrant={[Function]}
+                                                        onResponderMove={[Function]}
+                                                        onResponderRelease={[Function]}
+                                                        onResponderTerminate={[Function]}
+                                                        onResponderTerminationRequest={[Function]}
+                                                        onStartShouldSetResponder={[Function]}
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "center",
+                                                            "height": 32,
+                                                            "justifyContent": "center",
+                                                            "opacity": 1,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      >
+                                                        <View
+                                                          accessible={true}
+                                                          isTVSelectable={true}
+                                                          onResponderGrant={[Function]}
+                                                          onResponderMove={[Function]}
+                                                          onResponderRelease={[Function]}
+                                                          onResponderTerminate={[Function]}
+                                                          onResponderTerminationRequest={[Function]}
+                                                          onStartShouldSetResponder={[Function]}
+                                                          style={
+                                                            Object {
+                                                              "alignItems": "center",
+                                                              "height": 32,
+                                                              "justifyContent": "center",
+                                                              "opacity": 1,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        >
+                                                          <Component
+                                                            style={
+                                                              Array [
+                                                                Object {
+                                                                  "marginLeft": 13,
+                                                                },
+                                                                Object {
+                                                                  "marginRight": 13,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <View
+                                                              style={
+                                                                Array [
+                                                                  Object {
+                                                                    "marginLeft": 13,
+                                                                  },
+                                                                  Object {
+                                                                    "marginRight": 13,
+                                                                  },
+                                                                ]
+                                                              }
+                                                            />
+                                                          </Component>
+                                                        </View>
+                                                      </Component>
+                                                    </AnimatedComponent>
+                                                  </TouchableOpacity>
+                                                </View>
+                                              </Component>
+                                            </View>
+                                          </Component>
+                                        </View>
+                                      </Component>
+                                    </PressableInput>
+                                    <PressableInput
+                                      icon="height"
+                                      name="height"
+                                      onClear={[Function]}
+                                      onPress={[Function]}
+                                      placeholder="HEIGHT"
+                                      value=""
+                                    >
+                                      <Component
+                                        style={
+                                          Array [
+                                            Object {
+                                              "borderWidth": 1,
+                                            },
+                                            Object {
+                                              "borderColor": "#57ae5b",
+                                            },
+                                            Object {
+                                              "width": 240,
+                                            },
+                                            Object {
+                                              "marginBottom": 13,
+                                            },
+                                            Object {
+                                              "borderRadius": 5,
+                                            },
+                                            Object {
+                                              "borderColor": "#e1e1e1",
+                                            },
+                                            Object {
+                                              "height": 40,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {
+                                                "borderWidth": 1,
+                                              },
+                                              Object {
+                                                "borderColor": "#57ae5b",
+                                              },
+                                              Object {
+                                                "width": 240,
+                                              },
+                                              Object {
+                                                "marginBottom": 13,
+                                              },
+                                              Object {
+                                                "borderRadius": 5,
+                                              },
+                                              Object {
+                                                "borderColor": "#e1e1e1",
+                                              },
+                                              Object {
+                                                "height": 40,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Component
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "flex": 1,
+                                                },
+                                                Object {
+                                                  "flexDirection": "row",
+                                                },
+                                                Object {
+                                                  "alignItems": "center",
+                                                },
+                                                Object {
+                                                  "justifyContent": "center",
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            <View
+                                              style={
+                                                Array [
+                                                  Object {
+                                                    "flex": 1,
+                                                  },
+                                                  Object {
+                                                    "flexDirection": "row",
+                                                  },
+                                                  Object {
+                                                    "alignItems": "center",
+                                                  },
+                                                  Object {
+                                                    "justifyContent": "center",
+                                                  },
+                                                ]
+                                              }
+                                            >
+                                              <Component
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "height": 32,
+                                                    },
+                                                    Object {
+                                                      "width": 32,
+                                                    },
+                                                    Object {
+                                                      "alignItems": "center",
+                                                    },
+                                                    Object {
+                                                      "justifyContent": "center",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Array [
+                                                      Object {
+                                                        "height": 32,
+                                                      },
+                                                      Object {
+                                                        "width": 32,
+                                                      },
+                                                      Object {
+                                                        "alignItems": "center",
+                                                      },
+                                                      Object {
+                                                        "justifyContent": "center",
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Component
+                                                    source={1}
+                                                  >
+                                                    <Image
+                                                      source={1}
+                                                    />
+                                                  </Component>
+                                                </View>
+                                              </Component>
+                                              <TouchableOpacity
+                                                activeOpacity={0.2}
+                                                onPress={[Function]}
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "width": 168,
+                                                    },
+                                                    Object {
+                                                      "height": 40,
+                                                    },
+                                                    Object {
+                                                      "justifyContent": "center",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <AnimatedComponent
+                                                  accessible={true}
+                                                  isTVSelectable={true}
+                                                  onResponderGrant={[Function]}
+                                                  onResponderMove={[Function]}
+                                                  onResponderRelease={[Function]}
+                                                  onResponderTerminate={[Function]}
+                                                  onResponderTerminationRequest={[Function]}
+                                                  onStartShouldSetResponder={[Function]}
+                                                  style={
+                                                    Array [
+                                                      Array [
+                                                        Object {
+                                                          "width": 168,
+                                                        },
+                                                        Object {
+                                                          "height": 40,
+                                                        },
+                                                        Object {
+                                                          "justifyContent": "center",
+                                                        },
+                                                      ],
+                                                      Object {
+                                                        "opacity": 1,
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Component
+                                                    accessible={true}
+                                                    isTVSelectable={true}
+                                                    onResponderGrant={[Function]}
+                                                    onResponderMove={[Function]}
+                                                    onResponderRelease={[Function]}
+                                                    onResponderTerminate={[Function]}
+                                                    onResponderTerminationRequest={[Function]}
+                                                    onStartShouldSetResponder={[Function]}
+                                                    style={
+                                                      Object {
+                                                        "height": 40,
+                                                        "justifyContent": "center",
+                                                        "opacity": 1,
+                                                        "width": 168,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View
+                                                      accessible={true}
+                                                      isTVSelectable={true}
+                                                      onResponderGrant={[Function]}
+                                                      onResponderMove={[Function]}
+                                                      onResponderRelease={[Function]}
+                                                      onResponderTerminate={[Function]}
+                                                      onResponderTerminationRequest={[Function]}
+                                                      onStartShouldSetResponder={[Function]}
+                                                      style={
+                                                        Object {
+                                                          "height": 40,
+                                                          "justifyContent": "center",
+                                                          "opacity": 1,
+                                                          "width": 168,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Component>
+                                                        <View>
+                                                          <Component
+                                                            style={
+                                                              Array [
+                                                                Object {
+                                                                  "fontFamily": "avenir-next-medium",
+                                                                },
+                                                                Object {
+                                                                  "color": "#e1e1e1",
+                                                                },
+                                                                Object {
+                                                                  "textAlign": "center",
+                                                                },
+                                                                Object {
+                                                                  "fontSize": 12,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <Text
+                                                              style={
+                                                                Array [
+                                                                  Object {
+                                                                    "fontFamily": "avenir-next-medium",
+                                                                  },
+                                                                  Object {
+                                                                    "color": "#e1e1e1",
+                                                                  },
+                                                                  Object {
+                                                                    "textAlign": "center",
+                                                                  },
+                                                                  Object {
+                                                                    "fontSize": 12,
+                                                                  },
+                                                                ]
+                                                              }
+                                                            >
+                                                              HEIGHT
+                                                            </Text>
+                                                          </Component>
+                                                        </View>
+                                                      </Component>
+                                                    </View>
+                                                  </Component>
+                                                </AnimatedComponent>
+                                              </TouchableOpacity>
+                                              <Component>
+                                                <View>
+                                                  <TouchableOpacity
+                                                    activeOpacity={0.2}
+                                                    disabled={true}
+                                                    onPress={[Function]}
+                                                    style={
+                                                      Array [
+                                                        Object {
+                                                          "height": 32,
+                                                        },
+                                                        Object {
+                                                          "width": 32,
+                                                        },
+                                                        Object {
+                                                          "justifyContent": "center",
+                                                        },
+                                                        Object {
+                                                          "alignItems": "center",
+                                                        },
+                                                      ]
+                                                    }
+                                                  >
+                                                    <AnimatedComponent
+                                                      accessible={true}
+                                                      isTVSelectable={true}
+                                                      onResponderGrant={[Function]}
+                                                      onResponderMove={[Function]}
+                                                      onResponderRelease={[Function]}
+                                                      onResponderTerminate={[Function]}
+                                                      onResponderTerminationRequest={[Function]}
+                                                      onStartShouldSetResponder={[Function]}
+                                                      style={
+                                                        Array [
+                                                          Array [
+                                                            Object {
+                                                              "height": 32,
+                                                            },
+                                                            Object {
+                                                              "width": 32,
+                                                            },
+                                                            Object {
+                                                              "justifyContent": "center",
+                                                            },
+                                                            Object {
+                                                              "alignItems": "center",
+                                                            },
+                                                          ],
+                                                          Object {
+                                                            "opacity": 1,
+                                                          },
+                                                        ]
+                                                      }
+                                                    >
+                                                      <Component
+                                                        accessible={true}
+                                                        isTVSelectable={true}
+                                                        onResponderGrant={[Function]}
+                                                        onResponderMove={[Function]}
+                                                        onResponderRelease={[Function]}
+                                                        onResponderTerminate={[Function]}
+                                                        onResponderTerminationRequest={[Function]}
+                                                        onStartShouldSetResponder={[Function]}
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "center",
+                                                            "height": 32,
+                                                            "justifyContent": "center",
+                                                            "opacity": 1,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      >
+                                                        <View
+                                                          accessible={true}
+                                                          isTVSelectable={true}
+                                                          onResponderGrant={[Function]}
+                                                          onResponderMove={[Function]}
+                                                          onResponderRelease={[Function]}
+                                                          onResponderTerminate={[Function]}
+                                                          onResponderTerminationRequest={[Function]}
+                                                          onStartShouldSetResponder={[Function]}
+                                                          style={
+                                                            Object {
+                                                              "alignItems": "center",
+                                                              "height": 32,
+                                                              "justifyContent": "center",
+                                                              "opacity": 1,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        >
+                                                          <Component
+                                                            style={
+                                                              Array [
+                                                                Object {
+                                                                  "marginLeft": 13,
+                                                                },
+                                                                Object {
+                                                                  "marginRight": 13,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <View
+                                                              style={
+                                                                Array [
+                                                                  Object {
+                                                                    "marginLeft": 13,
+                                                                  },
+                                                                  Object {
+                                                                    "marginRight": 13,
+                                                                  },
+                                                                ]
+                                                              }
+                                                            />
+                                                          </Component>
+                                                        </View>
+                                                      </Component>
+                                                    </AnimatedComponent>
+                                                  </TouchableOpacity>
+                                                </View>
+                                              </Component>
+                                            </View>
+                                          </Component>
+                                        </View>
+                                      </Component>
+                                    </PressableInput>
+                                    <PressableInput
+                                      icon="scale"
+                                      name="starting-weight"
+                                      onClear={[Function]}
+                                      onPress={[Function]}
+                                      placeholder="WEIGHT"
+                                      value=""
+                                    >
+                                      <Component
+                                        style={
+                                          Array [
+                                            Object {
+                                              "borderWidth": 1,
+                                            },
+                                            Object {
+                                              "borderColor": "#57ae5b",
+                                            },
+                                            Object {
+                                              "width": 240,
+                                            },
+                                            Object {
+                                              "marginBottom": 13,
+                                            },
+                                            Object {
+                                              "borderRadius": 5,
+                                            },
+                                            Object {
+                                              "borderColor": "#e1e1e1",
+                                            },
+                                            Object {
+                                              "height": 40,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {
+                                                "borderWidth": 1,
+                                              },
+                                              Object {
+                                                "borderColor": "#57ae5b",
+                                              },
+                                              Object {
+                                                "width": 240,
+                                              },
+                                              Object {
+                                                "marginBottom": 13,
+                                              },
+                                              Object {
+                                                "borderRadius": 5,
+                                              },
+                                              Object {
+                                                "borderColor": "#e1e1e1",
+                                              },
+                                              Object {
+                                                "height": 40,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Component
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "flex": 1,
+                                                },
+                                                Object {
+                                                  "flexDirection": "row",
+                                                },
+                                                Object {
+                                                  "alignItems": "center",
+                                                },
+                                                Object {
+                                                  "justifyContent": "center",
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            <View
+                                              style={
+                                                Array [
+                                                  Object {
+                                                    "flex": 1,
+                                                  },
+                                                  Object {
+                                                    "flexDirection": "row",
+                                                  },
+                                                  Object {
+                                                    "alignItems": "center",
+                                                  },
+                                                  Object {
+                                                    "justifyContent": "center",
+                                                  },
+                                                ]
+                                              }
+                                            >
+                                              <Component
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "height": 32,
+                                                    },
+                                                    Object {
+                                                      "width": 32,
+                                                    },
+                                                    Object {
+                                                      "alignItems": "center",
+                                                    },
+                                                    Object {
+                                                      "justifyContent": "center",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Array [
+                                                      Object {
+                                                        "height": 32,
+                                                      },
+                                                      Object {
+                                                        "width": 32,
+                                                      },
+                                                      Object {
+                                                        "alignItems": "center",
+                                                      },
+                                                      Object {
+                                                        "justifyContent": "center",
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Component
+                                                    source={1}
+                                                  >
+                                                    <Image
+                                                      source={1}
+                                                    />
+                                                  </Component>
+                                                </View>
+                                              </Component>
+                                              <TouchableOpacity
+                                                activeOpacity={0.2}
+                                                onPress={[Function]}
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "width": 168,
+                                                    },
+                                                    Object {
+                                                      "height": 40,
+                                                    },
+                                                    Object {
+                                                      "justifyContent": "center",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <AnimatedComponent
+                                                  accessible={true}
+                                                  isTVSelectable={true}
+                                                  onResponderGrant={[Function]}
+                                                  onResponderMove={[Function]}
+                                                  onResponderRelease={[Function]}
+                                                  onResponderTerminate={[Function]}
+                                                  onResponderTerminationRequest={[Function]}
+                                                  onStartShouldSetResponder={[Function]}
+                                                  style={
+                                                    Array [
+                                                      Array [
+                                                        Object {
+                                                          "width": 168,
+                                                        },
+                                                        Object {
+                                                          "height": 40,
+                                                        },
+                                                        Object {
+                                                          "justifyContent": "center",
+                                                        },
+                                                      ],
+                                                      Object {
+                                                        "opacity": 1,
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Component
+                                                    accessible={true}
+                                                    isTVSelectable={true}
+                                                    onResponderGrant={[Function]}
+                                                    onResponderMove={[Function]}
+                                                    onResponderRelease={[Function]}
+                                                    onResponderTerminate={[Function]}
+                                                    onResponderTerminationRequest={[Function]}
+                                                    onStartShouldSetResponder={[Function]}
+                                                    style={
+                                                      Object {
+                                                        "height": 40,
+                                                        "justifyContent": "center",
+                                                        "opacity": 1,
+                                                        "width": 168,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View
+                                                      accessible={true}
+                                                      isTVSelectable={true}
+                                                      onResponderGrant={[Function]}
+                                                      onResponderMove={[Function]}
+                                                      onResponderRelease={[Function]}
+                                                      onResponderTerminate={[Function]}
+                                                      onResponderTerminationRequest={[Function]}
+                                                      onStartShouldSetResponder={[Function]}
+                                                      style={
+                                                        Object {
+                                                          "height": 40,
+                                                          "justifyContent": "center",
+                                                          "opacity": 1,
+                                                          "width": 168,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Component>
+                                                        <View>
+                                                          <Component
+                                                            style={
+                                                              Array [
+                                                                Object {
+                                                                  "fontFamily": "avenir-next-medium",
+                                                                },
+                                                                Object {
+                                                                  "color": "#e1e1e1",
+                                                                },
+                                                                Object {
+                                                                  "textAlign": "center",
+                                                                },
+                                                                Object {
+                                                                  "fontSize": 12,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <Text
+                                                              style={
+                                                                Array [
+                                                                  Object {
+                                                                    "fontFamily": "avenir-next-medium",
+                                                                  },
+                                                                  Object {
+                                                                    "color": "#e1e1e1",
+                                                                  },
+                                                                  Object {
+                                                                    "textAlign": "center",
+                                                                  },
+                                                                  Object {
+                                                                    "fontSize": 12,
+                                                                  },
+                                                                ]
+                                                              }
+                                                            >
+                                                              WEIGHT
+                                                            </Text>
+                                                          </Component>
+                                                        </View>
+                                                      </Component>
+                                                    </View>
+                                                  </Component>
+                                                </AnimatedComponent>
+                                              </TouchableOpacity>
+                                              <Component>
+                                                <View>
+                                                  <TouchableOpacity
+                                                    activeOpacity={0.2}
+                                                    disabled={true}
+                                                    onPress={[Function]}
+                                                    style={
+                                                      Array [
+                                                        Object {
+                                                          "height": 32,
+                                                        },
+                                                        Object {
+                                                          "width": 32,
+                                                        },
+                                                        Object {
+                                                          "justifyContent": "center",
+                                                        },
+                                                        Object {
+                                                          "alignItems": "center",
+                                                        },
+                                                      ]
+                                                    }
+                                                  >
+                                                    <AnimatedComponent
+                                                      accessible={true}
+                                                      isTVSelectable={true}
+                                                      onResponderGrant={[Function]}
+                                                      onResponderMove={[Function]}
+                                                      onResponderRelease={[Function]}
+                                                      onResponderTerminate={[Function]}
+                                                      onResponderTerminationRequest={[Function]}
+                                                      onStartShouldSetResponder={[Function]}
+                                                      style={
+                                                        Array [
+                                                          Array [
+                                                            Object {
+                                                              "height": 32,
+                                                            },
+                                                            Object {
+                                                              "width": 32,
+                                                            },
+                                                            Object {
+                                                              "justifyContent": "center",
+                                                            },
+                                                            Object {
+                                                              "alignItems": "center",
+                                                            },
+                                                          ],
+                                                          Object {
+                                                            "opacity": 1,
+                                                          },
+                                                        ]
+                                                      }
+                                                    >
+                                                      <Component
+                                                        accessible={true}
+                                                        isTVSelectable={true}
+                                                        onResponderGrant={[Function]}
+                                                        onResponderMove={[Function]}
+                                                        onResponderRelease={[Function]}
+                                                        onResponderTerminate={[Function]}
+                                                        onResponderTerminationRequest={[Function]}
+                                                        onStartShouldSetResponder={[Function]}
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "center",
+                                                            "height": 32,
+                                                            "justifyContent": "center",
+                                                            "opacity": 1,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      >
+                                                        <View
+                                                          accessible={true}
+                                                          isTVSelectable={true}
+                                                          onResponderGrant={[Function]}
+                                                          onResponderMove={[Function]}
+                                                          onResponderRelease={[Function]}
+                                                          onResponderTerminate={[Function]}
+                                                          onResponderTerminationRequest={[Function]}
+                                                          onStartShouldSetResponder={[Function]}
+                                                          style={
+                                                            Object {
+                                                              "alignItems": "center",
+                                                              "height": 32,
+                                                              "justifyContent": "center",
+                                                              "opacity": 1,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        >
+                                                          <Component
+                                                            style={
+                                                              Array [
+                                                                Object {
+                                                                  "marginLeft": 13,
+                                                                },
+                                                                Object {
+                                                                  "marginRight": 13,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <View
+                                                              style={
+                                                                Array [
+                                                                  Object {
+                                                                    "marginLeft": 13,
+                                                                  },
+                                                                  Object {
+                                                                    "marginRight": 13,
+                                                                  },
+                                                                ]
+                                                              }
+                                                            />
+                                                          </Component>
+                                                        </View>
+                                                      </Component>
+                                                    </AnimatedComponent>
+                                                  </TouchableOpacity>
+                                                </View>
+                                              </Component>
+                                            </View>
+                                          </Component>
+                                        </View>
+                                      </Component>
+                                    </PressableInput>
+                                    <PressableInput
+                                      icon="goal-scale"
+                                      name="goal-weight"
+                                      onClear={[Function]}
+                                      onPress={[Function]}
+                                      placeholder="GOAL WEIGHT"
+                                      value=""
+                                    >
+                                      <Component
+                                        style={
+                                          Array [
+                                            Object {
+                                              "borderWidth": 1,
+                                            },
+                                            Object {
+                                              "borderColor": "#57ae5b",
+                                            },
+                                            Object {
+                                              "width": 240,
+                                            },
+                                            Object {
+                                              "marginBottom": 13,
+                                            },
+                                            Object {
+                                              "borderRadius": 5,
+                                            },
+                                            Object {
+                                              "borderColor": "#e1e1e1",
+                                            },
+                                            Object {
+                                              "height": 40,
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {
+                                                "borderWidth": 1,
+                                              },
+                                              Object {
+                                                "borderColor": "#57ae5b",
+                                              },
+                                              Object {
+                                                "width": 240,
+                                              },
+                                              Object {
+                                                "marginBottom": 13,
+                                              },
+                                              Object {
+                                                "borderRadius": 5,
+                                              },
+                                              Object {
+                                                "borderColor": "#e1e1e1",
+                                              },
+                                              Object {
+                                                "height": 40,
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Component
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "flex": 1,
+                                                },
+                                                Object {
+                                                  "flexDirection": "row",
+                                                },
+                                                Object {
+                                                  "alignItems": "center",
+                                                },
+                                                Object {
+                                                  "justifyContent": "center",
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            <View
+                                              style={
+                                                Array [
+                                                  Object {
+                                                    "flex": 1,
+                                                  },
+                                                  Object {
+                                                    "flexDirection": "row",
+                                                  },
+                                                  Object {
+                                                    "alignItems": "center",
+                                                  },
+                                                  Object {
+                                                    "justifyContent": "center",
+                                                  },
+                                                ]
+                                              }
+                                            >
+                                              <Component
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "height": 32,
+                                                    },
+                                                    Object {
+                                                      "width": 32,
+                                                    },
+                                                    Object {
+                                                      "alignItems": "center",
+                                                    },
+                                                    Object {
+                                                      "justifyContent": "center",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <View
+                                                  style={
+                                                    Array [
+                                                      Object {
+                                                        "height": 32,
+                                                      },
+                                                      Object {
+                                                        "width": 32,
+                                                      },
+                                                      Object {
+                                                        "alignItems": "center",
+                                                      },
+                                                      Object {
+                                                        "justifyContent": "center",
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Component
+                                                    source={1}
+                                                  >
+                                                    <Image
+                                                      source={1}
+                                                    />
+                                                  </Component>
+                                                </View>
+                                              </Component>
+                                              <TouchableOpacity
+                                                activeOpacity={0.2}
+                                                onPress={[Function]}
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "width": 168,
+                                                    },
+                                                    Object {
+                                                      "height": 40,
+                                                    },
+                                                    Object {
+                                                      "justifyContent": "center",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                <AnimatedComponent
+                                                  accessible={true}
+                                                  isTVSelectable={true}
+                                                  onResponderGrant={[Function]}
+                                                  onResponderMove={[Function]}
+                                                  onResponderRelease={[Function]}
+                                                  onResponderTerminate={[Function]}
+                                                  onResponderTerminationRequest={[Function]}
+                                                  onStartShouldSetResponder={[Function]}
+                                                  style={
+                                                    Array [
+                                                      Array [
+                                                        Object {
+                                                          "width": 168,
+                                                        },
+                                                        Object {
+                                                          "height": 40,
+                                                        },
+                                                        Object {
+                                                          "justifyContent": "center",
+                                                        },
+                                                      ],
+                                                      Object {
+                                                        "opacity": 1,
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <Component
+                                                    accessible={true}
+                                                    isTVSelectable={true}
+                                                    onResponderGrant={[Function]}
+                                                    onResponderMove={[Function]}
+                                                    onResponderRelease={[Function]}
+                                                    onResponderTerminate={[Function]}
+                                                    onResponderTerminationRequest={[Function]}
+                                                    onStartShouldSetResponder={[Function]}
+                                                    style={
+                                                      Object {
+                                                        "height": 40,
+                                                        "justifyContent": "center",
+                                                        "opacity": 1,
+                                                        "width": 168,
+                                                      }
+                                                    }
+                                                  >
+                                                    <View
+                                                      accessible={true}
+                                                      isTVSelectable={true}
+                                                      onResponderGrant={[Function]}
+                                                      onResponderMove={[Function]}
+                                                      onResponderRelease={[Function]}
+                                                      onResponderTerminate={[Function]}
+                                                      onResponderTerminationRequest={[Function]}
+                                                      onStartShouldSetResponder={[Function]}
+                                                      style={
+                                                        Object {
+                                                          "height": 40,
+                                                          "justifyContent": "center",
+                                                          "opacity": 1,
+                                                          "width": 168,
+                                                        }
+                                                      }
+                                                    >
+                                                      <Component>
+                                                        <View>
+                                                          <Component
+                                                            style={
+                                                              Array [
+                                                                Object {
+                                                                  "fontFamily": "avenir-next-medium",
+                                                                },
+                                                                Object {
+                                                                  "color": "#e1e1e1",
+                                                                },
+                                                                Object {
+                                                                  "textAlign": "center",
+                                                                },
+                                                                Object {
+                                                                  "fontSize": 12,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <Text
+                                                              style={
+                                                                Array [
+                                                                  Object {
+                                                                    "fontFamily": "avenir-next-medium",
+                                                                  },
+                                                                  Object {
+                                                                    "color": "#e1e1e1",
+                                                                  },
+                                                                  Object {
+                                                                    "textAlign": "center",
+                                                                  },
+                                                                  Object {
+                                                                    "fontSize": 12,
+                                                                  },
+                                                                ]
+                                                              }
+                                                            >
+                                                              GOAL WEIGHT
+                                                            </Text>
+                                                          </Component>
+                                                        </View>
+                                                      </Component>
+                                                    </View>
+                                                  </Component>
+                                                </AnimatedComponent>
+                                              </TouchableOpacity>
+                                              <Component>
+                                                <View>
+                                                  <TouchableOpacity
+                                                    activeOpacity={0.2}
+                                                    disabled={true}
+                                                    onPress={[Function]}
+                                                    style={
+                                                      Array [
+                                                        Object {
+                                                          "height": 32,
+                                                        },
+                                                        Object {
+                                                          "width": 32,
+                                                        },
+                                                        Object {
+                                                          "justifyContent": "center",
+                                                        },
+                                                        Object {
+                                                          "alignItems": "center",
+                                                        },
+                                                      ]
+                                                    }
+                                                  >
+                                                    <AnimatedComponent
+                                                      accessible={true}
+                                                      isTVSelectable={true}
+                                                      onResponderGrant={[Function]}
+                                                      onResponderMove={[Function]}
+                                                      onResponderRelease={[Function]}
+                                                      onResponderTerminate={[Function]}
+                                                      onResponderTerminationRequest={[Function]}
+                                                      onStartShouldSetResponder={[Function]}
+                                                      style={
+                                                        Array [
+                                                          Array [
+                                                            Object {
+                                                              "height": 32,
+                                                            },
+                                                            Object {
+                                                              "width": 32,
+                                                            },
+                                                            Object {
+                                                              "justifyContent": "center",
+                                                            },
+                                                            Object {
+                                                              "alignItems": "center",
+                                                            },
+                                                          ],
+                                                          Object {
+                                                            "opacity": 1,
+                                                          },
+                                                        ]
+                                                      }
+                                                    >
+                                                      <Component
+                                                        accessible={true}
+                                                        isTVSelectable={true}
+                                                        onResponderGrant={[Function]}
+                                                        onResponderMove={[Function]}
+                                                        onResponderRelease={[Function]}
+                                                        onResponderTerminate={[Function]}
+                                                        onResponderTerminationRequest={[Function]}
+                                                        onStartShouldSetResponder={[Function]}
+                                                        style={
+                                                          Object {
+                                                            "alignItems": "center",
+                                                            "height": 32,
+                                                            "justifyContent": "center",
+                                                            "opacity": 1,
+                                                            "width": 32,
+                                                          }
+                                                        }
+                                                      >
+                                                        <View
+                                                          accessible={true}
+                                                          isTVSelectable={true}
+                                                          onResponderGrant={[Function]}
+                                                          onResponderMove={[Function]}
+                                                          onResponderRelease={[Function]}
+                                                          onResponderTerminate={[Function]}
+                                                          onResponderTerminationRequest={[Function]}
+                                                          onStartShouldSetResponder={[Function]}
+                                                          style={
+                                                            Object {
+                                                              "alignItems": "center",
+                                                              "height": 32,
+                                                              "justifyContent": "center",
+                                                              "opacity": 1,
+                                                              "width": 32,
+                                                            }
+                                                          }
+                                                        >
+                                                          <Component
+                                                            style={
+                                                              Array [
+                                                                Object {
+                                                                  "marginLeft": 13,
+                                                                },
+                                                                Object {
+                                                                  "marginRight": 13,
+                                                                },
+                                                              ]
+                                                            }
+                                                          >
+                                                            <View
+                                                              style={
+                                                                Array [
+                                                                  Object {
+                                                                    "marginLeft": 13,
+                                                                  },
+                                                                  Object {
+                                                                    "marginRight": 13,
+                                                                  },
+                                                                ]
+                                                              }
+                                                            />
+                                                          </Component>
+                                                        </View>
+                                                      </Component>
+                                                    </AnimatedComponent>
+                                                  </TouchableOpacity>
+                                                </View>
+                                              </Component>
+                                            </View>
+                                          </Component>
+                                        </View>
+                                      </Component>
+                                    </PressableInput>
+                                  </View>
+                                </Component>
+                              </View>
+                            </Component>
+                            <Button
+                              disabled={true}
+                              onPress={[Function]}
+                              title="Continue"
+                              variant="primary-md"
+                            >
+                              <TouchableOpacity
+                                activeOpacity={0.2}
+                                disabled={true}
+                                onPress={[Function]}
+                                style={
+                                  Array [
+                                    Object {
+                                      "margin": 6.5,
+                                    },
+                                    Object {
+                                      "paddingLeft": 19.5,
+                                    },
+                                    Object {
+                                      "paddingRight": 19.5,
+                                    },
+                                    Object {
+                                      "borderWidth": 1,
+                                    },
+                                    Object {
+                                      "borderColor": "#57ae5b",
+                                    },
+                                    Object {
+                                      "borderRadius": 100,
+                                    },
+                                    Object {
+                                      "backgroundColor": "#57ae5b",
+                                    },
+                                    Object {
+                                      "minWidth": 160,
+                                    },
+                                    Object {
+                                      "height": 40,
+                                    },
+                                    Array [
+                                      Object {
+                                        "backgroundColor": "#cfcfcf",
+                                      },
+                                      Object {
+                                        "borderColor": "transparent",
+                                      },
+                                    ],
+                                  ]
+                                }
+                              >
+                                <AnimatedComponent
+                                  accessible={true}
+                                  isTVSelectable={true}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Array [
+                                      Array [
+                                        Object {
+                                          "margin": 6.5,
+                                        },
+                                        Object {
+                                          "paddingLeft": 19.5,
+                                        },
+                                        Object {
+                                          "paddingRight": 19.5,
+                                        },
+                                        Object {
+                                          "borderWidth": 1,
+                                        },
+                                        Object {
+                                          "borderColor": "#57ae5b",
+                                        },
+                                        Object {
+                                          "borderRadius": 100,
+                                        },
+                                        Object {
+                                          "backgroundColor": "#57ae5b",
+                                        },
+                                        Object {
+                                          "minWidth": 160,
+                                        },
+                                        Object {
+                                          "height": 40,
+                                        },
+                                        Array [
+                                          Object {
+                                            "backgroundColor": "#cfcfcf",
+                                          },
+                                          Object {
+                                            "borderColor": "transparent",
+                                          },
+                                        ],
+                                      ],
+                                      Object {
+                                        "opacity": 1,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <Component
+                                    accessible={true}
+                                    isTVSelectable={true}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Object {
+                                        "backgroundColor": "#cfcfcf",
+                                        "borderColor": "transparent",
+                                        "borderRadius": 100,
+                                        "borderWidth": 1,
+                                        "height": 40,
+                                        "margin": 6.5,
+                                        "minWidth": 160,
+                                        "opacity": 1,
+                                        "paddingLeft": 19.5,
+                                        "paddingRight": 19.5,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      accessible={true}
+                                      isTVSelectable={true}
+                                      onResponderGrant={[Function]}
+                                      onResponderMove={[Function]}
+                                      onResponderRelease={[Function]}
+                                      onResponderTerminate={[Function]}
+                                      onResponderTerminationRequest={[Function]}
+                                      onStartShouldSetResponder={[Function]}
+                                      style={
+                                        Object {
+                                          "backgroundColor": "#cfcfcf",
+                                          "borderColor": "transparent",
+                                          "borderRadius": 100,
+                                          "borderWidth": 1,
+                                          "height": 40,
+                                          "margin": 6.5,
+                                          "minWidth": 160,
+                                          "opacity": 1,
+                                          "paddingLeft": 19.5,
+                                          "paddingRight": 19.5,
+                                        }
+                                      }
+                                    >
+                                      <Component
+                                        style={
+                                          Array [
+                                            Object {
+                                              "flex": 1,
+                                            },
+                                            Object {
+                                              "justifyContent": "center",
+                                            },
+                                            Object {
+                                              "alignItems": "center",
+                                            },
+                                          ]
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Array [
+                                              Object {
+                                                "flex": 1,
+                                              },
+                                              Object {
+                                                "justifyContent": "center",
+                                              },
+                                              Object {
+                                                "alignItems": "center",
+                                              },
+                                            ]
+                                          }
+                                        >
+                                          <Component
+                                            style={
+                                              Array [
+                                                Object {
+                                                  "fontFamily": "avenir-next-medium",
+                                                },
+                                                Object {
+                                                  "textAlign": "center",
+                                                },
+                                                Object {
+                                                  "fontSize": 16,
+                                                },
+                                                Object {
+                                                  "color": "#ffffff",
+                                                },
+                                              ]
+                                            }
+                                          >
+                                            <Text
+                                              style={
+                                                Array [
+                                                  Object {
+                                                    "fontFamily": "avenir-next-medium",
+                                                  },
+                                                  Object {
+                                                    "textAlign": "center",
+                                                  },
+                                                  Object {
+                                                    "fontSize": 16,
+                                                  },
+                                                  Object {
+                                                    "color": "#ffffff",
+                                                  },
+                                                ]
+                                              }
+                                            >
+                                              Continue
+                                            </Text>
+                                          </Component>
+                                        </View>
+                                      </Component>
+                                    </View>
+                                  </Component>
+                                </AnimatedComponent>
+                              </TouchableOpacity>
+                            </Button>
+                          </View>
+                        </Component>
+                      </View>
+                    </Component>
+                    <Component
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "flex": 1,
+                            },
+                          ]
+                        }
+                      />
+                    </Component>
+                  </View>
+                </Component>
+              </CardWithHeaderAndButton>
+            </View>
+          </Component>
+        </OtherParameters>
+      </Mutation>
+    </_class>
+  </Query>
+</_class>
+`;

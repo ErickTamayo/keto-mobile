@@ -11,10 +11,46 @@ const color = {
   green: {
     borderColor: Colors.green,
   },
+  purple: {
+    borderColor: Colors.purple,
+  },
+
+  greyDarkest: {
+    borderColor: Colors.greyDarkest,
+  },
+  greyDarker: {
+    borderColor: Colors.greyDarker,
+  },
+  greyDark: {
+    borderColor: Colors.greyDark,
+  },
+
+  grey: {
+    borderColor: Colors.grey,
+  },
+  grey1: {
+    borderColor: Colors.grey1,
+  },
+  grey2: {
+    borderColor: Colors.grey2,
+  },
+
+  greyLight: {
+    borderColor: Colors.greyLight,
+  },
+  greyLighter: {
+    borderColor: Colors.greyLighter,
+  },
+  greyLightest: {
+    borderColor: Colors.greyLightest,
+  },
 }
 
 const radius = {
   rounded: {
+    borderRadius: 5,
+  },
+  roundedLg: {
     borderRadius: 10,
   },
   roundedFull: {
@@ -40,6 +76,21 @@ const width = {
   },
   a5: {
     borderWidth: 5,
+  },
+  b1: {
+    borderBottomWidth: 1,
+  },
+  b2: {
+    borderBottomWidth: 2,
+  },
+  b3: {
+    borderBottomWidth: 3,
+  },
+  b4: {
+    borderBottomWidth: 4,
+  },
+  b5: {
+    borderBottomWidth: 5,
   },
 }
 

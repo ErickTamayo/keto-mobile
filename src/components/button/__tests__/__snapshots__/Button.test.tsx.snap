@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders correctly 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  style={
+    Array [
+      Object {
+        "margin": 6.5,
+      },
+      Object {
+        "paddingLeft": 19.5,
+      },
+      Object {
+        "paddingRight": 19.5,
+      },
+      Object {
+        "borderWidth": 1,
+      },
+      Object {
+        "borderColor": "#57ae5b",
+      },
+      Object {
+        "borderRadius": 100,
+      },
+      Object {
+        "backgroundColor": "#57ae5b",
+      },
+      Object {
+        "height": 40,
+      },
+      null,
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "fontFamily": "avenir-next-medium",
+          },
+          Object {
+            "textAlign": "center",
+          },
+          Object {
+            "fontSize": 16,
+          },
+          Object {
+            "color": "#ffffff",
+          },
+        ]
+      }
+    >
+      button-title
+    </Component>
+  </Component>
+</TouchableOpacity>
+`;
+
+exports[`<Button /> renders disabled 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  disabled={true}
+  style={
+    Array [
+      Object {
+        "margin": 6.5,
+      },
+      Object {
+        "paddingLeft": 19.5,
+      },
+      Object {
+        "paddingRight": 19.5,
+      },
+      Object {
+        "borderWidth": 1,
+      },
+      Object {
+        "borderColor": "#57ae5b",
+      },
+      Object {
+        "borderRadius": 100,
+      },
+      Object {
+        "backgroundColor": "#57ae5b",
+      },
+      Object {
+        "height": 40,
+      },
+      Array [
+        Object {
+          "backgroundColor": "#cfcfcf",
+        },
+        Object {
+          "borderColor": "transparent",
+        },
+      ],
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "fontFamily": "avenir-next-medium",
+          },
+          Object {
+            "textAlign": "center",
+          },
+          Object {
+            "fontSize": 16,
+          },
+          Object {
+            "color": "#ffffff",
+          },
+        ]
+      }
+    >
+      button-title
+    </Component>
+  </Component>
+</TouchableOpacity>
+`;

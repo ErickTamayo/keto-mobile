@@ -14,11 +14,17 @@ exports[`<StartScreen /> renders correctly 1`] = `
         "alignItems": "flex-end",
       },
       Object {
+        "justifyContent": "center",
+      },
+      Object {
         "backgroundColor": "#f7f7f7",
       },
     ]
   }
 >
+  <withNavigation(NavigationEvents)
+    onDidFocus={[Function]}
+  />
   <Component
     style={
       Array [
@@ -37,21 +43,12 @@ exports[`<StartScreen /> renders correctly 1`] = `
       ]
     }
   >
-    <Component>
-      Hello 
-      World
-      !
-    </Component>
-    <Component>
-      Clicks: 
-      0
-    </Component>
-    <_default
+    <Button
       onPress={[Function]}
       title="Create Account"
       variant="primary-lg"
     />
-    <_default
+    <Button
       onPress={[Function]}
       title="Log In"
       variant="secondary-lg"

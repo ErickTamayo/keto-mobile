@@ -1,0 +1,1019 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeightSelectionModal /> renders correctly 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "textAlign": "center",
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "fontFamily": "avenir-next-medium",
+        },
+        Object {
+          "fontSize": 18,
+        },
+        Object {
+          "color": "#626262",
+        },
+      ]
+    }
+  >
+    Height
+  </Component>
+  <Selector
+    onSelect={[Function]}
+    selectedValue="IMPERIAL"
+  >
+    <Item
+      label="in"
+      value="IMPERIAL"
+    />
+    <Item
+      label="cm"
+      value="METRIC"
+    />
+  </Selector>
+  <Component
+    style={
+      Array [
+        Object {
+          "maxHeight": 216,
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "marginTop": 6.5,
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "display": "flex",
+          },
+        ]
+      }
+    >
+      <PickerIOS
+        itemStyle={
+          Array [
+            Object {
+              "fontFamily": "avenir-next-medium",
+            },
+            Object {
+              "fontSize": 18,
+            },
+            Object {
+              "color": "#626262",
+            },
+          ]
+        }
+        onValueChange={[Function]}
+        selectedValue={5}
+        style={
+          Array [
+            Object {
+              "width": 112,
+            },
+          ]
+        }
+      >
+        <PickerIOSItem
+          key="ft-3"
+          label="3 ft"
+          value={3}
+        />
+        <PickerIOSItem
+          key="ft-4"
+          label="4 ft"
+          value={4}
+        />
+        <PickerIOSItem
+          key="ft-5"
+          label="5 ft"
+          value={5}
+        />
+        <PickerIOSItem
+          key="ft-6"
+          label="6 ft"
+          value={6}
+        />
+        <PickerIOSItem
+          key="ft-7"
+          label="7 ft"
+          value={7}
+        />
+      </PickerIOS>
+      <PickerIOS
+        itemStyle={
+          Array [
+            Object {
+              "fontFamily": "avenir-next-medium",
+            },
+            Object {
+              "fontSize": 18,
+            },
+            Object {
+              "color": "#626262",
+            },
+          ]
+        }
+        onValueChange={[Function]}
+        selectedValue={9}
+        style={
+          Array [
+            Object {
+              "width": 112,
+            },
+          ]
+        }
+      >
+        <PickerIOSItem
+          key="0"
+          label="0 in"
+          value={0}
+        />
+        <PickerIOSItem
+          key="1"
+          label="1 in"
+          value={1}
+        />
+        <PickerIOSItem
+          key="2"
+          label="2 in"
+          value={2}
+        />
+        <PickerIOSItem
+          key="3"
+          label="3 in"
+          value={3}
+        />
+        <PickerIOSItem
+          key="4"
+          label="4 in"
+          value={4}
+        />
+        <PickerIOSItem
+          key="5"
+          label="5 in"
+          value={5}
+        />
+        <PickerIOSItem
+          key="6"
+          label="6 in"
+          value={6}
+        />
+        <PickerIOSItem
+          key="7"
+          label="7 in"
+          value={7}
+        />
+        <PickerIOSItem
+          key="8"
+          label="8 in"
+          value={8}
+        />
+        <PickerIOSItem
+          key="9"
+          label="9 in"
+          value={9}
+        />
+        <PickerIOSItem
+          key="10"
+          label="10 in"
+          value={10}
+        />
+        <PickerIOSItem
+          key="11"
+          label="11 in"
+          value={11}
+        />
+      </PickerIOS>
+    </Component>
+    <Component
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "display": "none",
+          },
+        ]
+      }
+    >
+      <PickerIOS
+        itemStyle={
+          Array [
+            Object {
+              "fontFamily": "avenir-next-medium",
+            },
+            Object {
+              "fontSize": 18,
+            },
+            Object {
+              "color": "#626262",
+            },
+          ]
+        }
+        onValueChange={[Function]}
+        selectedValue={175}
+        style={
+          Array [
+            Object {
+              "width": 224,
+            },
+          ]
+        }
+      >
+        <PickerIOSItem
+          key="91"
+          label="91 cm"
+          value={91}
+        />
+        <PickerIOSItem
+          key="92"
+          label="92 cm"
+          value={92}
+        />
+        <PickerIOSItem
+          key="93"
+          label="93 cm"
+          value={93}
+        />
+        <PickerIOSItem
+          key="94"
+          label="94 cm"
+          value={94}
+        />
+        <PickerIOSItem
+          key="95"
+          label="95 cm"
+          value={95}
+        />
+        <PickerIOSItem
+          key="96"
+          label="96 cm"
+          value={96}
+        />
+        <PickerIOSItem
+          key="97"
+          label="97 cm"
+          value={97}
+        />
+        <PickerIOSItem
+          key="98"
+          label="98 cm"
+          value={98}
+        />
+        <PickerIOSItem
+          key="99"
+          label="99 cm"
+          value={99}
+        />
+        <PickerIOSItem
+          key="100"
+          label="100 cm"
+          value={100}
+        />
+        <PickerIOSItem
+          key="101"
+          label="101 cm"
+          value={101}
+        />
+        <PickerIOSItem
+          key="102"
+          label="102 cm"
+          value={102}
+        />
+        <PickerIOSItem
+          key="103"
+          label="103 cm"
+          value={103}
+        />
+        <PickerIOSItem
+          key="104"
+          label="104 cm"
+          value={104}
+        />
+        <PickerIOSItem
+          key="105"
+          label="105 cm"
+          value={105}
+        />
+        <PickerIOSItem
+          key="106"
+          label="106 cm"
+          value={106}
+        />
+        <PickerIOSItem
+          key="107"
+          label="107 cm"
+          value={107}
+        />
+        <PickerIOSItem
+          key="108"
+          label="108 cm"
+          value={108}
+        />
+        <PickerIOSItem
+          key="109"
+          label="109 cm"
+          value={109}
+        />
+        <PickerIOSItem
+          key="110"
+          label="110 cm"
+          value={110}
+        />
+        <PickerIOSItem
+          key="111"
+          label="111 cm"
+          value={111}
+        />
+        <PickerIOSItem
+          key="112"
+          label="112 cm"
+          value={112}
+        />
+        <PickerIOSItem
+          key="113"
+          label="113 cm"
+          value={113}
+        />
+        <PickerIOSItem
+          key="114"
+          label="114 cm"
+          value={114}
+        />
+        <PickerIOSItem
+          key="115"
+          label="115 cm"
+          value={115}
+        />
+        <PickerIOSItem
+          key="116"
+          label="116 cm"
+          value={116}
+        />
+        <PickerIOSItem
+          key="117"
+          label="117 cm"
+          value={117}
+        />
+        <PickerIOSItem
+          key="118"
+          label="118 cm"
+          value={118}
+        />
+        <PickerIOSItem
+          key="119"
+          label="119 cm"
+          value={119}
+        />
+        <PickerIOSItem
+          key="120"
+          label="120 cm"
+          value={120}
+        />
+        <PickerIOSItem
+          key="121"
+          label="121 cm"
+          value={121}
+        />
+        <PickerIOSItem
+          key="122"
+          label="122 cm"
+          value={122}
+        />
+        <PickerIOSItem
+          key="123"
+          label="123 cm"
+          value={123}
+        />
+        <PickerIOSItem
+          key="124"
+          label="124 cm"
+          value={124}
+        />
+        <PickerIOSItem
+          key="125"
+          label="125 cm"
+          value={125}
+        />
+        <PickerIOSItem
+          key="126"
+          label="126 cm"
+          value={126}
+        />
+        <PickerIOSItem
+          key="127"
+          label="127 cm"
+          value={127}
+        />
+        <PickerIOSItem
+          key="128"
+          label="128 cm"
+          value={128}
+        />
+        <PickerIOSItem
+          key="129"
+          label="129 cm"
+          value={129}
+        />
+        <PickerIOSItem
+          key="130"
+          label="130 cm"
+          value={130}
+        />
+        <PickerIOSItem
+          key="131"
+          label="131 cm"
+          value={131}
+        />
+        <PickerIOSItem
+          key="132"
+          label="132 cm"
+          value={132}
+        />
+        <PickerIOSItem
+          key="133"
+          label="133 cm"
+          value={133}
+        />
+        <PickerIOSItem
+          key="134"
+          label="134 cm"
+          value={134}
+        />
+        <PickerIOSItem
+          key="135"
+          label="135 cm"
+          value={135}
+        />
+        <PickerIOSItem
+          key="136"
+          label="136 cm"
+          value={136}
+        />
+        <PickerIOSItem
+          key="137"
+          label="137 cm"
+          value={137}
+        />
+        <PickerIOSItem
+          key="138"
+          label="138 cm"
+          value={138}
+        />
+        <PickerIOSItem
+          key="139"
+          label="139 cm"
+          value={139}
+        />
+        <PickerIOSItem
+          key="140"
+          label="140 cm"
+          value={140}
+        />
+        <PickerIOSItem
+          key="141"
+          label="141 cm"
+          value={141}
+        />
+        <PickerIOSItem
+          key="142"
+          label="142 cm"
+          value={142}
+        />
+        <PickerIOSItem
+          key="143"
+          label="143 cm"
+          value={143}
+        />
+        <PickerIOSItem
+          key="144"
+          label="144 cm"
+          value={144}
+        />
+        <PickerIOSItem
+          key="145"
+          label="145 cm"
+          value={145}
+        />
+        <PickerIOSItem
+          key="146"
+          label="146 cm"
+          value={146}
+        />
+        <PickerIOSItem
+          key="147"
+          label="147 cm"
+          value={147}
+        />
+        <PickerIOSItem
+          key="148"
+          label="148 cm"
+          value={148}
+        />
+        <PickerIOSItem
+          key="149"
+          label="149 cm"
+          value={149}
+        />
+        <PickerIOSItem
+          key="150"
+          label="150 cm"
+          value={150}
+        />
+        <PickerIOSItem
+          key="151"
+          label="151 cm"
+          value={151}
+        />
+        <PickerIOSItem
+          key="152"
+          label="152 cm"
+          value={152}
+        />
+        <PickerIOSItem
+          key="153"
+          label="153 cm"
+          value={153}
+        />
+        <PickerIOSItem
+          key="154"
+          label="154 cm"
+          value={154}
+        />
+        <PickerIOSItem
+          key="155"
+          label="155 cm"
+          value={155}
+        />
+        <PickerIOSItem
+          key="156"
+          label="156 cm"
+          value={156}
+        />
+        <PickerIOSItem
+          key="157"
+          label="157 cm"
+          value={157}
+        />
+        <PickerIOSItem
+          key="158"
+          label="158 cm"
+          value={158}
+        />
+        <PickerIOSItem
+          key="159"
+          label="159 cm"
+          value={159}
+        />
+        <PickerIOSItem
+          key="160"
+          label="160 cm"
+          value={160}
+        />
+        <PickerIOSItem
+          key="161"
+          label="161 cm"
+          value={161}
+        />
+        <PickerIOSItem
+          key="162"
+          label="162 cm"
+          value={162}
+        />
+        <PickerIOSItem
+          key="163"
+          label="163 cm"
+          value={163}
+        />
+        <PickerIOSItem
+          key="164"
+          label="164 cm"
+          value={164}
+        />
+        <PickerIOSItem
+          key="165"
+          label="165 cm"
+          value={165}
+        />
+        <PickerIOSItem
+          key="166"
+          label="166 cm"
+          value={166}
+        />
+        <PickerIOSItem
+          key="167"
+          label="167 cm"
+          value={167}
+        />
+        <PickerIOSItem
+          key="168"
+          label="168 cm"
+          value={168}
+        />
+        <PickerIOSItem
+          key="169"
+          label="169 cm"
+          value={169}
+        />
+        <PickerIOSItem
+          key="170"
+          label="170 cm"
+          value={170}
+        />
+        <PickerIOSItem
+          key="171"
+          label="171 cm"
+          value={171}
+        />
+        <PickerIOSItem
+          key="172"
+          label="172 cm"
+          value={172}
+        />
+        <PickerIOSItem
+          key="173"
+          label="173 cm"
+          value={173}
+        />
+        <PickerIOSItem
+          key="174"
+          label="174 cm"
+          value={174}
+        />
+        <PickerIOSItem
+          key="175"
+          label="175 cm"
+          value={175}
+        />
+        <PickerIOSItem
+          key="176"
+          label="176 cm"
+          value={176}
+        />
+        <PickerIOSItem
+          key="177"
+          label="177 cm"
+          value={177}
+        />
+        <PickerIOSItem
+          key="178"
+          label="178 cm"
+          value={178}
+        />
+        <PickerIOSItem
+          key="179"
+          label="179 cm"
+          value={179}
+        />
+        <PickerIOSItem
+          key="180"
+          label="180 cm"
+          value={180}
+        />
+        <PickerIOSItem
+          key="181"
+          label="181 cm"
+          value={181}
+        />
+        <PickerIOSItem
+          key="182"
+          label="182 cm"
+          value={182}
+        />
+        <PickerIOSItem
+          key="183"
+          label="183 cm"
+          value={183}
+        />
+        <PickerIOSItem
+          key="184"
+          label="184 cm"
+          value={184}
+        />
+        <PickerIOSItem
+          key="185"
+          label="185 cm"
+          value={185}
+        />
+        <PickerIOSItem
+          key="186"
+          label="186 cm"
+          value={186}
+        />
+        <PickerIOSItem
+          key="187"
+          label="187 cm"
+          value={187}
+        />
+        <PickerIOSItem
+          key="188"
+          label="188 cm"
+          value={188}
+        />
+        <PickerIOSItem
+          key="189"
+          label="189 cm"
+          value={189}
+        />
+        <PickerIOSItem
+          key="190"
+          label="190 cm"
+          value={190}
+        />
+        <PickerIOSItem
+          key="191"
+          label="191 cm"
+          value={191}
+        />
+        <PickerIOSItem
+          key="192"
+          label="192 cm"
+          value={192}
+        />
+        <PickerIOSItem
+          key="193"
+          label="193 cm"
+          value={193}
+        />
+        <PickerIOSItem
+          key="194"
+          label="194 cm"
+          value={194}
+        />
+        <PickerIOSItem
+          key="195"
+          label="195 cm"
+          value={195}
+        />
+        <PickerIOSItem
+          key="196"
+          label="196 cm"
+          value={196}
+        />
+        <PickerIOSItem
+          key="197"
+          label="197 cm"
+          value={197}
+        />
+        <PickerIOSItem
+          key="198"
+          label="198 cm"
+          value={198}
+        />
+        <PickerIOSItem
+          key="199"
+          label="199 cm"
+          value={199}
+        />
+        <PickerIOSItem
+          key="200"
+          label="200 cm"
+          value={200}
+        />
+        <PickerIOSItem
+          key="201"
+          label="201 cm"
+          value={201}
+        />
+        <PickerIOSItem
+          key="202"
+          label="202 cm"
+          value={202}
+        />
+        <PickerIOSItem
+          key="203"
+          label="203 cm"
+          value={203}
+        />
+        <PickerIOSItem
+          key="204"
+          label="204 cm"
+          value={204}
+        />
+        <PickerIOSItem
+          key="205"
+          label="205 cm"
+          value={205}
+        />
+        <PickerIOSItem
+          key="206"
+          label="206 cm"
+          value={206}
+        />
+        <PickerIOSItem
+          key="207"
+          label="207 cm"
+          value={207}
+        />
+        <PickerIOSItem
+          key="208"
+          label="208 cm"
+          value={208}
+        />
+        <PickerIOSItem
+          key="209"
+          label="209 cm"
+          value={209}
+        />
+        <PickerIOSItem
+          key="210"
+          label="210 cm"
+          value={210}
+        />
+        <PickerIOSItem
+          key="211"
+          label="211 cm"
+          value={211}
+        />
+        <PickerIOSItem
+          key="212"
+          label="212 cm"
+          value={212}
+        />
+        <PickerIOSItem
+          key="213"
+          label="213 cm"
+          value={213}
+        />
+        <PickerIOSItem
+          key="214"
+          label="214 cm"
+          value={214}
+        />
+        <PickerIOSItem
+          key="215"
+          label="215 cm"
+          value={215}
+        />
+        <PickerIOSItem
+          key="216"
+          label="216 cm"
+          value={216}
+        />
+        <PickerIOSItem
+          key="217"
+          label="217 cm"
+          value={217}
+        />
+        <PickerIOSItem
+          key="218"
+          label="218 cm"
+          value={218}
+        />
+        <PickerIOSItem
+          key="219"
+          label="219 cm"
+          value={219}
+        />
+        <PickerIOSItem
+          key="220"
+          label="220 cm"
+          value={220}
+        />
+        <PickerIOSItem
+          key="221"
+          label="221 cm"
+          value={221}
+        />
+        <PickerIOSItem
+          key="222"
+          label="222 cm"
+          value={222}
+        />
+        <PickerIOSItem
+          key="223"
+          label="223 cm"
+          value={223}
+        />
+        <PickerIOSItem
+          key="224"
+          label="224 cm"
+          value={224}
+        />
+        <PickerIOSItem
+          key="225"
+          label="225 cm"
+          value={225}
+        />
+        <PickerIOSItem
+          key="226"
+          label="226 cm"
+          value={226}
+        />
+        <PickerIOSItem
+          key="227"
+          label="227 cm"
+          value={227}
+        />
+        <PickerIOSItem
+          key="228"
+          label="228 cm"
+          value={228}
+        />
+        <PickerIOSItem
+          key="229"
+          label="229 cm"
+          value={229}
+        />
+        <PickerIOSItem
+          key="230"
+          label="230 cm"
+          value={230}
+        />
+        <PickerIOSItem
+          key="231"
+          label="231 cm"
+          value={231}
+        />
+        <PickerIOSItem
+          key="232"
+          label="232 cm"
+          value={232}
+        />
+        <PickerIOSItem
+          key="233"
+          label="233 cm"
+          value={233}
+        />
+        <PickerIOSItem
+          key="234"
+          label="234 cm"
+          value={234}
+        />
+        <PickerIOSItem
+          key="235"
+          label="235 cm"
+          value={235}
+        />
+        <PickerIOSItem
+          key="236"
+          label="236 cm"
+          value={236}
+        />
+        <PickerIOSItem
+          key="237"
+          label="237 cm"
+          value={237}
+        />
+        <PickerIOSItem
+          key="238"
+          label="238 cm"
+          value={238}
+        />
+        <PickerIOSItem
+          key="239"
+          label="239 cm"
+          value={239}
+        />
+        <PickerIOSItem
+          key="240"
+          label="240 cm"
+          value={240}
+        />
+      </PickerIOS>
+    </Component>
+  </Component>
+  <Button
+    onPress={[Function]}
+    title="Select"
+    variant="primary-md"
+  />
+</Component>
+`;

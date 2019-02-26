@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PressableInput /> renders correctly 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "borderWidth": 1,
+      },
+      Object {
+        "borderColor": "#57ae5b",
+      },
+      Object {
+        "width": 240,
+      },
+      Object {
+        "marginBottom": 13,
+      },
+      Object {
+        "borderRadius": 5,
+      },
+      Object {
+        "borderColor": "#e1e1e1",
+      },
+      Object {
+        "height": 40,
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "height": 32,
+          },
+          Object {
+            "width": 32,
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Component
+        source={1}
+      />
+    </Component>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      style={
+        Array [
+          Object {
+            "width": 168,
+          },
+          Object {
+            "height": 40,
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Component>
+        <Component
+          style={
+            Array [
+              Object {
+                "fontFamily": "avenir-next-medium",
+              },
+              Object {
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#7e7e7e",
+              },
+              Object {
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          value-text
+        </Component>
+      </Component>
+    </TouchableOpacity>
+    <Component>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        disabled={false}
+        style={
+          Array [
+            Object {
+              "height": 32,
+            },
+            Object {
+              "width": 32,
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <Component
+          source={1}
+          style={
+            Array [
+              Object {
+                "marginLeft": 13,
+              },
+              Object {
+                "marginRight": 13,
+              },
+            ]
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+  </Component>
+</Component>
+`;
+
+exports[`<PressableInput /> renders the placeholder when value is empty 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "borderWidth": 1,
+      },
+      Object {
+        "borderColor": "#57ae5b",
+      },
+      Object {
+        "width": 240,
+      },
+      Object {
+        "marginBottom": 13,
+      },
+      Object {
+        "borderRadius": 5,
+      },
+      Object {
+        "borderColor": "#e1e1e1",
+      },
+      Object {
+        "height": 40,
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+        Object {
+          "flexDirection": "row",
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "height": 32,
+          },
+          Object {
+            "width": 32,
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Component
+        source={1}
+      />
+    </Component>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      style={
+        Array [
+          Object {
+            "width": 168,
+          },
+          Object {
+            "height": 40,
+          },
+          Object {
+            "justifyContent": "center",
+          },
+        ]
+      }
+    >
+      <Component>
+        <Component
+          style={
+            Array [
+              Object {
+                "fontFamily": "avenir-next-medium",
+              },
+              Object {
+                "color": "#e1e1e1",
+              },
+              Object {
+                "textAlign": "center",
+              },
+              Object {
+                "fontSize": 12,
+              },
+            ]
+          }
+        >
+          placeholder-text
+        </Component>
+      </Component>
+    </TouchableOpacity>
+    <Component>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        disabled={true}
+        style={
+          Array [
+            Object {
+              "height": 32,
+            },
+            Object {
+              "width": 32,
+            },
+            Object {
+              "justifyContent": "center",
+            },
+            Object {
+              "alignItems": "center",
+            },
+          ]
+        }
+      >
+        <Component
+          style={
+            Array [
+              Object {
+                "marginLeft": 13,
+              },
+              Object {
+                "marginRight": 13,
+              },
+            ]
+          }
+        />
+      </TouchableOpacity>
+    </Component>
+  </Component>
+</Component>
+`;

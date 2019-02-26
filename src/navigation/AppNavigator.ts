@@ -1,20 +1,54 @@
-import { createStackNavigator, createAppContainer, NavigationContainer } from 'react-navigation'
-import StartScreen from '../features/start-screen/containers/StartScreen'
-import SecondScreen from '../features/second-screen/components/SecondScreen'
+import {
+  createStackNavigator,
+  createSwitchNavigator,
+  createAppContainer,
+  NavigationContainer,
+} from 'react-navigation'
+import Modal from '../components/modal/Modal'
+import AuthStack from './AuthStack'
+import AppStack from './AppStack'
 
-const AppNavigator: NavigationContainer = createStackNavigator(
+const appNavigator = createSwitchNavigator(
   {
-    Start: {
-      screen: StartScreen,
-    },
-    SignUp: {
-      screen: SecondScreen,
-    },
+    // TODO: Create a screen to detect if the user is logged in
+    // then redirect to Auth/App
+    Auth: AuthStack,
+    App: AppStack,
   },
   {
-    initialRouteName: 'Start',
-    cardShadowEnabled: false,
+    initialRouteName: 'Auth',
   }
 )
 
-export default createAppContainer(AppNavigator)
+const rootNavigator: NavigationContainer = createStackNavigator(
+  {
+    Main: {
+      screen: appNavigator,
+    },
+    Modal: {
+      screen: Modal,
+    },
+  },
+  {
+    mode: 'modal',
+    headerMode: 'none',
+    transparentCard: true,
+    defaultNavigationOptions: {
+      gesturesEnabled: false,
+    },
+    cardStyle: {
+      backgroundColor: 'transparent',
+      opacity: 1,
+    },
+    transitionConfig: () => ({
+      transitionSpec: {
+        duration: 0,
+      },
+      containerStyle: {
+        backgroundColor: 'transparent',
+      },
+    }),
+  }
+)
+
+export default createAppContainer(rootNavigator)

@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> renders correctly 1`] = `
+<Item
+  label="item-label"
+  value="item-value"
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={false}
+    onPress={[Function]}
+  >
+    <AnimatedComponent
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Component
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Component
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 3,
+                },
+                Object {
+                  "justifyContent": "center",
+                },
+                Object {
+                  "marginLeft": 26,
+                },
+                Object {
+                  "marginRight": 26,
+                },
+                Object {
+                  "minWidth": 40,
+                },
+                Object {
+                  "borderColor": "transparent",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 3,
+                  },
+                  Object {
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "marginLeft": 26,
+                  },
+                  Object {
+                    "marginRight": 26,
+                  },
+                  Object {
+                    "minWidth": 40,
+                  },
+                  Object {
+                    "borderColor": "transparent",
+                  },
+                ]
+              }
+            >
+              <Component
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "avenir-next-medium",
+                    },
+                    Object {
+                      "fontSize": 18,
+                    },
+                    Object {
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "color": "#cfcfcf",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "avenir-next-medium",
+                      },
+                      Object {
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#cfcfcf",
+                      },
+                    ]
+                  }
+                >
+                  item-label
+                </Text>
+              </Component>
+            </View>
+          </Component>
+        </View>
+      </Component>
+    </AnimatedComponent>
+  </TouchableOpacity>
+</Item>
+`;
+
+exports[`<Item /> should be highlighted once selectedValue is the same as the item value 1`] = `
+<Item
+  label="item-label"
+  value="item-value"
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    disabled={true}
+    onPress={[Function]}
+  >
+    <AnimatedComponent
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Component
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Component
+            style={
+              Array [
+                Object {
+                  "borderBottomWidth": 3,
+                },
+                Object {
+                  "justifyContent": "center",
+                },
+                Object {
+                  "marginLeft": 26,
+                },
+                Object {
+                  "marginRight": 26,
+                },
+                Object {
+                  "minWidth": 40,
+                },
+                Object {
+                  "borderColor": "#724bb7",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderBottomWidth": 3,
+                  },
+                  Object {
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "marginLeft": 26,
+                  },
+                  Object {
+                    "marginRight": 26,
+                  },
+                  Object {
+                    "minWidth": 40,
+                  },
+                  Object {
+                    "borderColor": "#724bb7",
+                  },
+                ]
+              }
+            >
+              <Component
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "avenir-next-medium",
+                    },
+                    Object {
+                      "fontSize": 18,
+                    },
+                    Object {
+                      "textAlign": "center",
+                    },
+                    Object {
+                      "color": "#724bb7",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontFamily": "avenir-next-medium",
+                      },
+                      Object {
+                        "fontSize": 18,
+                      },
+                      Object {
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#724bb7",
+                      },
+                    ]
+                  }
+                >
+                  item-label
+                </Text>
+              </Component>
+            </View>
+          </Component>
+        </View>
+      </Component>
+    </AnimatedComponent>
+  </TouchableOpacity>
+</Item>
+`;

@@ -1,10 +1,20 @@
-import * as React from 'react'
-import { Provider } from 'react-redux'
+import React from 'react'
 import { Font } from 'expo'
 import AppNavigator from './navigation/AppNavigator'
-import configureStore from './store'
+import { ApolloProvider } from 'react-apollo'
+import ApolloClient from 'apollo-boost'
 
-const store = configureStore()
+import defaults from './graphql/defaults'
+import resolvers from './graphql/resolvers'
+import uri from './constants/Uri'
+
+const client = new ApolloClient({
+  uri,
+  clientState: {
+    defaults,
+    resolvers,
+  },
+})
 
 interface State {
   fontLoaded: boolean
@@ -27,6 +37,6 @@ export default class App extends React.Component<{}, State> {
   public render(): JSX.Element {
     // TODO put a spinner
     const { fontLoaded } = this.state
-    return <Provider store={store}>{fontLoaded && <AppNavigator />}</Provider>
+    return <ApolloProvider client={client}>{fontLoaded && <AppNavigator />}</ApolloProvider>
   }
 }

@@ -1,0 +1,7119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeightSelectionModal /> renders correctly 1`] = `
+<Component
+  style={
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "textAlign": "center",
+      },
+    ]
+  }
+>
+  <Component
+    style={
+      Array [
+        Object {
+          "fontFamily": "avenir-next-medium",
+        },
+        Object {
+          "fontSize": 18,
+        },
+        Object {
+          "color": "#626262",
+        },
+      ]
+    }
+  >
+    weight-modal-title
+  </Component>
+  <Selector
+    onSelect={[Function]}
+    selectedValue="IMPERIAL"
+  >
+    <Item
+      label="lbs"
+      value="IMPERIAL"
+    />
+    <Item
+      label="kg"
+      value="METRIC"
+    />
+  </Selector>
+  <Component
+    style={
+      Array [
+        Object {
+          "maxHeight": 216,
+        },
+        Object {
+          "alignItems": "center",
+        },
+        Object {
+          "marginTop": 6.5,
+        },
+      ]
+    }
+  >
+    <Component
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "display": "flex",
+          },
+        ]
+      }
+    >
+      <PickerIOS
+        itemStyle={
+          Array [
+            Object {
+              "fontFamily": "avenir-next-medium",
+            },
+            Object {
+              "fontSize": 18,
+            },
+            Object {
+              "color": "#626262",
+            },
+          ]
+        }
+        onValueChange={[Function]}
+        selectedValue={195}
+        style={
+          Array [
+            Object {
+              "width": 224,
+            },
+          ]
+        }
+      >
+        <PickerIOSItem
+          key="40"
+          label="40 lbs"
+          value={40}
+        />
+        <PickerIOSItem
+          key="41"
+          label="41 lbs"
+          value={41}
+        />
+        <PickerIOSItem
+          key="42"
+          label="42 lbs"
+          value={42}
+        />
+        <PickerIOSItem
+          key="43"
+          label="43 lbs"
+          value={43}
+        />
+        <PickerIOSItem
+          key="44"
+          label="44 lbs"
+          value={44}
+        />
+        <PickerIOSItem
+          key="45"
+          label="45 lbs"
+          value={45}
+        />
+        <PickerIOSItem
+          key="46"
+          label="46 lbs"
+          value={46}
+        />
+        <PickerIOSItem
+          key="47"
+          label="47 lbs"
+          value={47}
+        />
+        <PickerIOSItem
+          key="48"
+          label="48 lbs"
+          value={48}
+        />
+        <PickerIOSItem
+          key="49"
+          label="49 lbs"
+          value={49}
+        />
+        <PickerIOSItem
+          key="50"
+          label="50 lbs"
+          value={50}
+        />
+        <PickerIOSItem
+          key="51"
+          label="51 lbs"
+          value={51}
+        />
+        <PickerIOSItem
+          key="52"
+          label="52 lbs"
+          value={52}
+        />
+        <PickerIOSItem
+          key="53"
+          label="53 lbs"
+          value={53}
+        />
+        <PickerIOSItem
+          key="54"
+          label="54 lbs"
+          value={54}
+        />
+        <PickerIOSItem
+          key="55"
+          label="55 lbs"
+          value={55}
+        />
+        <PickerIOSItem
+          key="56"
+          label="56 lbs"
+          value={56}
+        />
+        <PickerIOSItem
+          key="57"
+          label="57 lbs"
+          value={57}
+        />
+        <PickerIOSItem
+          key="58"
+          label="58 lbs"
+          value={58}
+        />
+        <PickerIOSItem
+          key="59"
+          label="59 lbs"
+          value={59}
+        />
+        <PickerIOSItem
+          key="60"
+          label="60 lbs"
+          value={60}
+        />
+        <PickerIOSItem
+          key="61"
+          label="61 lbs"
+          value={61}
+        />
+        <PickerIOSItem
+          key="62"
+          label="62 lbs"
+          value={62}
+        />
+        <PickerIOSItem
+          key="63"
+          label="63 lbs"
+          value={63}
+        />
+        <PickerIOSItem
+          key="64"
+          label="64 lbs"
+          value={64}
+        />
+        <PickerIOSItem
+          key="65"
+          label="65 lbs"
+          value={65}
+        />
+        <PickerIOSItem
+          key="66"
+          label="66 lbs"
+          value={66}
+        />
+        <PickerIOSItem
+          key="67"
+          label="67 lbs"
+          value={67}
+        />
+        <PickerIOSItem
+          key="68"
+          label="68 lbs"
+          value={68}
+        />
+        <PickerIOSItem
+          key="69"
+          label="69 lbs"
+          value={69}
+        />
+        <PickerIOSItem
+          key="70"
+          label="70 lbs"
+          value={70}
+        />
+        <PickerIOSItem
+          key="71"
+          label="71 lbs"
+          value={71}
+        />
+        <PickerIOSItem
+          key="72"
+          label="72 lbs"
+          value={72}
+        />
+        <PickerIOSItem
+          key="73"
+          label="73 lbs"
+          value={73}
+        />
+        <PickerIOSItem
+          key="74"
+          label="74 lbs"
+          value={74}
+        />
+        <PickerIOSItem
+          key="75"
+          label="75 lbs"
+          value={75}
+        />
+        <PickerIOSItem
+          key="76"
+          label="76 lbs"
+          value={76}
+        />
+        <PickerIOSItem
+          key="77"
+          label="77 lbs"
+          value={77}
+        />
+        <PickerIOSItem
+          key="78"
+          label="78 lbs"
+          value={78}
+        />
+        <PickerIOSItem
+          key="79"
+          label="79 lbs"
+          value={79}
+        />
+        <PickerIOSItem
+          key="80"
+          label="80 lbs"
+          value={80}
+        />
+        <PickerIOSItem
+          key="81"
+          label="81 lbs"
+          value={81}
+        />
+        <PickerIOSItem
+          key="82"
+          label="82 lbs"
+          value={82}
+        />
+        <PickerIOSItem
+          key="83"
+          label="83 lbs"
+          value={83}
+        />
+        <PickerIOSItem
+          key="84"
+          label="84 lbs"
+          value={84}
+        />
+        <PickerIOSItem
+          key="85"
+          label="85 lbs"
+          value={85}
+        />
+        <PickerIOSItem
+          key="86"
+          label="86 lbs"
+          value={86}
+        />
+        <PickerIOSItem
+          key="87"
+          label="87 lbs"
+          value={87}
+        />
+        <PickerIOSItem
+          key="88"
+          label="88 lbs"
+          value={88}
+        />
+        <PickerIOSItem
+          key="89"
+          label="89 lbs"
+          value={89}
+        />
+        <PickerIOSItem
+          key="90"
+          label="90 lbs"
+          value={90}
+        />
+        <PickerIOSItem
+          key="91"
+          label="91 lbs"
+          value={91}
+        />
+        <PickerIOSItem
+          key="92"
+          label="92 lbs"
+          value={92}
+        />
+        <PickerIOSItem
+          key="93"
+          label="93 lbs"
+          value={93}
+        />
+        <PickerIOSItem
+          key="94"
+          label="94 lbs"
+          value={94}
+        />
+        <PickerIOSItem
+          key="95"
+          label="95 lbs"
+          value={95}
+        />
+        <PickerIOSItem
+          key="96"
+          label="96 lbs"
+          value={96}
+        />
+        <PickerIOSItem
+          key="97"
+          label="97 lbs"
+          value={97}
+        />
+        <PickerIOSItem
+          key="98"
+          label="98 lbs"
+          value={98}
+        />
+        <PickerIOSItem
+          key="99"
+          label="99 lbs"
+          value={99}
+        />
+        <PickerIOSItem
+          key="100"
+          label="100 lbs"
+          value={100}
+        />
+        <PickerIOSItem
+          key="101"
+          label="101 lbs"
+          value={101}
+        />
+        <PickerIOSItem
+          key="102"
+          label="102 lbs"
+          value={102}
+        />
+        <PickerIOSItem
+          key="103"
+          label="103 lbs"
+          value={103}
+        />
+        <PickerIOSItem
+          key="104"
+          label="104 lbs"
+          value={104}
+        />
+        <PickerIOSItem
+          key="105"
+          label="105 lbs"
+          value={105}
+        />
+        <PickerIOSItem
+          key="106"
+          label="106 lbs"
+          value={106}
+        />
+        <PickerIOSItem
+          key="107"
+          label="107 lbs"
+          value={107}
+        />
+        <PickerIOSItem
+          key="108"
+          label="108 lbs"
+          value={108}
+        />
+        <PickerIOSItem
+          key="109"
+          label="109 lbs"
+          value={109}
+        />
+        <PickerIOSItem
+          key="110"
+          label="110 lbs"
+          value={110}
+        />
+        <PickerIOSItem
+          key="111"
+          label="111 lbs"
+          value={111}
+        />
+        <PickerIOSItem
+          key="112"
+          label="112 lbs"
+          value={112}
+        />
+        <PickerIOSItem
+          key="113"
+          label="113 lbs"
+          value={113}
+        />
+        <PickerIOSItem
+          key="114"
+          label="114 lbs"
+          value={114}
+        />
+        <PickerIOSItem
+          key="115"
+          label="115 lbs"
+          value={115}
+        />
+        <PickerIOSItem
+          key="116"
+          label="116 lbs"
+          value={116}
+        />
+        <PickerIOSItem
+          key="117"
+          label="117 lbs"
+          value={117}
+        />
+        <PickerIOSItem
+          key="118"
+          label="118 lbs"
+          value={118}
+        />
+        <PickerIOSItem
+          key="119"
+          label="119 lbs"
+          value={119}
+        />
+        <PickerIOSItem
+          key="120"
+          label="120 lbs"
+          value={120}
+        />
+        <PickerIOSItem
+          key="121"
+          label="121 lbs"
+          value={121}
+        />
+        <PickerIOSItem
+          key="122"
+          label="122 lbs"
+          value={122}
+        />
+        <PickerIOSItem
+          key="123"
+          label="123 lbs"
+          value={123}
+        />
+        <PickerIOSItem
+          key="124"
+          label="124 lbs"
+          value={124}
+        />
+        <PickerIOSItem
+          key="125"
+          label="125 lbs"
+          value={125}
+        />
+        <PickerIOSItem
+          key="126"
+          label="126 lbs"
+          value={126}
+        />
+        <PickerIOSItem
+          key="127"
+          label="127 lbs"
+          value={127}
+        />
+        <PickerIOSItem
+          key="128"
+          label="128 lbs"
+          value={128}
+        />
+        <PickerIOSItem
+          key="129"
+          label="129 lbs"
+          value={129}
+        />
+        <PickerIOSItem
+          key="130"
+          label="130 lbs"
+          value={130}
+        />
+        <PickerIOSItem
+          key="131"
+          label="131 lbs"
+          value={131}
+        />
+        <PickerIOSItem
+          key="132"
+          label="132 lbs"
+          value={132}
+        />
+        <PickerIOSItem
+          key="133"
+          label="133 lbs"
+          value={133}
+        />
+        <PickerIOSItem
+          key="134"
+          label="134 lbs"
+          value={134}
+        />
+        <PickerIOSItem
+          key="135"
+          label="135 lbs"
+          value={135}
+        />
+        <PickerIOSItem
+          key="136"
+          label="136 lbs"
+          value={136}
+        />
+        <PickerIOSItem
+          key="137"
+          label="137 lbs"
+          value={137}
+        />
+        <PickerIOSItem
+          key="138"
+          label="138 lbs"
+          value={138}
+        />
+        <PickerIOSItem
+          key="139"
+          label="139 lbs"
+          value={139}
+        />
+        <PickerIOSItem
+          key="140"
+          label="140 lbs"
+          value={140}
+        />
+        <PickerIOSItem
+          key="141"
+          label="141 lbs"
+          value={141}
+        />
+        <PickerIOSItem
+          key="142"
+          label="142 lbs"
+          value={142}
+        />
+        <PickerIOSItem
+          key="143"
+          label="143 lbs"
+          value={143}
+        />
+        <PickerIOSItem
+          key="144"
+          label="144 lbs"
+          value={144}
+        />
+        <PickerIOSItem
+          key="145"
+          label="145 lbs"
+          value={145}
+        />
+        <PickerIOSItem
+          key="146"
+          label="146 lbs"
+          value={146}
+        />
+        <PickerIOSItem
+          key="147"
+          label="147 lbs"
+          value={147}
+        />
+        <PickerIOSItem
+          key="148"
+          label="148 lbs"
+          value={148}
+        />
+        <PickerIOSItem
+          key="149"
+          label="149 lbs"
+          value={149}
+        />
+        <PickerIOSItem
+          key="150"
+          label="150 lbs"
+          value={150}
+        />
+        <PickerIOSItem
+          key="151"
+          label="151 lbs"
+          value={151}
+        />
+        <PickerIOSItem
+          key="152"
+          label="152 lbs"
+          value={152}
+        />
+        <PickerIOSItem
+          key="153"
+          label="153 lbs"
+          value={153}
+        />
+        <PickerIOSItem
+          key="154"
+          label="154 lbs"
+          value={154}
+        />
+        <PickerIOSItem
+          key="155"
+          label="155 lbs"
+          value={155}
+        />
+        <PickerIOSItem
+          key="156"
+          label="156 lbs"
+          value={156}
+        />
+        <PickerIOSItem
+          key="157"
+          label="157 lbs"
+          value={157}
+        />
+        <PickerIOSItem
+          key="158"
+          label="158 lbs"
+          value={158}
+        />
+        <PickerIOSItem
+          key="159"
+          label="159 lbs"
+          value={159}
+        />
+        <PickerIOSItem
+          key="160"
+          label="160 lbs"
+          value={160}
+        />
+        <PickerIOSItem
+          key="161"
+          label="161 lbs"
+          value={161}
+        />
+        <PickerIOSItem
+          key="162"
+          label="162 lbs"
+          value={162}
+        />
+        <PickerIOSItem
+          key="163"
+          label="163 lbs"
+          value={163}
+        />
+        <PickerIOSItem
+          key="164"
+          label="164 lbs"
+          value={164}
+        />
+        <PickerIOSItem
+          key="165"
+          label="165 lbs"
+          value={165}
+        />
+        <PickerIOSItem
+          key="166"
+          label="166 lbs"
+          value={166}
+        />
+        <PickerIOSItem
+          key="167"
+          label="167 lbs"
+          value={167}
+        />
+        <PickerIOSItem
+          key="168"
+          label="168 lbs"
+          value={168}
+        />
+        <PickerIOSItem
+          key="169"
+          label="169 lbs"
+          value={169}
+        />
+        <PickerIOSItem
+          key="170"
+          label="170 lbs"
+          value={170}
+        />
+        <PickerIOSItem
+          key="171"
+          label="171 lbs"
+          value={171}
+        />
+        <PickerIOSItem
+          key="172"
+          label="172 lbs"
+          value={172}
+        />
+        <PickerIOSItem
+          key="173"
+          label="173 lbs"
+          value={173}
+        />
+        <PickerIOSItem
+          key="174"
+          label="174 lbs"
+          value={174}
+        />
+        <PickerIOSItem
+          key="175"
+          label="175 lbs"
+          value={175}
+        />
+        <PickerIOSItem
+          key="176"
+          label="176 lbs"
+          value={176}
+        />
+        <PickerIOSItem
+          key="177"
+          label="177 lbs"
+          value={177}
+        />
+        <PickerIOSItem
+          key="178"
+          label="178 lbs"
+          value={178}
+        />
+        <PickerIOSItem
+          key="179"
+          label="179 lbs"
+          value={179}
+        />
+        <PickerIOSItem
+          key="180"
+          label="180 lbs"
+          value={180}
+        />
+        <PickerIOSItem
+          key="181"
+          label="181 lbs"
+          value={181}
+        />
+        <PickerIOSItem
+          key="182"
+          label="182 lbs"
+          value={182}
+        />
+        <PickerIOSItem
+          key="183"
+          label="183 lbs"
+          value={183}
+        />
+        <PickerIOSItem
+          key="184"
+          label="184 lbs"
+          value={184}
+        />
+        <PickerIOSItem
+          key="185"
+          label="185 lbs"
+          value={185}
+        />
+        <PickerIOSItem
+          key="186"
+          label="186 lbs"
+          value={186}
+        />
+        <PickerIOSItem
+          key="187"
+          label="187 lbs"
+          value={187}
+        />
+        <PickerIOSItem
+          key="188"
+          label="188 lbs"
+          value={188}
+        />
+        <PickerIOSItem
+          key="189"
+          label="189 lbs"
+          value={189}
+        />
+        <PickerIOSItem
+          key="190"
+          label="190 lbs"
+          value={190}
+        />
+        <PickerIOSItem
+          key="191"
+          label="191 lbs"
+          value={191}
+        />
+        <PickerIOSItem
+          key="192"
+          label="192 lbs"
+          value={192}
+        />
+        <PickerIOSItem
+          key="193"
+          label="193 lbs"
+          value={193}
+        />
+        <PickerIOSItem
+          key="194"
+          label="194 lbs"
+          value={194}
+        />
+        <PickerIOSItem
+          key="195"
+          label="195 lbs"
+          value={195}
+        />
+        <PickerIOSItem
+          key="196"
+          label="196 lbs"
+          value={196}
+        />
+        <PickerIOSItem
+          key="197"
+          label="197 lbs"
+          value={197}
+        />
+        <PickerIOSItem
+          key="198"
+          label="198 lbs"
+          value={198}
+        />
+        <PickerIOSItem
+          key="199"
+          label="199 lbs"
+          value={199}
+        />
+        <PickerIOSItem
+          key="200"
+          label="200 lbs"
+          value={200}
+        />
+        <PickerIOSItem
+          key="201"
+          label="201 lbs"
+          value={201}
+        />
+        <PickerIOSItem
+          key="202"
+          label="202 lbs"
+          value={202}
+        />
+        <PickerIOSItem
+          key="203"
+          label="203 lbs"
+          value={203}
+        />
+        <PickerIOSItem
+          key="204"
+          label="204 lbs"
+          value={204}
+        />
+        <PickerIOSItem
+          key="205"
+          label="205 lbs"
+          value={205}
+        />
+        <PickerIOSItem
+          key="206"
+          label="206 lbs"
+          value={206}
+        />
+        <PickerIOSItem
+          key="207"
+          label="207 lbs"
+          value={207}
+        />
+        <PickerIOSItem
+          key="208"
+          label="208 lbs"
+          value={208}
+        />
+        <PickerIOSItem
+          key="209"
+          label="209 lbs"
+          value={209}
+        />
+        <PickerIOSItem
+          key="210"
+          label="210 lbs"
+          value={210}
+        />
+        <PickerIOSItem
+          key="211"
+          label="211 lbs"
+          value={211}
+        />
+        <PickerIOSItem
+          key="212"
+          label="212 lbs"
+          value={212}
+        />
+        <PickerIOSItem
+          key="213"
+          label="213 lbs"
+          value={213}
+        />
+        <PickerIOSItem
+          key="214"
+          label="214 lbs"
+          value={214}
+        />
+        <PickerIOSItem
+          key="215"
+          label="215 lbs"
+          value={215}
+        />
+        <PickerIOSItem
+          key="216"
+          label="216 lbs"
+          value={216}
+        />
+        <PickerIOSItem
+          key="217"
+          label="217 lbs"
+          value={217}
+        />
+        <PickerIOSItem
+          key="218"
+          label="218 lbs"
+          value={218}
+        />
+        <PickerIOSItem
+          key="219"
+          label="219 lbs"
+          value={219}
+        />
+        <PickerIOSItem
+          key="220"
+          label="220 lbs"
+          value={220}
+        />
+        <PickerIOSItem
+          key="221"
+          label="221 lbs"
+          value={221}
+        />
+        <PickerIOSItem
+          key="222"
+          label="222 lbs"
+          value={222}
+        />
+        <PickerIOSItem
+          key="223"
+          label="223 lbs"
+          value={223}
+        />
+        <PickerIOSItem
+          key="224"
+          label="224 lbs"
+          value={224}
+        />
+        <PickerIOSItem
+          key="225"
+          label="225 lbs"
+          value={225}
+        />
+        <PickerIOSItem
+          key="226"
+          label="226 lbs"
+          value={226}
+        />
+        <PickerIOSItem
+          key="227"
+          label="227 lbs"
+          value={227}
+        />
+        <PickerIOSItem
+          key="228"
+          label="228 lbs"
+          value={228}
+        />
+        <PickerIOSItem
+          key="229"
+          label="229 lbs"
+          value={229}
+        />
+        <PickerIOSItem
+          key="230"
+          label="230 lbs"
+          value={230}
+        />
+        <PickerIOSItem
+          key="231"
+          label="231 lbs"
+          value={231}
+        />
+        <PickerIOSItem
+          key="232"
+          label="232 lbs"
+          value={232}
+        />
+        <PickerIOSItem
+          key="233"
+          label="233 lbs"
+          value={233}
+        />
+        <PickerIOSItem
+          key="234"
+          label="234 lbs"
+          value={234}
+        />
+        <PickerIOSItem
+          key="235"
+          label="235 lbs"
+          value={235}
+        />
+        <PickerIOSItem
+          key="236"
+          label="236 lbs"
+          value={236}
+        />
+        <PickerIOSItem
+          key="237"
+          label="237 lbs"
+          value={237}
+        />
+        <PickerIOSItem
+          key="238"
+          label="238 lbs"
+          value={238}
+        />
+        <PickerIOSItem
+          key="239"
+          label="239 lbs"
+          value={239}
+        />
+        <PickerIOSItem
+          key="240"
+          label="240 lbs"
+          value={240}
+        />
+        <PickerIOSItem
+          key="241"
+          label="241 lbs"
+          value={241}
+        />
+        <PickerIOSItem
+          key="242"
+          label="242 lbs"
+          value={242}
+        />
+        <PickerIOSItem
+          key="243"
+          label="243 lbs"
+          value={243}
+        />
+        <PickerIOSItem
+          key="244"
+          label="244 lbs"
+          value={244}
+        />
+        <PickerIOSItem
+          key="245"
+          label="245 lbs"
+          value={245}
+        />
+        <PickerIOSItem
+          key="246"
+          label="246 lbs"
+          value={246}
+        />
+        <PickerIOSItem
+          key="247"
+          label="247 lbs"
+          value={247}
+        />
+        <PickerIOSItem
+          key="248"
+          label="248 lbs"
+          value={248}
+        />
+        <PickerIOSItem
+          key="249"
+          label="249 lbs"
+          value={249}
+        />
+        <PickerIOSItem
+          key="250"
+          label="250 lbs"
+          value={250}
+        />
+        <PickerIOSItem
+          key="251"
+          label="251 lbs"
+          value={251}
+        />
+        <PickerIOSItem
+          key="252"
+          label="252 lbs"
+          value={252}
+        />
+        <PickerIOSItem
+          key="253"
+          label="253 lbs"
+          value={253}
+        />
+        <PickerIOSItem
+          key="254"
+          label="254 lbs"
+          value={254}
+        />
+        <PickerIOSItem
+          key="255"
+          label="255 lbs"
+          value={255}
+        />
+        <PickerIOSItem
+          key="256"
+          label="256 lbs"
+          value={256}
+        />
+        <PickerIOSItem
+          key="257"
+          label="257 lbs"
+          value={257}
+        />
+        <PickerIOSItem
+          key="258"
+          label="258 lbs"
+          value={258}
+        />
+        <PickerIOSItem
+          key="259"
+          label="259 lbs"
+          value={259}
+        />
+        <PickerIOSItem
+          key="260"
+          label="260 lbs"
+          value={260}
+        />
+        <PickerIOSItem
+          key="261"
+          label="261 lbs"
+          value={261}
+        />
+        <PickerIOSItem
+          key="262"
+          label="262 lbs"
+          value={262}
+        />
+        <PickerIOSItem
+          key="263"
+          label="263 lbs"
+          value={263}
+        />
+        <PickerIOSItem
+          key="264"
+          label="264 lbs"
+          value={264}
+        />
+        <PickerIOSItem
+          key="265"
+          label="265 lbs"
+          value={265}
+        />
+        <PickerIOSItem
+          key="266"
+          label="266 lbs"
+          value={266}
+        />
+        <PickerIOSItem
+          key="267"
+          label="267 lbs"
+          value={267}
+        />
+        <PickerIOSItem
+          key="268"
+          label="268 lbs"
+          value={268}
+        />
+        <PickerIOSItem
+          key="269"
+          label="269 lbs"
+          value={269}
+        />
+        <PickerIOSItem
+          key="270"
+          label="270 lbs"
+          value={270}
+        />
+        <PickerIOSItem
+          key="271"
+          label="271 lbs"
+          value={271}
+        />
+        <PickerIOSItem
+          key="272"
+          label="272 lbs"
+          value={272}
+        />
+        <PickerIOSItem
+          key="273"
+          label="273 lbs"
+          value={273}
+        />
+        <PickerIOSItem
+          key="274"
+          label="274 lbs"
+          value={274}
+        />
+        <PickerIOSItem
+          key="275"
+          label="275 lbs"
+          value={275}
+        />
+        <PickerIOSItem
+          key="276"
+          label="276 lbs"
+          value={276}
+        />
+        <PickerIOSItem
+          key="277"
+          label="277 lbs"
+          value={277}
+        />
+        <PickerIOSItem
+          key="278"
+          label="278 lbs"
+          value={278}
+        />
+        <PickerIOSItem
+          key="279"
+          label="279 lbs"
+          value={279}
+        />
+        <PickerIOSItem
+          key="280"
+          label="280 lbs"
+          value={280}
+        />
+        <PickerIOSItem
+          key="281"
+          label="281 lbs"
+          value={281}
+        />
+        <PickerIOSItem
+          key="282"
+          label="282 lbs"
+          value={282}
+        />
+        <PickerIOSItem
+          key="283"
+          label="283 lbs"
+          value={283}
+        />
+        <PickerIOSItem
+          key="284"
+          label="284 lbs"
+          value={284}
+        />
+        <PickerIOSItem
+          key="285"
+          label="285 lbs"
+          value={285}
+        />
+        <PickerIOSItem
+          key="286"
+          label="286 lbs"
+          value={286}
+        />
+        <PickerIOSItem
+          key="287"
+          label="287 lbs"
+          value={287}
+        />
+        <PickerIOSItem
+          key="288"
+          label="288 lbs"
+          value={288}
+        />
+        <PickerIOSItem
+          key="289"
+          label="289 lbs"
+          value={289}
+        />
+        <PickerIOSItem
+          key="290"
+          label="290 lbs"
+          value={290}
+        />
+        <PickerIOSItem
+          key="291"
+          label="291 lbs"
+          value={291}
+        />
+        <PickerIOSItem
+          key="292"
+          label="292 lbs"
+          value={292}
+        />
+        <PickerIOSItem
+          key="293"
+          label="293 lbs"
+          value={293}
+        />
+        <PickerIOSItem
+          key="294"
+          label="294 lbs"
+          value={294}
+        />
+        <PickerIOSItem
+          key="295"
+          label="295 lbs"
+          value={295}
+        />
+        <PickerIOSItem
+          key="296"
+          label="296 lbs"
+          value={296}
+        />
+        <PickerIOSItem
+          key="297"
+          label="297 lbs"
+          value={297}
+        />
+        <PickerIOSItem
+          key="298"
+          label="298 lbs"
+          value={298}
+        />
+        <PickerIOSItem
+          key="299"
+          label="299 lbs"
+          value={299}
+        />
+        <PickerIOSItem
+          key="300"
+          label="300 lbs"
+          value={300}
+        />
+        <PickerIOSItem
+          key="301"
+          label="301 lbs"
+          value={301}
+        />
+        <PickerIOSItem
+          key="302"
+          label="302 lbs"
+          value={302}
+        />
+        <PickerIOSItem
+          key="303"
+          label="303 lbs"
+          value={303}
+        />
+        <PickerIOSItem
+          key="304"
+          label="304 lbs"
+          value={304}
+        />
+        <PickerIOSItem
+          key="305"
+          label="305 lbs"
+          value={305}
+        />
+        <PickerIOSItem
+          key="306"
+          label="306 lbs"
+          value={306}
+        />
+        <PickerIOSItem
+          key="307"
+          label="307 lbs"
+          value={307}
+        />
+        <PickerIOSItem
+          key="308"
+          label="308 lbs"
+          value={308}
+        />
+        <PickerIOSItem
+          key="309"
+          label="309 lbs"
+          value={309}
+        />
+        <PickerIOSItem
+          key="310"
+          label="310 lbs"
+          value={310}
+        />
+        <PickerIOSItem
+          key="311"
+          label="311 lbs"
+          value={311}
+        />
+        <PickerIOSItem
+          key="312"
+          label="312 lbs"
+          value={312}
+        />
+        <PickerIOSItem
+          key="313"
+          label="313 lbs"
+          value={313}
+        />
+        <PickerIOSItem
+          key="314"
+          label="314 lbs"
+          value={314}
+        />
+        <PickerIOSItem
+          key="315"
+          label="315 lbs"
+          value={315}
+        />
+        <PickerIOSItem
+          key="316"
+          label="316 lbs"
+          value={316}
+        />
+        <PickerIOSItem
+          key="317"
+          label="317 lbs"
+          value={317}
+        />
+        <PickerIOSItem
+          key="318"
+          label="318 lbs"
+          value={318}
+        />
+        <PickerIOSItem
+          key="319"
+          label="319 lbs"
+          value={319}
+        />
+        <PickerIOSItem
+          key="320"
+          label="320 lbs"
+          value={320}
+        />
+        <PickerIOSItem
+          key="321"
+          label="321 lbs"
+          value={321}
+        />
+        <PickerIOSItem
+          key="322"
+          label="322 lbs"
+          value={322}
+        />
+        <PickerIOSItem
+          key="323"
+          label="323 lbs"
+          value={323}
+        />
+        <PickerIOSItem
+          key="324"
+          label="324 lbs"
+          value={324}
+        />
+        <PickerIOSItem
+          key="325"
+          label="325 lbs"
+          value={325}
+        />
+        <PickerIOSItem
+          key="326"
+          label="326 lbs"
+          value={326}
+        />
+        <PickerIOSItem
+          key="327"
+          label="327 lbs"
+          value={327}
+        />
+        <PickerIOSItem
+          key="328"
+          label="328 lbs"
+          value={328}
+        />
+        <PickerIOSItem
+          key="329"
+          label="329 lbs"
+          value={329}
+        />
+        <PickerIOSItem
+          key="330"
+          label="330 lbs"
+          value={330}
+        />
+        <PickerIOSItem
+          key="331"
+          label="331 lbs"
+          value={331}
+        />
+        <PickerIOSItem
+          key="332"
+          label="332 lbs"
+          value={332}
+        />
+        <PickerIOSItem
+          key="333"
+          label="333 lbs"
+          value={333}
+        />
+        <PickerIOSItem
+          key="334"
+          label="334 lbs"
+          value={334}
+        />
+        <PickerIOSItem
+          key="335"
+          label="335 lbs"
+          value={335}
+        />
+        <PickerIOSItem
+          key="336"
+          label="336 lbs"
+          value={336}
+        />
+        <PickerIOSItem
+          key="337"
+          label="337 lbs"
+          value={337}
+        />
+        <PickerIOSItem
+          key="338"
+          label="338 lbs"
+          value={338}
+        />
+        <PickerIOSItem
+          key="339"
+          label="339 lbs"
+          value={339}
+        />
+        <PickerIOSItem
+          key="340"
+          label="340 lbs"
+          value={340}
+        />
+        <PickerIOSItem
+          key="341"
+          label="341 lbs"
+          value={341}
+        />
+        <PickerIOSItem
+          key="342"
+          label="342 lbs"
+          value={342}
+        />
+        <PickerIOSItem
+          key="343"
+          label="343 lbs"
+          value={343}
+        />
+        <PickerIOSItem
+          key="344"
+          label="344 lbs"
+          value={344}
+        />
+        <PickerIOSItem
+          key="345"
+          label="345 lbs"
+          value={345}
+        />
+        <PickerIOSItem
+          key="346"
+          label="346 lbs"
+          value={346}
+        />
+        <PickerIOSItem
+          key="347"
+          label="347 lbs"
+          value={347}
+        />
+        <PickerIOSItem
+          key="348"
+          label="348 lbs"
+          value={348}
+        />
+        <PickerIOSItem
+          key="349"
+          label="349 lbs"
+          value={349}
+        />
+        <PickerIOSItem
+          key="350"
+          label="350 lbs"
+          value={350}
+        />
+        <PickerIOSItem
+          key="351"
+          label="351 lbs"
+          value={351}
+        />
+        <PickerIOSItem
+          key="352"
+          label="352 lbs"
+          value={352}
+        />
+        <PickerIOSItem
+          key="353"
+          label="353 lbs"
+          value={353}
+        />
+        <PickerIOSItem
+          key="354"
+          label="354 lbs"
+          value={354}
+        />
+        <PickerIOSItem
+          key="355"
+          label="355 lbs"
+          value={355}
+        />
+        <PickerIOSItem
+          key="356"
+          label="356 lbs"
+          value={356}
+        />
+        <PickerIOSItem
+          key="357"
+          label="357 lbs"
+          value={357}
+        />
+        <PickerIOSItem
+          key="358"
+          label="358 lbs"
+          value={358}
+        />
+        <PickerIOSItem
+          key="359"
+          label="359 lbs"
+          value={359}
+        />
+        <PickerIOSItem
+          key="360"
+          label="360 lbs"
+          value={360}
+        />
+        <PickerIOSItem
+          key="361"
+          label="361 lbs"
+          value={361}
+        />
+        <PickerIOSItem
+          key="362"
+          label="362 lbs"
+          value={362}
+        />
+        <PickerIOSItem
+          key="363"
+          label="363 lbs"
+          value={363}
+        />
+        <PickerIOSItem
+          key="364"
+          label="364 lbs"
+          value={364}
+        />
+        <PickerIOSItem
+          key="365"
+          label="365 lbs"
+          value={365}
+        />
+        <PickerIOSItem
+          key="366"
+          label="366 lbs"
+          value={366}
+        />
+        <PickerIOSItem
+          key="367"
+          label="367 lbs"
+          value={367}
+        />
+        <PickerIOSItem
+          key="368"
+          label="368 lbs"
+          value={368}
+        />
+        <PickerIOSItem
+          key="369"
+          label="369 lbs"
+          value={369}
+        />
+        <PickerIOSItem
+          key="370"
+          label="370 lbs"
+          value={370}
+        />
+        <PickerIOSItem
+          key="371"
+          label="371 lbs"
+          value={371}
+        />
+        <PickerIOSItem
+          key="372"
+          label="372 lbs"
+          value={372}
+        />
+        <PickerIOSItem
+          key="373"
+          label="373 lbs"
+          value={373}
+        />
+        <PickerIOSItem
+          key="374"
+          label="374 lbs"
+          value={374}
+        />
+        <PickerIOSItem
+          key="375"
+          label="375 lbs"
+          value={375}
+        />
+        <PickerIOSItem
+          key="376"
+          label="376 lbs"
+          value={376}
+        />
+        <PickerIOSItem
+          key="377"
+          label="377 lbs"
+          value={377}
+        />
+        <PickerIOSItem
+          key="378"
+          label="378 lbs"
+          value={378}
+        />
+        <PickerIOSItem
+          key="379"
+          label="379 lbs"
+          value={379}
+        />
+        <PickerIOSItem
+          key="380"
+          label="380 lbs"
+          value={380}
+        />
+        <PickerIOSItem
+          key="381"
+          label="381 lbs"
+          value={381}
+        />
+        <PickerIOSItem
+          key="382"
+          label="382 lbs"
+          value={382}
+        />
+        <PickerIOSItem
+          key="383"
+          label="383 lbs"
+          value={383}
+        />
+        <PickerIOSItem
+          key="384"
+          label="384 lbs"
+          value={384}
+        />
+        <PickerIOSItem
+          key="385"
+          label="385 lbs"
+          value={385}
+        />
+        <PickerIOSItem
+          key="386"
+          label="386 lbs"
+          value={386}
+        />
+        <PickerIOSItem
+          key="387"
+          label="387 lbs"
+          value={387}
+        />
+        <PickerIOSItem
+          key="388"
+          label="388 lbs"
+          value={388}
+        />
+        <PickerIOSItem
+          key="389"
+          label="389 lbs"
+          value={389}
+        />
+        <PickerIOSItem
+          key="390"
+          label="390 lbs"
+          value={390}
+        />
+        <PickerIOSItem
+          key="391"
+          label="391 lbs"
+          value={391}
+        />
+        <PickerIOSItem
+          key="392"
+          label="392 lbs"
+          value={392}
+        />
+        <PickerIOSItem
+          key="393"
+          label="393 lbs"
+          value={393}
+        />
+        <PickerIOSItem
+          key="394"
+          label="394 lbs"
+          value={394}
+        />
+        <PickerIOSItem
+          key="395"
+          label="395 lbs"
+          value={395}
+        />
+        <PickerIOSItem
+          key="396"
+          label="396 lbs"
+          value={396}
+        />
+        <PickerIOSItem
+          key="397"
+          label="397 lbs"
+          value={397}
+        />
+        <PickerIOSItem
+          key="398"
+          label="398 lbs"
+          value={398}
+        />
+        <PickerIOSItem
+          key="399"
+          label="399 lbs"
+          value={399}
+        />
+        <PickerIOSItem
+          key="400"
+          label="400 lbs"
+          value={400}
+        />
+        <PickerIOSItem
+          key="401"
+          label="401 lbs"
+          value={401}
+        />
+        <PickerIOSItem
+          key="402"
+          label="402 lbs"
+          value={402}
+        />
+        <PickerIOSItem
+          key="403"
+          label="403 lbs"
+          value={403}
+        />
+        <PickerIOSItem
+          key="404"
+          label="404 lbs"
+          value={404}
+        />
+        <PickerIOSItem
+          key="405"
+          label="405 lbs"
+          value={405}
+        />
+        <PickerIOSItem
+          key="406"
+          label="406 lbs"
+          value={406}
+        />
+        <PickerIOSItem
+          key="407"
+          label="407 lbs"
+          value={407}
+        />
+        <PickerIOSItem
+          key="408"
+          label="408 lbs"
+          value={408}
+        />
+        <PickerIOSItem
+          key="409"
+          label="409 lbs"
+          value={409}
+        />
+        <PickerIOSItem
+          key="410"
+          label="410 lbs"
+          value={410}
+        />
+        <PickerIOSItem
+          key="411"
+          label="411 lbs"
+          value={411}
+        />
+        <PickerIOSItem
+          key="412"
+          label="412 lbs"
+          value={412}
+        />
+        <PickerIOSItem
+          key="413"
+          label="413 lbs"
+          value={413}
+        />
+        <PickerIOSItem
+          key="414"
+          label="414 lbs"
+          value={414}
+        />
+        <PickerIOSItem
+          key="415"
+          label="415 lbs"
+          value={415}
+        />
+        <PickerIOSItem
+          key="416"
+          label="416 lbs"
+          value={416}
+        />
+        <PickerIOSItem
+          key="417"
+          label="417 lbs"
+          value={417}
+        />
+        <PickerIOSItem
+          key="418"
+          label="418 lbs"
+          value={418}
+        />
+        <PickerIOSItem
+          key="419"
+          label="419 lbs"
+          value={419}
+        />
+        <PickerIOSItem
+          key="420"
+          label="420 lbs"
+          value={420}
+        />
+        <PickerIOSItem
+          key="421"
+          label="421 lbs"
+          value={421}
+        />
+        <PickerIOSItem
+          key="422"
+          label="422 lbs"
+          value={422}
+        />
+        <PickerIOSItem
+          key="423"
+          label="423 lbs"
+          value={423}
+        />
+        <PickerIOSItem
+          key="424"
+          label="424 lbs"
+          value={424}
+        />
+        <PickerIOSItem
+          key="425"
+          label="425 lbs"
+          value={425}
+        />
+        <PickerIOSItem
+          key="426"
+          label="426 lbs"
+          value={426}
+        />
+        <PickerIOSItem
+          key="427"
+          label="427 lbs"
+          value={427}
+        />
+        <PickerIOSItem
+          key="428"
+          label="428 lbs"
+          value={428}
+        />
+        <PickerIOSItem
+          key="429"
+          label="429 lbs"
+          value={429}
+        />
+        <PickerIOSItem
+          key="430"
+          label="430 lbs"
+          value={430}
+        />
+        <PickerIOSItem
+          key="431"
+          label="431 lbs"
+          value={431}
+        />
+        <PickerIOSItem
+          key="432"
+          label="432 lbs"
+          value={432}
+        />
+        <PickerIOSItem
+          key="433"
+          label="433 lbs"
+          value={433}
+        />
+        <PickerIOSItem
+          key="434"
+          label="434 lbs"
+          value={434}
+        />
+        <PickerIOSItem
+          key="435"
+          label="435 lbs"
+          value={435}
+        />
+        <PickerIOSItem
+          key="436"
+          label="436 lbs"
+          value={436}
+        />
+        <PickerIOSItem
+          key="437"
+          label="437 lbs"
+          value={437}
+        />
+        <PickerIOSItem
+          key="438"
+          label="438 lbs"
+          value={438}
+        />
+        <PickerIOSItem
+          key="439"
+          label="439 lbs"
+          value={439}
+        />
+        <PickerIOSItem
+          key="440"
+          label="440 lbs"
+          value={440}
+        />
+        <PickerIOSItem
+          key="441"
+          label="441 lbs"
+          value={441}
+        />
+        <PickerIOSItem
+          key="442"
+          label="442 lbs"
+          value={442}
+        />
+        <PickerIOSItem
+          key="443"
+          label="443 lbs"
+          value={443}
+        />
+        <PickerIOSItem
+          key="444"
+          label="444 lbs"
+          value={444}
+        />
+        <PickerIOSItem
+          key="445"
+          label="445 lbs"
+          value={445}
+        />
+        <PickerIOSItem
+          key="446"
+          label="446 lbs"
+          value={446}
+        />
+        <PickerIOSItem
+          key="447"
+          label="447 lbs"
+          value={447}
+        />
+        <PickerIOSItem
+          key="448"
+          label="448 lbs"
+          value={448}
+        />
+        <PickerIOSItem
+          key="449"
+          label="449 lbs"
+          value={449}
+        />
+        <PickerIOSItem
+          key="450"
+          label="450 lbs"
+          value={450}
+        />
+        <PickerIOSItem
+          key="451"
+          label="451 lbs"
+          value={451}
+        />
+        <PickerIOSItem
+          key="452"
+          label="452 lbs"
+          value={452}
+        />
+        <PickerIOSItem
+          key="453"
+          label="453 lbs"
+          value={453}
+        />
+        <PickerIOSItem
+          key="454"
+          label="454 lbs"
+          value={454}
+        />
+        <PickerIOSItem
+          key="455"
+          label="455 lbs"
+          value={455}
+        />
+        <PickerIOSItem
+          key="456"
+          label="456 lbs"
+          value={456}
+        />
+        <PickerIOSItem
+          key="457"
+          label="457 lbs"
+          value={457}
+        />
+        <PickerIOSItem
+          key="458"
+          label="458 lbs"
+          value={458}
+        />
+        <PickerIOSItem
+          key="459"
+          label="459 lbs"
+          value={459}
+        />
+        <PickerIOSItem
+          key="460"
+          label="460 lbs"
+          value={460}
+        />
+        <PickerIOSItem
+          key="461"
+          label="461 lbs"
+          value={461}
+        />
+        <PickerIOSItem
+          key="462"
+          label="462 lbs"
+          value={462}
+        />
+        <PickerIOSItem
+          key="463"
+          label="463 lbs"
+          value={463}
+        />
+        <PickerIOSItem
+          key="464"
+          label="464 lbs"
+          value={464}
+        />
+        <PickerIOSItem
+          key="465"
+          label="465 lbs"
+          value={465}
+        />
+        <PickerIOSItem
+          key="466"
+          label="466 lbs"
+          value={466}
+        />
+        <PickerIOSItem
+          key="467"
+          label="467 lbs"
+          value={467}
+        />
+        <PickerIOSItem
+          key="468"
+          label="468 lbs"
+          value={468}
+        />
+        <PickerIOSItem
+          key="469"
+          label="469 lbs"
+          value={469}
+        />
+        <PickerIOSItem
+          key="470"
+          label="470 lbs"
+          value={470}
+        />
+        <PickerIOSItem
+          key="471"
+          label="471 lbs"
+          value={471}
+        />
+        <PickerIOSItem
+          key="472"
+          label="472 lbs"
+          value={472}
+        />
+        <PickerIOSItem
+          key="473"
+          label="473 lbs"
+          value={473}
+        />
+        <PickerIOSItem
+          key="474"
+          label="474 lbs"
+          value={474}
+        />
+        <PickerIOSItem
+          key="475"
+          label="475 lbs"
+          value={475}
+        />
+        <PickerIOSItem
+          key="476"
+          label="476 lbs"
+          value={476}
+        />
+        <PickerIOSItem
+          key="477"
+          label="477 lbs"
+          value={477}
+        />
+        <PickerIOSItem
+          key="478"
+          label="478 lbs"
+          value={478}
+        />
+        <PickerIOSItem
+          key="479"
+          label="479 lbs"
+          value={479}
+        />
+        <PickerIOSItem
+          key="480"
+          label="480 lbs"
+          value={480}
+        />
+        <PickerIOSItem
+          key="481"
+          label="481 lbs"
+          value={481}
+        />
+        <PickerIOSItem
+          key="482"
+          label="482 lbs"
+          value={482}
+        />
+        <PickerIOSItem
+          key="483"
+          label="483 lbs"
+          value={483}
+        />
+        <PickerIOSItem
+          key="484"
+          label="484 lbs"
+          value={484}
+        />
+        <PickerIOSItem
+          key="485"
+          label="485 lbs"
+          value={485}
+        />
+        <PickerIOSItem
+          key="486"
+          label="486 lbs"
+          value={486}
+        />
+        <PickerIOSItem
+          key="487"
+          label="487 lbs"
+          value={487}
+        />
+        <PickerIOSItem
+          key="488"
+          label="488 lbs"
+          value={488}
+        />
+        <PickerIOSItem
+          key="489"
+          label="489 lbs"
+          value={489}
+        />
+        <PickerIOSItem
+          key="490"
+          label="490 lbs"
+          value={490}
+        />
+        <PickerIOSItem
+          key="491"
+          label="491 lbs"
+          value={491}
+        />
+        <PickerIOSItem
+          key="492"
+          label="492 lbs"
+          value={492}
+        />
+        <PickerIOSItem
+          key="493"
+          label="493 lbs"
+          value={493}
+        />
+        <PickerIOSItem
+          key="494"
+          label="494 lbs"
+          value={494}
+        />
+        <PickerIOSItem
+          key="495"
+          label="495 lbs"
+          value={495}
+        />
+        <PickerIOSItem
+          key="496"
+          label="496 lbs"
+          value={496}
+        />
+        <PickerIOSItem
+          key="497"
+          label="497 lbs"
+          value={497}
+        />
+        <PickerIOSItem
+          key="498"
+          label="498 lbs"
+          value={498}
+        />
+        <PickerIOSItem
+          key="499"
+          label="499 lbs"
+          value={499}
+        />
+        <PickerIOSItem
+          key="500"
+          label="500 lbs"
+          value={500}
+        />
+        <PickerIOSItem
+          key="501"
+          label="501 lbs"
+          value={501}
+        />
+        <PickerIOSItem
+          key="502"
+          label="502 lbs"
+          value={502}
+        />
+        <PickerIOSItem
+          key="503"
+          label="503 lbs"
+          value={503}
+        />
+        <PickerIOSItem
+          key="504"
+          label="504 lbs"
+          value={504}
+        />
+        <PickerIOSItem
+          key="505"
+          label="505 lbs"
+          value={505}
+        />
+        <PickerIOSItem
+          key="506"
+          label="506 lbs"
+          value={506}
+        />
+        <PickerIOSItem
+          key="507"
+          label="507 lbs"
+          value={507}
+        />
+        <PickerIOSItem
+          key="508"
+          label="508 lbs"
+          value={508}
+        />
+        <PickerIOSItem
+          key="509"
+          label="509 lbs"
+          value={509}
+        />
+        <PickerIOSItem
+          key="510"
+          label="510 lbs"
+          value={510}
+        />
+        <PickerIOSItem
+          key="511"
+          label="511 lbs"
+          value={511}
+        />
+        <PickerIOSItem
+          key="512"
+          label="512 lbs"
+          value={512}
+        />
+        <PickerIOSItem
+          key="513"
+          label="513 lbs"
+          value={513}
+        />
+        <PickerIOSItem
+          key="514"
+          label="514 lbs"
+          value={514}
+        />
+        <PickerIOSItem
+          key="515"
+          label="515 lbs"
+          value={515}
+        />
+        <PickerIOSItem
+          key="516"
+          label="516 lbs"
+          value={516}
+        />
+        <PickerIOSItem
+          key="517"
+          label="517 lbs"
+          value={517}
+        />
+        <PickerIOSItem
+          key="518"
+          label="518 lbs"
+          value={518}
+        />
+        <PickerIOSItem
+          key="519"
+          label="519 lbs"
+          value={519}
+        />
+        <PickerIOSItem
+          key="520"
+          label="520 lbs"
+          value={520}
+        />
+        <PickerIOSItem
+          key="521"
+          label="521 lbs"
+          value={521}
+        />
+        <PickerIOSItem
+          key="522"
+          label="522 lbs"
+          value={522}
+        />
+        <PickerIOSItem
+          key="523"
+          label="523 lbs"
+          value={523}
+        />
+        <PickerIOSItem
+          key="524"
+          label="524 lbs"
+          value={524}
+        />
+        <PickerIOSItem
+          key="525"
+          label="525 lbs"
+          value={525}
+        />
+        <PickerIOSItem
+          key="526"
+          label="526 lbs"
+          value={526}
+        />
+        <PickerIOSItem
+          key="527"
+          label="527 lbs"
+          value={527}
+        />
+        <PickerIOSItem
+          key="528"
+          label="528 lbs"
+          value={528}
+        />
+        <PickerIOSItem
+          key="529"
+          label="529 lbs"
+          value={529}
+        />
+        <PickerIOSItem
+          key="530"
+          label="530 lbs"
+          value={530}
+        />
+        <PickerIOSItem
+          key="531"
+          label="531 lbs"
+          value={531}
+        />
+        <PickerIOSItem
+          key="532"
+          label="532 lbs"
+          value={532}
+        />
+        <PickerIOSItem
+          key="533"
+          label="533 lbs"
+          value={533}
+        />
+        <PickerIOSItem
+          key="534"
+          label="534 lbs"
+          value={534}
+        />
+        <PickerIOSItem
+          key="535"
+          label="535 lbs"
+          value={535}
+        />
+        <PickerIOSItem
+          key="536"
+          label="536 lbs"
+          value={536}
+        />
+        <PickerIOSItem
+          key="537"
+          label="537 lbs"
+          value={537}
+        />
+        <PickerIOSItem
+          key="538"
+          label="538 lbs"
+          value={538}
+        />
+        <PickerIOSItem
+          key="539"
+          label="539 lbs"
+          value={539}
+        />
+        <PickerIOSItem
+          key="540"
+          label="540 lbs"
+          value={540}
+        />
+        <PickerIOSItem
+          key="541"
+          label="541 lbs"
+          value={541}
+        />
+        <PickerIOSItem
+          key="542"
+          label="542 lbs"
+          value={542}
+        />
+        <PickerIOSItem
+          key="543"
+          label="543 lbs"
+          value={543}
+        />
+        <PickerIOSItem
+          key="544"
+          label="544 lbs"
+          value={544}
+        />
+        <PickerIOSItem
+          key="545"
+          label="545 lbs"
+          value={545}
+        />
+        <PickerIOSItem
+          key="546"
+          label="546 lbs"
+          value={546}
+        />
+        <PickerIOSItem
+          key="547"
+          label="547 lbs"
+          value={547}
+        />
+        <PickerIOSItem
+          key="548"
+          label="548 lbs"
+          value={548}
+        />
+        <PickerIOSItem
+          key="549"
+          label="549 lbs"
+          value={549}
+        />
+        <PickerIOSItem
+          key="550"
+          label="550 lbs"
+          value={550}
+        />
+        <PickerIOSItem
+          key="551"
+          label="551 lbs"
+          value={551}
+        />
+        <PickerIOSItem
+          key="552"
+          label="552 lbs"
+          value={552}
+        />
+        <PickerIOSItem
+          key="553"
+          label="553 lbs"
+          value={553}
+        />
+        <PickerIOSItem
+          key="554"
+          label="554 lbs"
+          value={554}
+        />
+        <PickerIOSItem
+          key="555"
+          label="555 lbs"
+          value={555}
+        />
+        <PickerIOSItem
+          key="556"
+          label="556 lbs"
+          value={556}
+        />
+        <PickerIOSItem
+          key="557"
+          label="557 lbs"
+          value={557}
+        />
+        <PickerIOSItem
+          key="558"
+          label="558 lbs"
+          value={558}
+        />
+        <PickerIOSItem
+          key="559"
+          label="559 lbs"
+          value={559}
+        />
+        <PickerIOSItem
+          key="560"
+          label="560 lbs"
+          value={560}
+        />
+        <PickerIOSItem
+          key="561"
+          label="561 lbs"
+          value={561}
+        />
+        <PickerIOSItem
+          key="562"
+          label="562 lbs"
+          value={562}
+        />
+        <PickerIOSItem
+          key="563"
+          label="563 lbs"
+          value={563}
+        />
+        <PickerIOSItem
+          key="564"
+          label="564 lbs"
+          value={564}
+        />
+        <PickerIOSItem
+          key="565"
+          label="565 lbs"
+          value={565}
+        />
+        <PickerIOSItem
+          key="566"
+          label="566 lbs"
+          value={566}
+        />
+        <PickerIOSItem
+          key="567"
+          label="567 lbs"
+          value={567}
+        />
+        <PickerIOSItem
+          key="568"
+          label="568 lbs"
+          value={568}
+        />
+        <PickerIOSItem
+          key="569"
+          label="569 lbs"
+          value={569}
+        />
+        <PickerIOSItem
+          key="570"
+          label="570 lbs"
+          value={570}
+        />
+        <PickerIOSItem
+          key="571"
+          label="571 lbs"
+          value={571}
+        />
+        <PickerIOSItem
+          key="572"
+          label="572 lbs"
+          value={572}
+        />
+        <PickerIOSItem
+          key="573"
+          label="573 lbs"
+          value={573}
+        />
+        <PickerIOSItem
+          key="574"
+          label="574 lbs"
+          value={574}
+        />
+        <PickerIOSItem
+          key="575"
+          label="575 lbs"
+          value={575}
+        />
+        <PickerIOSItem
+          key="576"
+          label="576 lbs"
+          value={576}
+        />
+        <PickerIOSItem
+          key="577"
+          label="577 lbs"
+          value={577}
+        />
+        <PickerIOSItem
+          key="578"
+          label="578 lbs"
+          value={578}
+        />
+        <PickerIOSItem
+          key="579"
+          label="579 lbs"
+          value={579}
+        />
+        <PickerIOSItem
+          key="580"
+          label="580 lbs"
+          value={580}
+        />
+        <PickerIOSItem
+          key="581"
+          label="581 lbs"
+          value={581}
+        />
+        <PickerIOSItem
+          key="582"
+          label="582 lbs"
+          value={582}
+        />
+        <PickerIOSItem
+          key="583"
+          label="583 lbs"
+          value={583}
+        />
+        <PickerIOSItem
+          key="584"
+          label="584 lbs"
+          value={584}
+        />
+        <PickerIOSItem
+          key="585"
+          label="585 lbs"
+          value={585}
+        />
+        <PickerIOSItem
+          key="586"
+          label="586 lbs"
+          value={586}
+        />
+        <PickerIOSItem
+          key="587"
+          label="587 lbs"
+          value={587}
+        />
+        <PickerIOSItem
+          key="588"
+          label="588 lbs"
+          value={588}
+        />
+        <PickerIOSItem
+          key="589"
+          label="589 lbs"
+          value={589}
+        />
+        <PickerIOSItem
+          key="590"
+          label="590 lbs"
+          value={590}
+        />
+        <PickerIOSItem
+          key="591"
+          label="591 lbs"
+          value={591}
+        />
+        <PickerIOSItem
+          key="592"
+          label="592 lbs"
+          value={592}
+        />
+        <PickerIOSItem
+          key="593"
+          label="593 lbs"
+          value={593}
+        />
+        <PickerIOSItem
+          key="594"
+          label="594 lbs"
+          value={594}
+        />
+        <PickerIOSItem
+          key="595"
+          label="595 lbs"
+          value={595}
+        />
+        <PickerIOSItem
+          key="596"
+          label="596 lbs"
+          value={596}
+        />
+        <PickerIOSItem
+          key="597"
+          label="597 lbs"
+          value={597}
+        />
+        <PickerIOSItem
+          key="598"
+          label="598 lbs"
+          value={598}
+        />
+        <PickerIOSItem
+          key="599"
+          label="599 lbs"
+          value={599}
+        />
+        <PickerIOSItem
+          key="600"
+          label="600 lbs"
+          value={600}
+        />
+        <PickerIOSItem
+          key="601"
+          label="601 lbs"
+          value={601}
+        />
+        <PickerIOSItem
+          key="602"
+          label="602 lbs"
+          value={602}
+        />
+        <PickerIOSItem
+          key="603"
+          label="603 lbs"
+          value={603}
+        />
+        <PickerIOSItem
+          key="604"
+          label="604 lbs"
+          value={604}
+        />
+        <PickerIOSItem
+          key="605"
+          label="605 lbs"
+          value={605}
+        />
+        <PickerIOSItem
+          key="606"
+          label="606 lbs"
+          value={606}
+        />
+        <PickerIOSItem
+          key="607"
+          label="607 lbs"
+          value={607}
+        />
+        <PickerIOSItem
+          key="608"
+          label="608 lbs"
+          value={608}
+        />
+        <PickerIOSItem
+          key="609"
+          label="609 lbs"
+          value={609}
+        />
+        <PickerIOSItem
+          key="610"
+          label="610 lbs"
+          value={610}
+        />
+        <PickerIOSItem
+          key="611"
+          label="611 lbs"
+          value={611}
+        />
+        <PickerIOSItem
+          key="612"
+          label="612 lbs"
+          value={612}
+        />
+        <PickerIOSItem
+          key="613"
+          label="613 lbs"
+          value={613}
+        />
+        <PickerIOSItem
+          key="614"
+          label="614 lbs"
+          value={614}
+        />
+        <PickerIOSItem
+          key="615"
+          label="615 lbs"
+          value={615}
+        />
+        <PickerIOSItem
+          key="616"
+          label="616 lbs"
+          value={616}
+        />
+        <PickerIOSItem
+          key="617"
+          label="617 lbs"
+          value={617}
+        />
+        <PickerIOSItem
+          key="618"
+          label="618 lbs"
+          value={618}
+        />
+        <PickerIOSItem
+          key="619"
+          label="619 lbs"
+          value={619}
+        />
+        <PickerIOSItem
+          key="620"
+          label="620 lbs"
+          value={620}
+        />
+        <PickerIOSItem
+          key="621"
+          label="621 lbs"
+          value={621}
+        />
+        <PickerIOSItem
+          key="622"
+          label="622 lbs"
+          value={622}
+        />
+        <PickerIOSItem
+          key="623"
+          label="623 lbs"
+          value={623}
+        />
+        <PickerIOSItem
+          key="624"
+          label="624 lbs"
+          value={624}
+        />
+        <PickerIOSItem
+          key="625"
+          label="625 lbs"
+          value={625}
+        />
+        <PickerIOSItem
+          key="626"
+          label="626 lbs"
+          value={626}
+        />
+        <PickerIOSItem
+          key="627"
+          label="627 lbs"
+          value={627}
+        />
+        <PickerIOSItem
+          key="628"
+          label="628 lbs"
+          value={628}
+        />
+        <PickerIOSItem
+          key="629"
+          label="629 lbs"
+          value={629}
+        />
+        <PickerIOSItem
+          key="630"
+          label="630 lbs"
+          value={630}
+        />
+        <PickerIOSItem
+          key="631"
+          label="631 lbs"
+          value={631}
+        />
+        <PickerIOSItem
+          key="632"
+          label="632 lbs"
+          value={632}
+        />
+        <PickerIOSItem
+          key="633"
+          label="633 lbs"
+          value={633}
+        />
+        <PickerIOSItem
+          key="634"
+          label="634 lbs"
+          value={634}
+        />
+        <PickerIOSItem
+          key="635"
+          label="635 lbs"
+          value={635}
+        />
+        <PickerIOSItem
+          key="636"
+          label="636 lbs"
+          value={636}
+        />
+        <PickerIOSItem
+          key="637"
+          label="637 lbs"
+          value={637}
+        />
+        <PickerIOSItem
+          key="638"
+          label="638 lbs"
+          value={638}
+        />
+        <PickerIOSItem
+          key="639"
+          label="639 lbs"
+          value={639}
+        />
+        <PickerIOSItem
+          key="640"
+          label="640 lbs"
+          value={640}
+        />
+        <PickerIOSItem
+          key="641"
+          label="641 lbs"
+          value={641}
+        />
+        <PickerIOSItem
+          key="642"
+          label="642 lbs"
+          value={642}
+        />
+        <PickerIOSItem
+          key="643"
+          label="643 lbs"
+          value={643}
+        />
+        <PickerIOSItem
+          key="644"
+          label="644 lbs"
+          value={644}
+        />
+        <PickerIOSItem
+          key="645"
+          label="645 lbs"
+          value={645}
+        />
+        <PickerIOSItem
+          key="646"
+          label="646 lbs"
+          value={646}
+        />
+        <PickerIOSItem
+          key="647"
+          label="647 lbs"
+          value={647}
+        />
+        <PickerIOSItem
+          key="648"
+          label="648 lbs"
+          value={648}
+        />
+        <PickerIOSItem
+          key="649"
+          label="649 lbs"
+          value={649}
+        />
+        <PickerIOSItem
+          key="650"
+          label="650 lbs"
+          value={650}
+        />
+        <PickerIOSItem
+          key="651"
+          label="651 lbs"
+          value={651}
+        />
+        <PickerIOSItem
+          key="652"
+          label="652 lbs"
+          value={652}
+        />
+        <PickerIOSItem
+          key="653"
+          label="653 lbs"
+          value={653}
+        />
+        <PickerIOSItem
+          key="654"
+          label="654 lbs"
+          value={654}
+        />
+        <PickerIOSItem
+          key="655"
+          label="655 lbs"
+          value={655}
+        />
+        <PickerIOSItem
+          key="656"
+          label="656 lbs"
+          value={656}
+        />
+        <PickerIOSItem
+          key="657"
+          label="657 lbs"
+          value={657}
+        />
+        <PickerIOSItem
+          key="658"
+          label="658 lbs"
+          value={658}
+        />
+        <PickerIOSItem
+          key="659"
+          label="659 lbs"
+          value={659}
+        />
+        <PickerIOSItem
+          key="660"
+          label="660 lbs"
+          value={660}
+        />
+        <PickerIOSItem
+          key="661"
+          label="661 lbs"
+          value={661}
+        />
+        <PickerIOSItem
+          key="662"
+          label="662 lbs"
+          value={662}
+        />
+        <PickerIOSItem
+          key="663"
+          label="663 lbs"
+          value={663}
+        />
+        <PickerIOSItem
+          key="664"
+          label="664 lbs"
+          value={664}
+        />
+        <PickerIOSItem
+          key="665"
+          label="665 lbs"
+          value={665}
+        />
+        <PickerIOSItem
+          key="666"
+          label="666 lbs"
+          value={666}
+        />
+        <PickerIOSItem
+          key="667"
+          label="667 lbs"
+          value={667}
+        />
+        <PickerIOSItem
+          key="668"
+          label="668 lbs"
+          value={668}
+        />
+        <PickerIOSItem
+          key="669"
+          label="669 lbs"
+          value={669}
+        />
+        <PickerIOSItem
+          key="670"
+          label="670 lbs"
+          value={670}
+        />
+        <PickerIOSItem
+          key="671"
+          label="671 lbs"
+          value={671}
+        />
+        <PickerIOSItem
+          key="672"
+          label="672 lbs"
+          value={672}
+        />
+        <PickerIOSItem
+          key="673"
+          label="673 lbs"
+          value={673}
+        />
+        <PickerIOSItem
+          key="674"
+          label="674 lbs"
+          value={674}
+        />
+        <PickerIOSItem
+          key="675"
+          label="675 lbs"
+          value={675}
+        />
+        <PickerIOSItem
+          key="676"
+          label="676 lbs"
+          value={676}
+        />
+        <PickerIOSItem
+          key="677"
+          label="677 lbs"
+          value={677}
+        />
+        <PickerIOSItem
+          key="678"
+          label="678 lbs"
+          value={678}
+        />
+        <PickerIOSItem
+          key="679"
+          label="679 lbs"
+          value={679}
+        />
+        <PickerIOSItem
+          key="680"
+          label="680 lbs"
+          value={680}
+        />
+        <PickerIOSItem
+          key="681"
+          label="681 lbs"
+          value={681}
+        />
+        <PickerIOSItem
+          key="682"
+          label="682 lbs"
+          value={682}
+        />
+        <PickerIOSItem
+          key="683"
+          label="683 lbs"
+          value={683}
+        />
+        <PickerIOSItem
+          key="684"
+          label="684 lbs"
+          value={684}
+        />
+        <PickerIOSItem
+          key="685"
+          label="685 lbs"
+          value={685}
+        />
+        <PickerIOSItem
+          key="686"
+          label="686 lbs"
+          value={686}
+        />
+        <PickerIOSItem
+          key="687"
+          label="687 lbs"
+          value={687}
+        />
+        <PickerIOSItem
+          key="688"
+          label="688 lbs"
+          value={688}
+        />
+        <PickerIOSItem
+          key="689"
+          label="689 lbs"
+          value={689}
+        />
+        <PickerIOSItem
+          key="690"
+          label="690 lbs"
+          value={690}
+        />
+        <PickerIOSItem
+          key="691"
+          label="691 lbs"
+          value={691}
+        />
+        <PickerIOSItem
+          key="692"
+          label="692 lbs"
+          value={692}
+        />
+        <PickerIOSItem
+          key="693"
+          label="693 lbs"
+          value={693}
+        />
+        <PickerIOSItem
+          key="694"
+          label="694 lbs"
+          value={694}
+        />
+        <PickerIOSItem
+          key="695"
+          label="695 lbs"
+          value={695}
+        />
+        <PickerIOSItem
+          key="696"
+          label="696 lbs"
+          value={696}
+        />
+        <PickerIOSItem
+          key="697"
+          label="697 lbs"
+          value={697}
+        />
+        <PickerIOSItem
+          key="698"
+          label="698 lbs"
+          value={698}
+        />
+        <PickerIOSItem
+          key="699"
+          label="699 lbs"
+          value={699}
+        />
+        <PickerIOSItem
+          key="700"
+          label="700 lbs"
+          value={700}
+        />
+        <PickerIOSItem
+          key="701"
+          label="701 lbs"
+          value={701}
+        />
+        <PickerIOSItem
+          key="702"
+          label="702 lbs"
+          value={702}
+        />
+        <PickerIOSItem
+          key="703"
+          label="703 lbs"
+          value={703}
+        />
+        <PickerIOSItem
+          key="704"
+          label="704 lbs"
+          value={704}
+        />
+        <PickerIOSItem
+          key="705"
+          label="705 lbs"
+          value={705}
+        />
+        <PickerIOSItem
+          key="706"
+          label="706 lbs"
+          value={706}
+        />
+        <PickerIOSItem
+          key="707"
+          label="707 lbs"
+          value={707}
+        />
+        <PickerIOSItem
+          key="708"
+          label="708 lbs"
+          value={708}
+        />
+        <PickerIOSItem
+          key="709"
+          label="709 lbs"
+          value={709}
+        />
+        <PickerIOSItem
+          key="710"
+          label="710 lbs"
+          value={710}
+        />
+        <PickerIOSItem
+          key="711"
+          label="711 lbs"
+          value={711}
+        />
+        <PickerIOSItem
+          key="712"
+          label="712 lbs"
+          value={712}
+        />
+        <PickerIOSItem
+          key="713"
+          label="713 lbs"
+          value={713}
+        />
+        <PickerIOSItem
+          key="714"
+          label="714 lbs"
+          value={714}
+        />
+        <PickerIOSItem
+          key="715"
+          label="715 lbs"
+          value={715}
+        />
+        <PickerIOSItem
+          key="716"
+          label="716 lbs"
+          value={716}
+        />
+        <PickerIOSItem
+          key="717"
+          label="717 lbs"
+          value={717}
+        />
+        <PickerIOSItem
+          key="718"
+          label="718 lbs"
+          value={718}
+        />
+        <PickerIOSItem
+          key="719"
+          label="719 lbs"
+          value={719}
+        />
+        <PickerIOSItem
+          key="720"
+          label="720 lbs"
+          value={720}
+        />
+        <PickerIOSItem
+          key="721"
+          label="721 lbs"
+          value={721}
+        />
+        <PickerIOSItem
+          key="722"
+          label="722 lbs"
+          value={722}
+        />
+        <PickerIOSItem
+          key="723"
+          label="723 lbs"
+          value={723}
+        />
+        <PickerIOSItem
+          key="724"
+          label="724 lbs"
+          value={724}
+        />
+        <PickerIOSItem
+          key="725"
+          label="725 lbs"
+          value={725}
+        />
+        <PickerIOSItem
+          key="726"
+          label="726 lbs"
+          value={726}
+        />
+        <PickerIOSItem
+          key="727"
+          label="727 lbs"
+          value={727}
+        />
+        <PickerIOSItem
+          key="728"
+          label="728 lbs"
+          value={728}
+        />
+        <PickerIOSItem
+          key="729"
+          label="729 lbs"
+          value={729}
+        />
+        <PickerIOSItem
+          key="730"
+          label="730 lbs"
+          value={730}
+        />
+        <PickerIOSItem
+          key="731"
+          label="731 lbs"
+          value={731}
+        />
+        <PickerIOSItem
+          key="732"
+          label="732 lbs"
+          value={732}
+        />
+        <PickerIOSItem
+          key="733"
+          label="733 lbs"
+          value={733}
+        />
+        <PickerIOSItem
+          key="734"
+          label="734 lbs"
+          value={734}
+        />
+        <PickerIOSItem
+          key="735"
+          label="735 lbs"
+          value={735}
+        />
+        <PickerIOSItem
+          key="736"
+          label="736 lbs"
+          value={736}
+        />
+        <PickerIOSItem
+          key="737"
+          label="737 lbs"
+          value={737}
+        />
+        <PickerIOSItem
+          key="738"
+          label="738 lbs"
+          value={738}
+        />
+        <PickerIOSItem
+          key="739"
+          label="739 lbs"
+          value={739}
+        />
+        <PickerIOSItem
+          key="740"
+          label="740 lbs"
+          value={740}
+        />
+        <PickerIOSItem
+          key="741"
+          label="741 lbs"
+          value={741}
+        />
+        <PickerIOSItem
+          key="742"
+          label="742 lbs"
+          value={742}
+        />
+        <PickerIOSItem
+          key="743"
+          label="743 lbs"
+          value={743}
+        />
+        <PickerIOSItem
+          key="744"
+          label="744 lbs"
+          value={744}
+        />
+        <PickerIOSItem
+          key="745"
+          label="745 lbs"
+          value={745}
+        />
+        <PickerIOSItem
+          key="746"
+          label="746 lbs"
+          value={746}
+        />
+        <PickerIOSItem
+          key="747"
+          label="747 lbs"
+          value={747}
+        />
+        <PickerIOSItem
+          key="748"
+          label="748 lbs"
+          value={748}
+        />
+        <PickerIOSItem
+          key="749"
+          label="749 lbs"
+          value={749}
+        />
+        <PickerIOSItem
+          key="750"
+          label="750 lbs"
+          value={750}
+        />
+        <PickerIOSItem
+          key="751"
+          label="751 lbs"
+          value={751}
+        />
+        <PickerIOSItem
+          key="752"
+          label="752 lbs"
+          value={752}
+        />
+        <PickerIOSItem
+          key="753"
+          label="753 lbs"
+          value={753}
+        />
+        <PickerIOSItem
+          key="754"
+          label="754 lbs"
+          value={754}
+        />
+        <PickerIOSItem
+          key="755"
+          label="755 lbs"
+          value={755}
+        />
+        <PickerIOSItem
+          key="756"
+          label="756 lbs"
+          value={756}
+        />
+        <PickerIOSItem
+          key="757"
+          label="757 lbs"
+          value={757}
+        />
+        <PickerIOSItem
+          key="758"
+          label="758 lbs"
+          value={758}
+        />
+        <PickerIOSItem
+          key="759"
+          label="759 lbs"
+          value={759}
+        />
+        <PickerIOSItem
+          key="760"
+          label="760 lbs"
+          value={760}
+        />
+        <PickerIOSItem
+          key="761"
+          label="761 lbs"
+          value={761}
+        />
+        <PickerIOSItem
+          key="762"
+          label="762 lbs"
+          value={762}
+        />
+        <PickerIOSItem
+          key="763"
+          label="763 lbs"
+          value={763}
+        />
+        <PickerIOSItem
+          key="764"
+          label="764 lbs"
+          value={764}
+        />
+        <PickerIOSItem
+          key="765"
+          label="765 lbs"
+          value={765}
+        />
+        <PickerIOSItem
+          key="766"
+          label="766 lbs"
+          value={766}
+        />
+        <PickerIOSItem
+          key="767"
+          label="767 lbs"
+          value={767}
+        />
+        <PickerIOSItem
+          key="768"
+          label="768 lbs"
+          value={768}
+        />
+        <PickerIOSItem
+          key="769"
+          label="769 lbs"
+          value={769}
+        />
+        <PickerIOSItem
+          key="770"
+          label="770 lbs"
+          value={770}
+        />
+        <PickerIOSItem
+          key="771"
+          label="771 lbs"
+          value={771}
+        />
+        <PickerIOSItem
+          key="772"
+          label="772 lbs"
+          value={772}
+        />
+        <PickerIOSItem
+          key="773"
+          label="773 lbs"
+          value={773}
+        />
+        <PickerIOSItem
+          key="774"
+          label="774 lbs"
+          value={774}
+        />
+        <PickerIOSItem
+          key="775"
+          label="775 lbs"
+          value={775}
+        />
+        <PickerIOSItem
+          key="776"
+          label="776 lbs"
+          value={776}
+        />
+        <PickerIOSItem
+          key="777"
+          label="777 lbs"
+          value={777}
+        />
+        <PickerIOSItem
+          key="778"
+          label="778 lbs"
+          value={778}
+        />
+        <PickerIOSItem
+          key="779"
+          label="779 lbs"
+          value={779}
+        />
+        <PickerIOSItem
+          key="780"
+          label="780 lbs"
+          value={780}
+        />
+        <PickerIOSItem
+          key="781"
+          label="781 lbs"
+          value={781}
+        />
+        <PickerIOSItem
+          key="782"
+          label="782 lbs"
+          value={782}
+        />
+        <PickerIOSItem
+          key="783"
+          label="783 lbs"
+          value={783}
+        />
+        <PickerIOSItem
+          key="784"
+          label="784 lbs"
+          value={784}
+        />
+        <PickerIOSItem
+          key="785"
+          label="785 lbs"
+          value={785}
+        />
+        <PickerIOSItem
+          key="786"
+          label="786 lbs"
+          value={786}
+        />
+        <PickerIOSItem
+          key="787"
+          label="787 lbs"
+          value={787}
+        />
+        <PickerIOSItem
+          key="788"
+          label="788 lbs"
+          value={788}
+        />
+        <PickerIOSItem
+          key="789"
+          label="789 lbs"
+          value={789}
+        />
+        <PickerIOSItem
+          key="790"
+          label="790 lbs"
+          value={790}
+        />
+        <PickerIOSItem
+          key="791"
+          label="791 lbs"
+          value={791}
+        />
+        <PickerIOSItem
+          key="792"
+          label="792 lbs"
+          value={792}
+        />
+        <PickerIOSItem
+          key="793"
+          label="793 lbs"
+          value={793}
+        />
+        <PickerIOSItem
+          key="794"
+          label="794 lbs"
+          value={794}
+        />
+        <PickerIOSItem
+          key="795"
+          label="795 lbs"
+          value={795}
+        />
+        <PickerIOSItem
+          key="796"
+          label="796 lbs"
+          value={796}
+        />
+        <PickerIOSItem
+          key="797"
+          label="797 lbs"
+          value={797}
+        />
+        <PickerIOSItem
+          key="798"
+          label="798 lbs"
+          value={798}
+        />
+        <PickerIOSItem
+          key="799"
+          label="799 lbs"
+          value={799}
+        />
+        <PickerIOSItem
+          key="800"
+          label="800 lbs"
+          value={800}
+        />
+        <PickerIOSItem
+          key="801"
+          label="801 lbs"
+          value={801}
+        />
+        <PickerIOSItem
+          key="802"
+          label="802 lbs"
+          value={802}
+        />
+        <PickerIOSItem
+          key="803"
+          label="803 lbs"
+          value={803}
+        />
+        <PickerIOSItem
+          key="804"
+          label="804 lbs"
+          value={804}
+        />
+        <PickerIOSItem
+          key="805"
+          label="805 lbs"
+          value={805}
+        />
+        <PickerIOSItem
+          key="806"
+          label="806 lbs"
+          value={806}
+        />
+        <PickerIOSItem
+          key="807"
+          label="807 lbs"
+          value={807}
+        />
+        <PickerIOSItem
+          key="808"
+          label="808 lbs"
+          value={808}
+        />
+        <PickerIOSItem
+          key="809"
+          label="809 lbs"
+          value={809}
+        />
+        <PickerIOSItem
+          key="810"
+          label="810 lbs"
+          value={810}
+        />
+        <PickerIOSItem
+          key="811"
+          label="811 lbs"
+          value={811}
+        />
+        <PickerIOSItem
+          key="812"
+          label="812 lbs"
+          value={812}
+        />
+        <PickerIOSItem
+          key="813"
+          label="813 lbs"
+          value={813}
+        />
+        <PickerIOSItem
+          key="814"
+          label="814 lbs"
+          value={814}
+        />
+        <PickerIOSItem
+          key="815"
+          label="815 lbs"
+          value={815}
+        />
+        <PickerIOSItem
+          key="816"
+          label="816 lbs"
+          value={816}
+        />
+        <PickerIOSItem
+          key="817"
+          label="817 lbs"
+          value={817}
+        />
+        <PickerIOSItem
+          key="818"
+          label="818 lbs"
+          value={818}
+        />
+        <PickerIOSItem
+          key="819"
+          label="819 lbs"
+          value={819}
+        />
+        <PickerIOSItem
+          key="820"
+          label="820 lbs"
+          value={820}
+        />
+        <PickerIOSItem
+          key="821"
+          label="821 lbs"
+          value={821}
+        />
+        <PickerIOSItem
+          key="822"
+          label="822 lbs"
+          value={822}
+        />
+        <PickerIOSItem
+          key="823"
+          label="823 lbs"
+          value={823}
+        />
+        <PickerIOSItem
+          key="824"
+          label="824 lbs"
+          value={824}
+        />
+        <PickerIOSItem
+          key="825"
+          label="825 lbs"
+          value={825}
+        />
+        <PickerIOSItem
+          key="826"
+          label="826 lbs"
+          value={826}
+        />
+        <PickerIOSItem
+          key="827"
+          label="827 lbs"
+          value={827}
+        />
+        <PickerIOSItem
+          key="828"
+          label="828 lbs"
+          value={828}
+        />
+        <PickerIOSItem
+          key="829"
+          label="829 lbs"
+          value={829}
+        />
+        <PickerIOSItem
+          key="830"
+          label="830 lbs"
+          value={830}
+        />
+        <PickerIOSItem
+          key="831"
+          label="831 lbs"
+          value={831}
+        />
+        <PickerIOSItem
+          key="832"
+          label="832 lbs"
+          value={832}
+        />
+        <PickerIOSItem
+          key="833"
+          label="833 lbs"
+          value={833}
+        />
+        <PickerIOSItem
+          key="834"
+          label="834 lbs"
+          value={834}
+        />
+        <PickerIOSItem
+          key="835"
+          label="835 lbs"
+          value={835}
+        />
+        <PickerIOSItem
+          key="836"
+          label="836 lbs"
+          value={836}
+        />
+        <PickerIOSItem
+          key="837"
+          label="837 lbs"
+          value={837}
+        />
+        <PickerIOSItem
+          key="838"
+          label="838 lbs"
+          value={838}
+        />
+        <PickerIOSItem
+          key="839"
+          label="839 lbs"
+          value={839}
+        />
+        <PickerIOSItem
+          key="840"
+          label="840 lbs"
+          value={840}
+        />
+        <PickerIOSItem
+          key="841"
+          label="841 lbs"
+          value={841}
+        />
+        <PickerIOSItem
+          key="842"
+          label="842 lbs"
+          value={842}
+        />
+        <PickerIOSItem
+          key="843"
+          label="843 lbs"
+          value={843}
+        />
+        <PickerIOSItem
+          key="844"
+          label="844 lbs"
+          value={844}
+        />
+        <PickerIOSItem
+          key="845"
+          label="845 lbs"
+          value={845}
+        />
+        <PickerIOSItem
+          key="846"
+          label="846 lbs"
+          value={846}
+        />
+        <PickerIOSItem
+          key="847"
+          label="847 lbs"
+          value={847}
+        />
+        <PickerIOSItem
+          key="848"
+          label="848 lbs"
+          value={848}
+        />
+        <PickerIOSItem
+          key="849"
+          label="849 lbs"
+          value={849}
+        />
+        <PickerIOSItem
+          key="850"
+          label="850 lbs"
+          value={850}
+        />
+        <PickerIOSItem
+          key="851"
+          label="851 lbs"
+          value={851}
+        />
+        <PickerIOSItem
+          key="852"
+          label="852 lbs"
+          value={852}
+        />
+        <PickerIOSItem
+          key="853"
+          label="853 lbs"
+          value={853}
+        />
+        <PickerIOSItem
+          key="854"
+          label="854 lbs"
+          value={854}
+        />
+        <PickerIOSItem
+          key="855"
+          label="855 lbs"
+          value={855}
+        />
+        <PickerIOSItem
+          key="856"
+          label="856 lbs"
+          value={856}
+        />
+        <PickerIOSItem
+          key="857"
+          label="857 lbs"
+          value={857}
+        />
+        <PickerIOSItem
+          key="858"
+          label="858 lbs"
+          value={858}
+        />
+        <PickerIOSItem
+          key="859"
+          label="859 lbs"
+          value={859}
+        />
+        <PickerIOSItem
+          key="860"
+          label="860 lbs"
+          value={860}
+        />
+        <PickerIOSItem
+          key="861"
+          label="861 lbs"
+          value={861}
+        />
+        <PickerIOSItem
+          key="862"
+          label="862 lbs"
+          value={862}
+        />
+        <PickerIOSItem
+          key="863"
+          label="863 lbs"
+          value={863}
+        />
+        <PickerIOSItem
+          key="864"
+          label="864 lbs"
+          value={864}
+        />
+        <PickerIOSItem
+          key="865"
+          label="865 lbs"
+          value={865}
+        />
+        <PickerIOSItem
+          key="866"
+          label="866 lbs"
+          value={866}
+        />
+        <PickerIOSItem
+          key="867"
+          label="867 lbs"
+          value={867}
+        />
+        <PickerIOSItem
+          key="868"
+          label="868 lbs"
+          value={868}
+        />
+        <PickerIOSItem
+          key="869"
+          label="869 lbs"
+          value={869}
+        />
+        <PickerIOSItem
+          key="870"
+          label="870 lbs"
+          value={870}
+        />
+        <PickerIOSItem
+          key="871"
+          label="871 lbs"
+          value={871}
+        />
+        <PickerIOSItem
+          key="872"
+          label="872 lbs"
+          value={872}
+        />
+        <PickerIOSItem
+          key="873"
+          label="873 lbs"
+          value={873}
+        />
+        <PickerIOSItem
+          key="874"
+          label="874 lbs"
+          value={874}
+        />
+        <PickerIOSItem
+          key="875"
+          label="875 lbs"
+          value={875}
+        />
+        <PickerIOSItem
+          key="876"
+          label="876 lbs"
+          value={876}
+        />
+        <PickerIOSItem
+          key="877"
+          label="877 lbs"
+          value={877}
+        />
+        <PickerIOSItem
+          key="878"
+          label="878 lbs"
+          value={878}
+        />
+        <PickerIOSItem
+          key="879"
+          label="879 lbs"
+          value={879}
+        />
+        <PickerIOSItem
+          key="880"
+          label="880 lbs"
+          value={880}
+        />
+        <PickerIOSItem
+          key="881"
+          label="881 lbs"
+          value={881}
+        />
+        <PickerIOSItem
+          key="882"
+          label="882 lbs"
+          value={882}
+        />
+        <PickerIOSItem
+          key="883"
+          label="883 lbs"
+          value={883}
+        />
+        <PickerIOSItem
+          key="884"
+          label="884 lbs"
+          value={884}
+        />
+        <PickerIOSItem
+          key="885"
+          label="885 lbs"
+          value={885}
+        />
+        <PickerIOSItem
+          key="886"
+          label="886 lbs"
+          value={886}
+        />
+        <PickerIOSItem
+          key="887"
+          label="887 lbs"
+          value={887}
+        />
+        <PickerIOSItem
+          key="888"
+          label="888 lbs"
+          value={888}
+        />
+        <PickerIOSItem
+          key="889"
+          label="889 lbs"
+          value={889}
+        />
+        <PickerIOSItem
+          key="890"
+          label="890 lbs"
+          value={890}
+        />
+        <PickerIOSItem
+          key="891"
+          label="891 lbs"
+          value={891}
+        />
+        <PickerIOSItem
+          key="892"
+          label="892 lbs"
+          value={892}
+        />
+        <PickerIOSItem
+          key="893"
+          label="893 lbs"
+          value={893}
+        />
+        <PickerIOSItem
+          key="894"
+          label="894 lbs"
+          value={894}
+        />
+        <PickerIOSItem
+          key="895"
+          label="895 lbs"
+          value={895}
+        />
+        <PickerIOSItem
+          key="896"
+          label="896 lbs"
+          value={896}
+        />
+        <PickerIOSItem
+          key="897"
+          label="897 lbs"
+          value={897}
+        />
+        <PickerIOSItem
+          key="898"
+          label="898 lbs"
+          value={898}
+        />
+        <PickerIOSItem
+          key="899"
+          label="899 lbs"
+          value={899}
+        />
+        <PickerIOSItem
+          key="900"
+          label="900 lbs"
+          value={900}
+        />
+        <PickerIOSItem
+          key="901"
+          label="901 lbs"
+          value={901}
+        />
+        <PickerIOSItem
+          key="902"
+          label="902 lbs"
+          value={902}
+        />
+        <PickerIOSItem
+          key="903"
+          label="903 lbs"
+          value={903}
+        />
+        <PickerIOSItem
+          key="904"
+          label="904 lbs"
+          value={904}
+        />
+        <PickerIOSItem
+          key="905"
+          label="905 lbs"
+          value={905}
+        />
+        <PickerIOSItem
+          key="906"
+          label="906 lbs"
+          value={906}
+        />
+        <PickerIOSItem
+          key="907"
+          label="907 lbs"
+          value={907}
+        />
+        <PickerIOSItem
+          key="908"
+          label="908 lbs"
+          value={908}
+        />
+        <PickerIOSItem
+          key="909"
+          label="909 lbs"
+          value={909}
+        />
+        <PickerIOSItem
+          key="910"
+          label="910 lbs"
+          value={910}
+        />
+        <PickerIOSItem
+          key="911"
+          label="911 lbs"
+          value={911}
+        />
+        <PickerIOSItem
+          key="912"
+          label="912 lbs"
+          value={912}
+        />
+        <PickerIOSItem
+          key="913"
+          label="913 lbs"
+          value={913}
+        />
+        <PickerIOSItem
+          key="914"
+          label="914 lbs"
+          value={914}
+        />
+        <PickerIOSItem
+          key="915"
+          label="915 lbs"
+          value={915}
+        />
+        <PickerIOSItem
+          key="916"
+          label="916 lbs"
+          value={916}
+        />
+        <PickerIOSItem
+          key="917"
+          label="917 lbs"
+          value={917}
+        />
+        <PickerIOSItem
+          key="918"
+          label="918 lbs"
+          value={918}
+        />
+        <PickerIOSItem
+          key="919"
+          label="919 lbs"
+          value={919}
+        />
+        <PickerIOSItem
+          key="920"
+          label="920 lbs"
+          value={920}
+        />
+        <PickerIOSItem
+          key="921"
+          label="921 lbs"
+          value={921}
+        />
+        <PickerIOSItem
+          key="922"
+          label="922 lbs"
+          value={922}
+        />
+        <PickerIOSItem
+          key="923"
+          label="923 lbs"
+          value={923}
+        />
+        <PickerIOSItem
+          key="924"
+          label="924 lbs"
+          value={924}
+        />
+        <PickerIOSItem
+          key="925"
+          label="925 lbs"
+          value={925}
+        />
+        <PickerIOSItem
+          key="926"
+          label="926 lbs"
+          value={926}
+        />
+        <PickerIOSItem
+          key="927"
+          label="927 lbs"
+          value={927}
+        />
+        <PickerIOSItem
+          key="928"
+          label="928 lbs"
+          value={928}
+        />
+        <PickerIOSItem
+          key="929"
+          label="929 lbs"
+          value={929}
+        />
+        <PickerIOSItem
+          key="930"
+          label="930 lbs"
+          value={930}
+        />
+        <PickerIOSItem
+          key="931"
+          label="931 lbs"
+          value={931}
+        />
+        <PickerIOSItem
+          key="932"
+          label="932 lbs"
+          value={932}
+        />
+        <PickerIOSItem
+          key="933"
+          label="933 lbs"
+          value={933}
+        />
+        <PickerIOSItem
+          key="934"
+          label="934 lbs"
+          value={934}
+        />
+        <PickerIOSItem
+          key="935"
+          label="935 lbs"
+          value={935}
+        />
+        <PickerIOSItem
+          key="936"
+          label="936 lbs"
+          value={936}
+        />
+        <PickerIOSItem
+          key="937"
+          label="937 lbs"
+          value={937}
+        />
+        <PickerIOSItem
+          key="938"
+          label="938 lbs"
+          value={938}
+        />
+        <PickerIOSItem
+          key="939"
+          label="939 lbs"
+          value={939}
+        />
+        <PickerIOSItem
+          key="940"
+          label="940 lbs"
+          value={940}
+        />
+        <PickerIOSItem
+          key="941"
+          label="941 lbs"
+          value={941}
+        />
+        <PickerIOSItem
+          key="942"
+          label="942 lbs"
+          value={942}
+        />
+        <PickerIOSItem
+          key="943"
+          label="943 lbs"
+          value={943}
+        />
+        <PickerIOSItem
+          key="944"
+          label="944 lbs"
+          value={944}
+        />
+        <PickerIOSItem
+          key="945"
+          label="945 lbs"
+          value={945}
+        />
+        <PickerIOSItem
+          key="946"
+          label="946 lbs"
+          value={946}
+        />
+        <PickerIOSItem
+          key="947"
+          label="947 lbs"
+          value={947}
+        />
+        <PickerIOSItem
+          key="948"
+          label="948 lbs"
+          value={948}
+        />
+        <PickerIOSItem
+          key="949"
+          label="949 lbs"
+          value={949}
+        />
+        <PickerIOSItem
+          key="950"
+          label="950 lbs"
+          value={950}
+        />
+        <PickerIOSItem
+          key="951"
+          label="951 lbs"
+          value={951}
+        />
+        <PickerIOSItem
+          key="952"
+          label="952 lbs"
+          value={952}
+        />
+        <PickerIOSItem
+          key="953"
+          label="953 lbs"
+          value={953}
+        />
+        <PickerIOSItem
+          key="954"
+          label="954 lbs"
+          value={954}
+        />
+        <PickerIOSItem
+          key="955"
+          label="955 lbs"
+          value={955}
+        />
+        <PickerIOSItem
+          key="956"
+          label="956 lbs"
+          value={956}
+        />
+        <PickerIOSItem
+          key="957"
+          label="957 lbs"
+          value={957}
+        />
+        <PickerIOSItem
+          key="958"
+          label="958 lbs"
+          value={958}
+        />
+        <PickerIOSItem
+          key="959"
+          label="959 lbs"
+          value={959}
+        />
+        <PickerIOSItem
+          key="960"
+          label="960 lbs"
+          value={960}
+        />
+        <PickerIOSItem
+          key="961"
+          label="961 lbs"
+          value={961}
+        />
+        <PickerIOSItem
+          key="962"
+          label="962 lbs"
+          value={962}
+        />
+        <PickerIOSItem
+          key="963"
+          label="963 lbs"
+          value={963}
+        />
+        <PickerIOSItem
+          key="964"
+          label="964 lbs"
+          value={964}
+        />
+        <PickerIOSItem
+          key="965"
+          label="965 lbs"
+          value={965}
+        />
+        <PickerIOSItem
+          key="966"
+          label="966 lbs"
+          value={966}
+        />
+        <PickerIOSItem
+          key="967"
+          label="967 lbs"
+          value={967}
+        />
+        <PickerIOSItem
+          key="968"
+          label="968 lbs"
+          value={968}
+        />
+        <PickerIOSItem
+          key="969"
+          label="969 lbs"
+          value={969}
+        />
+        <PickerIOSItem
+          key="970"
+          label="970 lbs"
+          value={970}
+        />
+        <PickerIOSItem
+          key="971"
+          label="971 lbs"
+          value={971}
+        />
+        <PickerIOSItem
+          key="972"
+          label="972 lbs"
+          value={972}
+        />
+        <PickerIOSItem
+          key="973"
+          label="973 lbs"
+          value={973}
+        />
+        <PickerIOSItem
+          key="974"
+          label="974 lbs"
+          value={974}
+        />
+        <PickerIOSItem
+          key="975"
+          label="975 lbs"
+          value={975}
+        />
+        <PickerIOSItem
+          key="976"
+          label="976 lbs"
+          value={976}
+        />
+        <PickerIOSItem
+          key="977"
+          label="977 lbs"
+          value={977}
+        />
+        <PickerIOSItem
+          key="978"
+          label="978 lbs"
+          value={978}
+        />
+        <PickerIOSItem
+          key="979"
+          label="979 lbs"
+          value={979}
+        />
+        <PickerIOSItem
+          key="980"
+          label="980 lbs"
+          value={980}
+        />
+        <PickerIOSItem
+          key="981"
+          label="981 lbs"
+          value={981}
+        />
+        <PickerIOSItem
+          key="982"
+          label="982 lbs"
+          value={982}
+        />
+        <PickerIOSItem
+          key="983"
+          label="983 lbs"
+          value={983}
+        />
+        <PickerIOSItem
+          key="984"
+          label="984 lbs"
+          value={984}
+        />
+        <PickerIOSItem
+          key="985"
+          label="985 lbs"
+          value={985}
+        />
+        <PickerIOSItem
+          key="986"
+          label="986 lbs"
+          value={986}
+        />
+        <PickerIOSItem
+          key="987"
+          label="987 lbs"
+          value={987}
+        />
+        <PickerIOSItem
+          key="988"
+          label="988 lbs"
+          value={988}
+        />
+        <PickerIOSItem
+          key="989"
+          label="989 lbs"
+          value={989}
+        />
+        <PickerIOSItem
+          key="990"
+          label="990 lbs"
+          value={990}
+        />
+        <PickerIOSItem
+          key="991"
+          label="991 lbs"
+          value={991}
+        />
+        <PickerIOSItem
+          key="992"
+          label="992 lbs"
+          value={992}
+        />
+        <PickerIOSItem
+          key="993"
+          label="993 lbs"
+          value={993}
+        />
+        <PickerIOSItem
+          key="994"
+          label="994 lbs"
+          value={994}
+        />
+        <PickerIOSItem
+          key="995"
+          label="995 lbs"
+          value={995}
+        />
+        <PickerIOSItem
+          key="996"
+          label="996 lbs"
+          value={996}
+        />
+        <PickerIOSItem
+          key="997"
+          label="997 lbs"
+          value={997}
+        />
+        <PickerIOSItem
+          key="998"
+          label="998 lbs"
+          value={998}
+        />
+        <PickerIOSItem
+          key="999"
+          label="999 lbs"
+          value={999}
+        />
+      </PickerIOS>
+    </Component>
+    <Component
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "flexDirection": "row",
+          },
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "display": "none",
+          },
+        ]
+      }
+    >
+      <PickerIOS
+        itemStyle={
+          Array [
+            Object {
+              "fontFamily": "avenir-next-medium",
+            },
+            Object {
+              "fontSize": 18,
+            },
+            Object {
+              "color": "#626262",
+            },
+          ]
+        }
+        onValueChange={[Function]}
+        selectedValue={88}
+        style={
+          Array [
+            Object {
+              "width": 224,
+            },
+          ]
+        }
+      >
+        <PickerIOSItem
+          key="18"
+          label="18 kg"
+          value={18}
+        />
+        <PickerIOSItem
+          key="19"
+          label="19 kg"
+          value={19}
+        />
+        <PickerIOSItem
+          key="20"
+          label="20 kg"
+          value={20}
+        />
+        <PickerIOSItem
+          key="21"
+          label="21 kg"
+          value={21}
+        />
+        <PickerIOSItem
+          key="22"
+          label="22 kg"
+          value={22}
+        />
+        <PickerIOSItem
+          key="23"
+          label="23 kg"
+          value={23}
+        />
+        <PickerIOSItem
+          key="24"
+          label="24 kg"
+          value={24}
+        />
+        <PickerIOSItem
+          key="25"
+          label="25 kg"
+          value={25}
+        />
+        <PickerIOSItem
+          key="26"
+          label="26 kg"
+          value={26}
+        />
+        <PickerIOSItem
+          key="27"
+          label="27 kg"
+          value={27}
+        />
+        <PickerIOSItem
+          key="28"
+          label="28 kg"
+          value={28}
+        />
+        <PickerIOSItem
+          key="29"
+          label="29 kg"
+          value={29}
+        />
+        <PickerIOSItem
+          key="30"
+          label="30 kg"
+          value={30}
+        />
+        <PickerIOSItem
+          key="31"
+          label="31 kg"
+          value={31}
+        />
+        <PickerIOSItem
+          key="32"
+          label="32 kg"
+          value={32}
+        />
+        <PickerIOSItem
+          key="33"
+          label="33 kg"
+          value={33}
+        />
+        <PickerIOSItem
+          key="34"
+          label="34 kg"
+          value={34}
+        />
+        <PickerIOSItem
+          key="35"
+          label="35 kg"
+          value={35}
+        />
+        <PickerIOSItem
+          key="36"
+          label="36 kg"
+          value={36}
+        />
+        <PickerIOSItem
+          key="37"
+          label="37 kg"
+          value={37}
+        />
+        <PickerIOSItem
+          key="38"
+          label="38 kg"
+          value={38}
+        />
+        <PickerIOSItem
+          key="39"
+          label="39 kg"
+          value={39}
+        />
+        <PickerIOSItem
+          key="40"
+          label="40 kg"
+          value={40}
+        />
+        <PickerIOSItem
+          key="41"
+          label="41 kg"
+          value={41}
+        />
+        <PickerIOSItem
+          key="42"
+          label="42 kg"
+          value={42}
+        />
+        <PickerIOSItem
+          key="43"
+          label="43 kg"
+          value={43}
+        />
+        <PickerIOSItem
+          key="44"
+          label="44 kg"
+          value={44}
+        />
+        <PickerIOSItem
+          key="45"
+          label="45 kg"
+          value={45}
+        />
+        <PickerIOSItem
+          key="46"
+          label="46 kg"
+          value={46}
+        />
+        <PickerIOSItem
+          key="47"
+          label="47 kg"
+          value={47}
+        />
+        <PickerIOSItem
+          key="48"
+          label="48 kg"
+          value={48}
+        />
+        <PickerIOSItem
+          key="49"
+          label="49 kg"
+          value={49}
+        />
+        <PickerIOSItem
+          key="50"
+          label="50 kg"
+          value={50}
+        />
+        <PickerIOSItem
+          key="51"
+          label="51 kg"
+          value={51}
+        />
+        <PickerIOSItem
+          key="52"
+          label="52 kg"
+          value={52}
+        />
+        <PickerIOSItem
+          key="53"
+          label="53 kg"
+          value={53}
+        />
+        <PickerIOSItem
+          key="54"
+          label="54 kg"
+          value={54}
+        />
+        <PickerIOSItem
+          key="55"
+          label="55 kg"
+          value={55}
+        />
+        <PickerIOSItem
+          key="56"
+          label="56 kg"
+          value={56}
+        />
+        <PickerIOSItem
+          key="57"
+          label="57 kg"
+          value={57}
+        />
+        <PickerIOSItem
+          key="58"
+          label="58 kg"
+          value={58}
+        />
+        <PickerIOSItem
+          key="59"
+          label="59 kg"
+          value={59}
+        />
+        <PickerIOSItem
+          key="60"
+          label="60 kg"
+          value={60}
+        />
+        <PickerIOSItem
+          key="61"
+          label="61 kg"
+          value={61}
+        />
+        <PickerIOSItem
+          key="62"
+          label="62 kg"
+          value={62}
+        />
+        <PickerIOSItem
+          key="63"
+          label="63 kg"
+          value={63}
+        />
+        <PickerIOSItem
+          key="64"
+          label="64 kg"
+          value={64}
+        />
+        <PickerIOSItem
+          key="65"
+          label="65 kg"
+          value={65}
+        />
+        <PickerIOSItem
+          key="66"
+          label="66 kg"
+          value={66}
+        />
+        <PickerIOSItem
+          key="67"
+          label="67 kg"
+          value={67}
+        />
+        <PickerIOSItem
+          key="68"
+          label="68 kg"
+          value={68}
+        />
+        <PickerIOSItem
+          key="69"
+          label="69 kg"
+          value={69}
+        />
+        <PickerIOSItem
+          key="70"
+          label="70 kg"
+          value={70}
+        />
+        <PickerIOSItem
+          key="71"
+          label="71 kg"
+          value={71}
+        />
+        <PickerIOSItem
+          key="72"
+          label="72 kg"
+          value={72}
+        />
+        <PickerIOSItem
+          key="73"
+          label="73 kg"
+          value={73}
+        />
+        <PickerIOSItem
+          key="74"
+          label="74 kg"
+          value={74}
+        />
+        <PickerIOSItem
+          key="75"
+          label="75 kg"
+          value={75}
+        />
+        <PickerIOSItem
+          key="76"
+          label="76 kg"
+          value={76}
+        />
+        <PickerIOSItem
+          key="77"
+          label="77 kg"
+          value={77}
+        />
+        <PickerIOSItem
+          key="78"
+          label="78 kg"
+          value={78}
+        />
+        <PickerIOSItem
+          key="79"
+          label="79 kg"
+          value={79}
+        />
+        <PickerIOSItem
+          key="80"
+          label="80 kg"
+          value={80}
+        />
+        <PickerIOSItem
+          key="81"
+          label="81 kg"
+          value={81}
+        />
+        <PickerIOSItem
+          key="82"
+          label="82 kg"
+          value={82}
+        />
+        <PickerIOSItem
+          key="83"
+          label="83 kg"
+          value={83}
+        />
+        <PickerIOSItem
+          key="84"
+          label="84 kg"
+          value={84}
+        />
+        <PickerIOSItem
+          key="85"
+          label="85 kg"
+          value={85}
+        />
+        <PickerIOSItem
+          key="86"
+          label="86 kg"
+          value={86}
+        />
+        <PickerIOSItem
+          key="87"
+          label="87 kg"
+          value={87}
+        />
+        <PickerIOSItem
+          key="88"
+          label="88 kg"
+          value={88}
+        />
+        <PickerIOSItem
+          key="89"
+          label="89 kg"
+          value={89}
+        />
+        <PickerIOSItem
+          key="90"
+          label="90 kg"
+          value={90}
+        />
+        <PickerIOSItem
+          key="91"
+          label="91 kg"
+          value={91}
+        />
+        <PickerIOSItem
+          key="92"
+          label="92 kg"
+          value={92}
+        />
+        <PickerIOSItem
+          key="93"
+          label="93 kg"
+          value={93}
+        />
+        <PickerIOSItem
+          key="94"
+          label="94 kg"
+          value={94}
+        />
+        <PickerIOSItem
+          key="95"
+          label="95 kg"
+          value={95}
+        />
+        <PickerIOSItem
+          key="96"
+          label="96 kg"
+          value={96}
+        />
+        <PickerIOSItem
+          key="97"
+          label="97 kg"
+          value={97}
+        />
+        <PickerIOSItem
+          key="98"
+          label="98 kg"
+          value={98}
+        />
+        <PickerIOSItem
+          key="99"
+          label="99 kg"
+          value={99}
+        />
+        <PickerIOSItem
+          key="100"
+          label="100 kg"
+          value={100}
+        />
+        <PickerIOSItem
+          key="101"
+          label="101 kg"
+          value={101}
+        />
+        <PickerIOSItem
+          key="102"
+          label="102 kg"
+          value={102}
+        />
+        <PickerIOSItem
+          key="103"
+          label="103 kg"
+          value={103}
+        />
+        <PickerIOSItem
+          key="104"
+          label="104 kg"
+          value={104}
+        />
+        <PickerIOSItem
+          key="105"
+          label="105 kg"
+          value={105}
+        />
+        <PickerIOSItem
+          key="106"
+          label="106 kg"
+          value={106}
+        />
+        <PickerIOSItem
+          key="107"
+          label="107 kg"
+          value={107}
+        />
+        <PickerIOSItem
+          key="108"
+          label="108 kg"
+          value={108}
+        />
+        <PickerIOSItem
+          key="109"
+          label="109 kg"
+          value={109}
+        />
+        <PickerIOSItem
+          key="110"
+          label="110 kg"
+          value={110}
+        />
+        <PickerIOSItem
+          key="111"
+          label="111 kg"
+          value={111}
+        />
+        <PickerIOSItem
+          key="112"
+          label="112 kg"
+          value={112}
+        />
+        <PickerIOSItem
+          key="113"
+          label="113 kg"
+          value={113}
+        />
+        <PickerIOSItem
+          key="114"
+          label="114 kg"
+          value={114}
+        />
+        <PickerIOSItem
+          key="115"
+          label="115 kg"
+          value={115}
+        />
+        <PickerIOSItem
+          key="116"
+          label="116 kg"
+          value={116}
+        />
+        <PickerIOSItem
+          key="117"
+          label="117 kg"
+          value={117}
+        />
+        <PickerIOSItem
+          key="118"
+          label="118 kg"
+          value={118}
+        />
+        <PickerIOSItem
+          key="119"
+          label="119 kg"
+          value={119}
+        />
+        <PickerIOSItem
+          key="120"
+          label="120 kg"
+          value={120}
+        />
+        <PickerIOSItem
+          key="121"
+          label="121 kg"
+          value={121}
+        />
+        <PickerIOSItem
+          key="122"
+          label="122 kg"
+          value={122}
+        />
+        <PickerIOSItem
+          key="123"
+          label="123 kg"
+          value={123}
+        />
+        <PickerIOSItem
+          key="124"
+          label="124 kg"
+          value={124}
+        />
+        <PickerIOSItem
+          key="125"
+          label="125 kg"
+          value={125}
+        />
+        <PickerIOSItem
+          key="126"
+          label="126 kg"
+          value={126}
+        />
+        <PickerIOSItem
+          key="127"
+          label="127 kg"
+          value={127}
+        />
+        <PickerIOSItem
+          key="128"
+          label="128 kg"
+          value={128}
+        />
+        <PickerIOSItem
+          key="129"
+          label="129 kg"
+          value={129}
+        />
+        <PickerIOSItem
+          key="130"
+          label="130 kg"
+          value={130}
+        />
+        <PickerIOSItem
+          key="131"
+          label="131 kg"
+          value={131}
+        />
+        <PickerIOSItem
+          key="132"
+          label="132 kg"
+          value={132}
+        />
+        <PickerIOSItem
+          key="133"
+          label="133 kg"
+          value={133}
+        />
+        <PickerIOSItem
+          key="134"
+          label="134 kg"
+          value={134}
+        />
+        <PickerIOSItem
+          key="135"
+          label="135 kg"
+          value={135}
+        />
+        <PickerIOSItem
+          key="136"
+          label="136 kg"
+          value={136}
+        />
+        <PickerIOSItem
+          key="137"
+          label="137 kg"
+          value={137}
+        />
+        <PickerIOSItem
+          key="138"
+          label="138 kg"
+          value={138}
+        />
+        <PickerIOSItem
+          key="139"
+          label="139 kg"
+          value={139}
+        />
+        <PickerIOSItem
+          key="140"
+          label="140 kg"
+          value={140}
+        />
+        <PickerIOSItem
+          key="141"
+          label="141 kg"
+          value={141}
+        />
+        <PickerIOSItem
+          key="142"
+          label="142 kg"
+          value={142}
+        />
+        <PickerIOSItem
+          key="143"
+          label="143 kg"
+          value={143}
+        />
+        <PickerIOSItem
+          key="144"
+          label="144 kg"
+          value={144}
+        />
+        <PickerIOSItem
+          key="145"
+          label="145 kg"
+          value={145}
+        />
+        <PickerIOSItem
+          key="146"
+          label="146 kg"
+          value={146}
+        />
+        <PickerIOSItem
+          key="147"
+          label="147 kg"
+          value={147}
+        />
+        <PickerIOSItem
+          key="148"
+          label="148 kg"
+          value={148}
+        />
+        <PickerIOSItem
+          key="149"
+          label="149 kg"
+          value={149}
+        />
+        <PickerIOSItem
+          key="150"
+          label="150 kg"
+          value={150}
+        />
+        <PickerIOSItem
+          key="151"
+          label="151 kg"
+          value={151}
+        />
+        <PickerIOSItem
+          key="152"
+          label="152 kg"
+          value={152}
+        />
+        <PickerIOSItem
+          key="153"
+          label="153 kg"
+          value={153}
+        />
+        <PickerIOSItem
+          key="154"
+          label="154 kg"
+          value={154}
+        />
+        <PickerIOSItem
+          key="155"
+          label="155 kg"
+          value={155}
+        />
+        <PickerIOSItem
+          key="156"
+          label="156 kg"
+          value={156}
+        />
+        <PickerIOSItem
+          key="157"
+          label="157 kg"
+          value={157}
+        />
+        <PickerIOSItem
+          key="158"
+          label="158 kg"
+          value={158}
+        />
+        <PickerIOSItem
+          key="159"
+          label="159 kg"
+          value={159}
+        />
+        <PickerIOSItem
+          key="160"
+          label="160 kg"
+          value={160}
+        />
+        <PickerIOSItem
+          key="161"
+          label="161 kg"
+          value={161}
+        />
+        <PickerIOSItem
+          key="162"
+          label="162 kg"
+          value={162}
+        />
+        <PickerIOSItem
+          key="163"
+          label="163 kg"
+          value={163}
+        />
+        <PickerIOSItem
+          key="164"
+          label="164 kg"
+          value={164}
+        />
+        <PickerIOSItem
+          key="165"
+          label="165 kg"
+          value={165}
+        />
+        <PickerIOSItem
+          key="166"
+          label="166 kg"
+          value={166}
+        />
+        <PickerIOSItem
+          key="167"
+          label="167 kg"
+          value={167}
+        />
+        <PickerIOSItem
+          key="168"
+          label="168 kg"
+          value={168}
+        />
+        <PickerIOSItem
+          key="169"
+          label="169 kg"
+          value={169}
+        />
+        <PickerIOSItem
+          key="170"
+          label="170 kg"
+          value={170}
+        />
+        <PickerIOSItem
+          key="171"
+          label="171 kg"
+          value={171}
+        />
+        <PickerIOSItem
+          key="172"
+          label="172 kg"
+          value={172}
+        />
+        <PickerIOSItem
+          key="173"
+          label="173 kg"
+          value={173}
+        />
+        <PickerIOSItem
+          key="174"
+          label="174 kg"
+          value={174}
+        />
+        <PickerIOSItem
+          key="175"
+          label="175 kg"
+          value={175}
+        />
+        <PickerIOSItem
+          key="176"
+          label="176 kg"
+          value={176}
+        />
+        <PickerIOSItem
+          key="177"
+          label="177 kg"
+          value={177}
+        />
+        <PickerIOSItem
+          key="178"
+          label="178 kg"
+          value={178}
+        />
+        <PickerIOSItem
+          key="179"
+          label="179 kg"
+          value={179}
+        />
+        <PickerIOSItem
+          key="180"
+          label="180 kg"
+          value={180}
+        />
+        <PickerIOSItem
+          key="181"
+          label="181 kg"
+          value={181}
+        />
+        <PickerIOSItem
+          key="182"
+          label="182 kg"
+          value={182}
+        />
+        <PickerIOSItem
+          key="183"
+          label="183 kg"
+          value={183}
+        />
+        <PickerIOSItem
+          key="184"
+          label="184 kg"
+          value={184}
+        />
+        <PickerIOSItem
+          key="185"
+          label="185 kg"
+          value={185}
+        />
+        <PickerIOSItem
+          key="186"
+          label="186 kg"
+          value={186}
+        />
+        <PickerIOSItem
+          key="187"
+          label="187 kg"
+          value={187}
+        />
+        <PickerIOSItem
+          key="188"
+          label="188 kg"
+          value={188}
+        />
+        <PickerIOSItem
+          key="189"
+          label="189 kg"
+          value={189}
+        />
+        <PickerIOSItem
+          key="190"
+          label="190 kg"
+          value={190}
+        />
+        <PickerIOSItem
+          key="191"
+          label="191 kg"
+          value={191}
+        />
+        <PickerIOSItem
+          key="192"
+          label="192 kg"
+          value={192}
+        />
+        <PickerIOSItem
+          key="193"
+          label="193 kg"
+          value={193}
+        />
+        <PickerIOSItem
+          key="194"
+          label="194 kg"
+          value={194}
+        />
+        <PickerIOSItem
+          key="195"
+          label="195 kg"
+          value={195}
+        />
+        <PickerIOSItem
+          key="196"
+          label="196 kg"
+          value={196}
+        />
+        <PickerIOSItem
+          key="197"
+          label="197 kg"
+          value={197}
+        />
+        <PickerIOSItem
+          key="198"
+          label="198 kg"
+          value={198}
+        />
+        <PickerIOSItem
+          key="199"
+          label="199 kg"
+          value={199}
+        />
+        <PickerIOSItem
+          key="200"
+          label="200 kg"
+          value={200}
+        />
+        <PickerIOSItem
+          key="201"
+          label="201 kg"
+          value={201}
+        />
+        <PickerIOSItem
+          key="202"
+          label="202 kg"
+          value={202}
+        />
+        <PickerIOSItem
+          key="203"
+          label="203 kg"
+          value={203}
+        />
+        <PickerIOSItem
+          key="204"
+          label="204 kg"
+          value={204}
+        />
+        <PickerIOSItem
+          key="205"
+          label="205 kg"
+          value={205}
+        />
+        <PickerIOSItem
+          key="206"
+          label="206 kg"
+          value={206}
+        />
+        <PickerIOSItem
+          key="207"
+          label="207 kg"
+          value={207}
+        />
+        <PickerIOSItem
+          key="208"
+          label="208 kg"
+          value={208}
+        />
+        <PickerIOSItem
+          key="209"
+          label="209 kg"
+          value={209}
+        />
+        <PickerIOSItem
+          key="210"
+          label="210 kg"
+          value={210}
+        />
+        <PickerIOSItem
+          key="211"
+          label="211 kg"
+          value={211}
+        />
+        <PickerIOSItem
+          key="212"
+          label="212 kg"
+          value={212}
+        />
+        <PickerIOSItem
+          key="213"
+          label="213 kg"
+          value={213}
+        />
+        <PickerIOSItem
+          key="214"
+          label="214 kg"
+          value={214}
+        />
+        <PickerIOSItem
+          key="215"
+          label="215 kg"
+          value={215}
+        />
+        <PickerIOSItem
+          key="216"
+          label="216 kg"
+          value={216}
+        />
+        <PickerIOSItem
+          key="217"
+          label="217 kg"
+          value={217}
+        />
+        <PickerIOSItem
+          key="218"
+          label="218 kg"
+          value={218}
+        />
+        <PickerIOSItem
+          key="219"
+          label="219 kg"
+          value={219}
+        />
+        <PickerIOSItem
+          key="220"
+          label="220 kg"
+          value={220}
+        />
+        <PickerIOSItem
+          key="221"
+          label="221 kg"
+          value={221}
+        />
+        <PickerIOSItem
+          key="222"
+          label="222 kg"
+          value={222}
+        />
+        <PickerIOSItem
+          key="223"
+          label="223 kg"
+          value={223}
+        />
+        <PickerIOSItem
+          key="224"
+          label="224 kg"
+          value={224}
+        />
+        <PickerIOSItem
+          key="225"
+          label="225 kg"
+          value={225}
+        />
+        <PickerIOSItem
+          key="226"
+          label="226 kg"
+          value={226}
+        />
+        <PickerIOSItem
+          key="227"
+          label="227 kg"
+          value={227}
+        />
+        <PickerIOSItem
+          key="228"
+          label="228 kg"
+          value={228}
+        />
+        <PickerIOSItem
+          key="229"
+          label="229 kg"
+          value={229}
+        />
+        <PickerIOSItem
+          key="230"
+          label="230 kg"
+          value={230}
+        />
+        <PickerIOSItem
+          key="231"
+          label="231 kg"
+          value={231}
+        />
+        <PickerIOSItem
+          key="232"
+          label="232 kg"
+          value={232}
+        />
+        <PickerIOSItem
+          key="233"
+          label="233 kg"
+          value={233}
+        />
+        <PickerIOSItem
+          key="234"
+          label="234 kg"
+          value={234}
+        />
+        <PickerIOSItem
+          key="235"
+          label="235 kg"
+          value={235}
+        />
+        <PickerIOSItem
+          key="236"
+          label="236 kg"
+          value={236}
+        />
+        <PickerIOSItem
+          key="237"
+          label="237 kg"
+          value={237}
+        />
+        <PickerIOSItem
+          key="238"
+          label="238 kg"
+          value={238}
+        />
+        <PickerIOSItem
+          key="239"
+          label="239 kg"
+          value={239}
+        />
+        <PickerIOSItem
+          key="240"
+          label="240 kg"
+          value={240}
+        />
+        <PickerIOSItem
+          key="241"
+          label="241 kg"
+          value={241}
+        />
+        <PickerIOSItem
+          key="242"
+          label="242 kg"
+          value={242}
+        />
+        <PickerIOSItem
+          key="243"
+          label="243 kg"
+          value={243}
+        />
+        <PickerIOSItem
+          key="244"
+          label="244 kg"
+          value={244}
+        />
+        <PickerIOSItem
+          key="245"
+          label="245 kg"
+          value={245}
+        />
+        <PickerIOSItem
+          key="246"
+          label="246 kg"
+          value={246}
+        />
+        <PickerIOSItem
+          key="247"
+          label="247 kg"
+          value={247}
+        />
+        <PickerIOSItem
+          key="248"
+          label="248 kg"
+          value={248}
+        />
+        <PickerIOSItem
+          key="249"
+          label="249 kg"
+          value={249}
+        />
+        <PickerIOSItem
+          key="250"
+          label="250 kg"
+          value={250}
+        />
+        <PickerIOSItem
+          key="251"
+          label="251 kg"
+          value={251}
+        />
+        <PickerIOSItem
+          key="252"
+          label="252 kg"
+          value={252}
+        />
+        <PickerIOSItem
+          key="253"
+          label="253 kg"
+          value={253}
+        />
+        <PickerIOSItem
+          key="254"
+          label="254 kg"
+          value={254}
+        />
+        <PickerIOSItem
+          key="255"
+          label="255 kg"
+          value={255}
+        />
+        <PickerIOSItem
+          key="256"
+          label="256 kg"
+          value={256}
+        />
+        <PickerIOSItem
+          key="257"
+          label="257 kg"
+          value={257}
+        />
+        <PickerIOSItem
+          key="258"
+          label="258 kg"
+          value={258}
+        />
+        <PickerIOSItem
+          key="259"
+          label="259 kg"
+          value={259}
+        />
+        <PickerIOSItem
+          key="260"
+          label="260 kg"
+          value={260}
+        />
+        <PickerIOSItem
+          key="261"
+          label="261 kg"
+          value={261}
+        />
+        <PickerIOSItem
+          key="262"
+          label="262 kg"
+          value={262}
+        />
+        <PickerIOSItem
+          key="263"
+          label="263 kg"
+          value={263}
+        />
+        <PickerIOSItem
+          key="264"
+          label="264 kg"
+          value={264}
+        />
+        <PickerIOSItem
+          key="265"
+          label="265 kg"
+          value={265}
+        />
+        <PickerIOSItem
+          key="266"
+          label="266 kg"
+          value={266}
+        />
+        <PickerIOSItem
+          key="267"
+          label="267 kg"
+          value={267}
+        />
+        <PickerIOSItem
+          key="268"
+          label="268 kg"
+          value={268}
+        />
+        <PickerIOSItem
+          key="269"
+          label="269 kg"
+          value={269}
+        />
+        <PickerIOSItem
+          key="270"
+          label="270 kg"
+          value={270}
+        />
+        <PickerIOSItem
+          key="271"
+          label="271 kg"
+          value={271}
+        />
+        <PickerIOSItem
+          key="272"
+          label="272 kg"
+          value={272}
+        />
+        <PickerIOSItem
+          key="273"
+          label="273 kg"
+          value={273}
+        />
+        <PickerIOSItem
+          key="274"
+          label="274 kg"
+          value={274}
+        />
+        <PickerIOSItem
+          key="275"
+          label="275 kg"
+          value={275}
+        />
+        <PickerIOSItem
+          key="276"
+          label="276 kg"
+          value={276}
+        />
+        <PickerIOSItem
+          key="277"
+          label="277 kg"
+          value={277}
+        />
+        <PickerIOSItem
+          key="278"
+          label="278 kg"
+          value={278}
+        />
+        <PickerIOSItem
+          key="279"
+          label="279 kg"
+          value={279}
+        />
+        <PickerIOSItem
+          key="280"
+          label="280 kg"
+          value={280}
+        />
+        <PickerIOSItem
+          key="281"
+          label="281 kg"
+          value={281}
+        />
+        <PickerIOSItem
+          key="282"
+          label="282 kg"
+          value={282}
+        />
+        <PickerIOSItem
+          key="283"
+          label="283 kg"
+          value={283}
+        />
+        <PickerIOSItem
+          key="284"
+          label="284 kg"
+          value={284}
+        />
+        <PickerIOSItem
+          key="285"
+          label="285 kg"
+          value={285}
+        />
+        <PickerIOSItem
+          key="286"
+          label="286 kg"
+          value={286}
+        />
+        <PickerIOSItem
+          key="287"
+          label="287 kg"
+          value={287}
+        />
+        <PickerIOSItem
+          key="288"
+          label="288 kg"
+          value={288}
+        />
+        <PickerIOSItem
+          key="289"
+          label="289 kg"
+          value={289}
+        />
+        <PickerIOSItem
+          key="290"
+          label="290 kg"
+          value={290}
+        />
+        <PickerIOSItem
+          key="291"
+          label="291 kg"
+          value={291}
+        />
+        <PickerIOSItem
+          key="292"
+          label="292 kg"
+          value={292}
+        />
+        <PickerIOSItem
+          key="293"
+          label="293 kg"
+          value={293}
+        />
+        <PickerIOSItem
+          key="294"
+          label="294 kg"
+          value={294}
+        />
+        <PickerIOSItem
+          key="295"
+          label="295 kg"
+          value={295}
+        />
+        <PickerIOSItem
+          key="296"
+          label="296 kg"
+          value={296}
+        />
+        <PickerIOSItem
+          key="297"
+          label="297 kg"
+          value={297}
+        />
+        <PickerIOSItem
+          key="298"
+          label="298 kg"
+          value={298}
+        />
+        <PickerIOSItem
+          key="299"
+          label="299 kg"
+          value={299}
+        />
+        <PickerIOSItem
+          key="300"
+          label="300 kg"
+          value={300}
+        />
+        <PickerIOSItem
+          key="301"
+          label="301 kg"
+          value={301}
+        />
+        <PickerIOSItem
+          key="302"
+          label="302 kg"
+          value={302}
+        />
+        <PickerIOSItem
+          key="303"
+          label="303 kg"
+          value={303}
+        />
+        <PickerIOSItem
+          key="304"
+          label="304 kg"
+          value={304}
+        />
+        <PickerIOSItem
+          key="305"
+          label="305 kg"
+          value={305}
+        />
+        <PickerIOSItem
+          key="306"
+          label="306 kg"
+          value={306}
+        />
+        <PickerIOSItem
+          key="307"
+          label="307 kg"
+          value={307}
+        />
+        <PickerIOSItem
+          key="308"
+          label="308 kg"
+          value={308}
+        />
+        <PickerIOSItem
+          key="309"
+          label="309 kg"
+          value={309}
+        />
+        <PickerIOSItem
+          key="310"
+          label="310 kg"
+          value={310}
+        />
+        <PickerIOSItem
+          key="311"
+          label="311 kg"
+          value={311}
+        />
+        <PickerIOSItem
+          key="312"
+          label="312 kg"
+          value={312}
+        />
+        <PickerIOSItem
+          key="313"
+          label="313 kg"
+          value={313}
+        />
+        <PickerIOSItem
+          key="314"
+          label="314 kg"
+          value={314}
+        />
+        <PickerIOSItem
+          key="315"
+          label="315 kg"
+          value={315}
+        />
+        <PickerIOSItem
+          key="316"
+          label="316 kg"
+          value={316}
+        />
+        <PickerIOSItem
+          key="317"
+          label="317 kg"
+          value={317}
+        />
+        <PickerIOSItem
+          key="318"
+          label="318 kg"
+          value={318}
+        />
+        <PickerIOSItem
+          key="319"
+          label="319 kg"
+          value={319}
+        />
+        <PickerIOSItem
+          key="320"
+          label="320 kg"
+          value={320}
+        />
+        <PickerIOSItem
+          key="321"
+          label="321 kg"
+          value={321}
+        />
+        <PickerIOSItem
+          key="322"
+          label="322 kg"
+          value={322}
+        />
+        <PickerIOSItem
+          key="323"
+          label="323 kg"
+          value={323}
+        />
+        <PickerIOSItem
+          key="324"
+          label="324 kg"
+          value={324}
+        />
+        <PickerIOSItem
+          key="325"
+          label="325 kg"
+          value={325}
+        />
+        <PickerIOSItem
+          key="326"
+          label="326 kg"
+          value={326}
+        />
+        <PickerIOSItem
+          key="327"
+          label="327 kg"
+          value={327}
+        />
+        <PickerIOSItem
+          key="328"
+          label="328 kg"
+          value={328}
+        />
+        <PickerIOSItem
+          key="329"
+          label="329 kg"
+          value={329}
+        />
+        <PickerIOSItem
+          key="330"
+          label="330 kg"
+          value={330}
+        />
+        <PickerIOSItem
+          key="331"
+          label="331 kg"
+          value={331}
+        />
+        <PickerIOSItem
+          key="332"
+          label="332 kg"
+          value={332}
+        />
+        <PickerIOSItem
+          key="333"
+          label="333 kg"
+          value={333}
+        />
+        <PickerIOSItem
+          key="334"
+          label="334 kg"
+          value={334}
+        />
+        <PickerIOSItem
+          key="335"
+          label="335 kg"
+          value={335}
+        />
+        <PickerIOSItem
+          key="336"
+          label="336 kg"
+          value={336}
+        />
+        <PickerIOSItem
+          key="337"
+          label="337 kg"
+          value={337}
+        />
+        <PickerIOSItem
+          key="338"
+          label="338 kg"
+          value={338}
+        />
+        <PickerIOSItem
+          key="339"
+          label="339 kg"
+          value={339}
+        />
+        <PickerIOSItem
+          key="340"
+          label="340 kg"
+          value={340}
+        />
+        <PickerIOSItem
+          key="341"
+          label="341 kg"
+          value={341}
+        />
+        <PickerIOSItem
+          key="342"
+          label="342 kg"
+          value={342}
+        />
+        <PickerIOSItem
+          key="343"
+          label="343 kg"
+          value={343}
+        />
+        <PickerIOSItem
+          key="344"
+          label="344 kg"
+          value={344}
+        />
+        <PickerIOSItem
+          key="345"
+          label="345 kg"
+          value={345}
+        />
+        <PickerIOSItem
+          key="346"
+          label="346 kg"
+          value={346}
+        />
+        <PickerIOSItem
+          key="347"
+          label="347 kg"
+          value={347}
+        />
+        <PickerIOSItem
+          key="348"
+          label="348 kg"
+          value={348}
+        />
+        <PickerIOSItem
+          key="349"
+          label="349 kg"
+          value={349}
+        />
+        <PickerIOSItem
+          key="350"
+          label="350 kg"
+          value={350}
+        />
+        <PickerIOSItem
+          key="351"
+          label="351 kg"
+          value={351}
+        />
+        <PickerIOSItem
+          key="352"
+          label="352 kg"
+          value={352}
+        />
+        <PickerIOSItem
+          key="353"
+          label="353 kg"
+          value={353}
+        />
+        <PickerIOSItem
+          key="354"
+          label="354 kg"
+          value={354}
+        />
+        <PickerIOSItem
+          key="355"
+          label="355 kg"
+          value={355}
+        />
+        <PickerIOSItem
+          key="356"
+          label="356 kg"
+          value={356}
+        />
+        <PickerIOSItem
+          key="357"
+          label="357 kg"
+          value={357}
+        />
+        <PickerIOSItem
+          key="358"
+          label="358 kg"
+          value={358}
+        />
+        <PickerIOSItem
+          key="359"
+          label="359 kg"
+          value={359}
+        />
+        <PickerIOSItem
+          key="360"
+          label="360 kg"
+          value={360}
+        />
+        <PickerIOSItem
+          key="361"
+          label="361 kg"
+          value={361}
+        />
+        <PickerIOSItem
+          key="362"
+          label="362 kg"
+          value={362}
+        />
+        <PickerIOSItem
+          key="363"
+          label="363 kg"
+          value={363}
+        />
+        <PickerIOSItem
+          key="364"
+          label="364 kg"
+          value={364}
+        />
+        <PickerIOSItem
+          key="365"
+          label="365 kg"
+          value={365}
+        />
+        <PickerIOSItem
+          key="366"
+          label="366 kg"
+          value={366}
+        />
+        <PickerIOSItem
+          key="367"
+          label="367 kg"
+          value={367}
+        />
+        <PickerIOSItem
+          key="368"
+          label="368 kg"
+          value={368}
+        />
+        <PickerIOSItem
+          key="369"
+          label="369 kg"
+          value={369}
+        />
+        <PickerIOSItem
+          key="370"
+          label="370 kg"
+          value={370}
+        />
+        <PickerIOSItem
+          key="371"
+          label="371 kg"
+          value={371}
+        />
+        <PickerIOSItem
+          key="372"
+          label="372 kg"
+          value={372}
+        />
+        <PickerIOSItem
+          key="373"
+          label="373 kg"
+          value={373}
+        />
+        <PickerIOSItem
+          key="374"
+          label="374 kg"
+          value={374}
+        />
+        <PickerIOSItem
+          key="375"
+          label="375 kg"
+          value={375}
+        />
+        <PickerIOSItem
+          key="376"
+          label="376 kg"
+          value={376}
+        />
+        <PickerIOSItem
+          key="377"
+          label="377 kg"
+          value={377}
+        />
+        <PickerIOSItem
+          key="378"
+          label="378 kg"
+          value={378}
+        />
+        <PickerIOSItem
+          key="379"
+          label="379 kg"
+          value={379}
+        />
+        <PickerIOSItem
+          key="380"
+          label="380 kg"
+          value={380}
+        />
+        <PickerIOSItem
+          key="381"
+          label="381 kg"
+          value={381}
+        />
+        <PickerIOSItem
+          key="382"
+          label="382 kg"
+          value={382}
+        />
+        <PickerIOSItem
+          key="383"
+          label="383 kg"
+          value={383}
+        />
+        <PickerIOSItem
+          key="384"
+          label="384 kg"
+          value={384}
+        />
+        <PickerIOSItem
+          key="385"
+          label="385 kg"
+          value={385}
+        />
+        <PickerIOSItem
+          key="386"
+          label="386 kg"
+          value={386}
+        />
+        <PickerIOSItem
+          key="387"
+          label="387 kg"
+          value={387}
+        />
+        <PickerIOSItem
+          key="388"
+          label="388 kg"
+          value={388}
+        />
+        <PickerIOSItem
+          key="389"
+          label="389 kg"
+          value={389}
+        />
+        <PickerIOSItem
+          key="390"
+          label="390 kg"
+          value={390}
+        />
+        <PickerIOSItem
+          key="391"
+          label="391 kg"
+          value={391}
+        />
+        <PickerIOSItem
+          key="392"
+          label="392 kg"
+          value={392}
+        />
+        <PickerIOSItem
+          key="393"
+          label="393 kg"
+          value={393}
+        />
+        <PickerIOSItem
+          key="394"
+          label="394 kg"
+          value={394}
+        />
+        <PickerIOSItem
+          key="395"
+          label="395 kg"
+          value={395}
+        />
+        <PickerIOSItem
+          key="396"
+          label="396 kg"
+          value={396}
+        />
+        <PickerIOSItem
+          key="397"
+          label="397 kg"
+          value={397}
+        />
+        <PickerIOSItem
+          key="398"
+          label="398 kg"
+          value={398}
+        />
+        <PickerIOSItem
+          key="399"
+          label="399 kg"
+          value={399}
+        />
+        <PickerIOSItem
+          key="400"
+          label="400 kg"
+          value={400}
+        />
+        <PickerIOSItem
+          key="401"
+          label="401 kg"
+          value={401}
+        />
+        <PickerIOSItem
+          key="402"
+          label="402 kg"
+          value={402}
+        />
+        <PickerIOSItem
+          key="403"
+          label="403 kg"
+          value={403}
+        />
+        <PickerIOSItem
+          key="404"
+          label="404 kg"
+          value={404}
+        />
+        <PickerIOSItem
+          key="405"
+          label="405 kg"
+          value={405}
+        />
+        <PickerIOSItem
+          key="406"
+          label="406 kg"
+          value={406}
+        />
+        <PickerIOSItem
+          key="407"
+          label="407 kg"
+          value={407}
+        />
+        <PickerIOSItem
+          key="408"
+          label="408 kg"
+          value={408}
+        />
+        <PickerIOSItem
+          key="409"
+          label="409 kg"
+          value={409}
+        />
+        <PickerIOSItem
+          key="410"
+          label="410 kg"
+          value={410}
+        />
+        <PickerIOSItem
+          key="411"
+          label="411 kg"
+          value={411}
+        />
+        <PickerIOSItem
+          key="412"
+          label="412 kg"
+          value={412}
+        />
+        <PickerIOSItem
+          key="413"
+          label="413 kg"
+          value={413}
+        />
+        <PickerIOSItem
+          key="414"
+          label="414 kg"
+          value={414}
+        />
+        <PickerIOSItem
+          key="415"
+          label="415 kg"
+          value={415}
+        />
+        <PickerIOSItem
+          key="416"
+          label="416 kg"
+          value={416}
+        />
+        <PickerIOSItem
+          key="417"
+          label="417 kg"
+          value={417}
+        />
+        <PickerIOSItem
+          key="418"
+          label="418 kg"
+          value={418}
+        />
+        <PickerIOSItem
+          key="419"
+          label="419 kg"
+          value={419}
+        />
+        <PickerIOSItem
+          key="420"
+          label="420 kg"
+          value={420}
+        />
+        <PickerIOSItem
+          key="421"
+          label="421 kg"
+          value={421}
+        />
+        <PickerIOSItem
+          key="422"
+          label="422 kg"
+          value={422}
+        />
+        <PickerIOSItem
+          key="423"
+          label="423 kg"
+          value={423}
+        />
+        <PickerIOSItem
+          key="424"
+          label="424 kg"
+          value={424}
+        />
+        <PickerIOSItem
+          key="425"
+          label="425 kg"
+          value={425}
+        />
+        <PickerIOSItem
+          key="426"
+          label="426 kg"
+          value={426}
+        />
+        <PickerIOSItem
+          key="427"
+          label="427 kg"
+          value={427}
+        />
+        <PickerIOSItem
+          key="428"
+          label="428 kg"
+          value={428}
+        />
+        <PickerIOSItem
+          key="429"
+          label="429 kg"
+          value={429}
+        />
+        <PickerIOSItem
+          key="430"
+          label="430 kg"
+          value={430}
+        />
+        <PickerIOSItem
+          key="431"
+          label="431 kg"
+          value={431}
+        />
+        <PickerIOSItem
+          key="432"
+          label="432 kg"
+          value={432}
+        />
+        <PickerIOSItem
+          key="433"
+          label="433 kg"
+          value={433}
+        />
+        <PickerIOSItem
+          key="434"
+          label="434 kg"
+          value={434}
+        />
+        <PickerIOSItem
+          key="435"
+          label="435 kg"
+          value={435}
+        />
+        <PickerIOSItem
+          key="436"
+          label="436 kg"
+          value={436}
+        />
+        <PickerIOSItem
+          key="437"
+          label="437 kg"
+          value={437}
+        />
+        <PickerIOSItem
+          key="438"
+          label="438 kg"
+          value={438}
+        />
+        <PickerIOSItem
+          key="439"
+          label="439 kg"
+          value={439}
+        />
+        <PickerIOSItem
+          key="440"
+          label="440 kg"
+          value={440}
+        />
+        <PickerIOSItem
+          key="441"
+          label="441 kg"
+          value={441}
+        />
+        <PickerIOSItem
+          key="442"
+          label="442 kg"
+          value={442}
+        />
+        <PickerIOSItem
+          key="443"
+          label="443 kg"
+          value={443}
+        />
+        <PickerIOSItem
+          key="444"
+          label="444 kg"
+          value={444}
+        />
+        <PickerIOSItem
+          key="445"
+          label="445 kg"
+          value={445}
+        />
+        <PickerIOSItem
+          key="446"
+          label="446 kg"
+          value={446}
+        />
+        <PickerIOSItem
+          key="447"
+          label="447 kg"
+          value={447}
+        />
+        <PickerIOSItem
+          key="448"
+          label="448 kg"
+          value={448}
+        />
+        <PickerIOSItem
+          key="449"
+          label="449 kg"
+          value={449}
+        />
+      </PickerIOS>
+    </Component>
+  </Component>
+  <Button
+    onPress={[Function]}
+    title="Select"
+    variant="primary-md"
+  />
+</Component>
+`;
